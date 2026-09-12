@@ -6,14 +6,21 @@ const LS = {
   token: "nt_token_v1",
   curUser: "nt_current_user_v1",
   accounts: "nt_accounts_v1",
+  guest: "nt_guest_v1",
+  adminToken: "nt_admin_token_v1",
   wrong: u => "nt_wrong_v1_" + (u || "guest"),
   history: u => "nt_history_v1_" + (u || "guest"),
 };
+function getAdminToken() { try { return localStorage.getItem(LS.adminToken); } catch (e) { return null; } }
+function setAdminToken(t) { try { t ? localStorage.setItem(LS.adminToken, t) : localStorage.removeItem(LS.adminToken); } catch (e) {} }
 function getToken() { try { return localStorage.getItem(LS.token); } catch (e) { return null; } }
 function setToken(t) { try { t ? localStorage.setItem(LS.token, t) : localStorage.removeItem(LS.token); } catch (e) {} }
 function currentUser() { try { return localStorage.getItem(LS.curUser); } catch (e) { return null; } }
 function setCurrentUser(u) { try { u ? localStorage.setItem(LS.curUser, u) : localStorage.removeItem(LS.curUser); } catch (e) {} }
 function isAuthed() { return !!getToken(); }
+function getGuest() { try { return localStorage.getItem(LS.guest) === "1"; } catch (e) { return false; } }
+function setGuest(on) { try { on ? localStorage.setItem(LS.guest, "1") : localStorage.removeItem(LS.guest); } catch (e) {} }
+function isGuest() { return getGuest(); }
 
 /* 统一网络层（带 Bearer token） */
 async function api(method, path, body) {
@@ -70,14 +77,17 @@ async function refreshWrongBadge() {
 }
 
 function hashPw(pw) { let h = 0; for (let i = 0; i < (pw || "").length; i++) h = (h * 31 + pw.charCodeAt(i)) >>> 0; return "h" + h; }
-function doLogin(name) { setCurrentUser(name); updateAuthUI(); refreshWrongBadge(); }
+function doLogin(name) {
+  setCurrentUser(name); updateAuthUI(); refreshWrongBadge();
+  if (state.mode === "home") renderHome();
+}
 async function registerUser(name, pw) {
   name = (name || "").trim();
   if (!name) { toast("请输入用户名"); return false; }
   if (!pw || pw.length < 3) { toast("密码至少 3 位"); return false; }
   try {
     const r = await api("POST", "/api/auth/register", { username: name, password: pw });
-    if (r && r.token) { setToken(r.token); doLogin(name); toast("注册成功，已登录：" + name); return true; }
+    if (r && r.token) { setToken(r.token); setGuest(false); resetFilters(); doLogin(name); toast("注册成功，已登录：" + name); return true; }
   } catch (e) { toast(e.message || "注册失败"); }
   return false;
 }
@@ -85,17 +95,25 @@ async function loginUser(name, pw) {
   name = (name || "").trim();
   try {
     const r = await api("POST", "/api/auth/login", { username: name, password: pw });
-    if (r && r.token) { setToken(r.token); doLogin(name); toast("登录成功：" + name); return true; }
+    if (r && r.token) { setToken(r.token); setGuest(false); resetFilters(); doLogin(name); toast("登录成功：" + name); return true; }
   } catch (e) { toast(e.message || "登录失败"); }
   return false;
 }
 function logoutUser() {
   if (isAuthed()) { api("POST", "/api/auth/logout").catch(() => {}); }
-  setToken(null); setCurrentUser(null); updateAuthUI(); refreshWrongBadge(); toast("已退出登录");
+  setToken(null); setCurrentUser(null); setGuest(false); resetFilters();
+  updateAuthUI(); refreshWrongBadge(); toast("已退出登录");
+  if (state.mode === "home") renderHome();
 }
 function updateAuthUI() {
   const el = document.getElementById("authArea");
   if (!el) return;
+  if (isGuest()) {
+    el.innerHTML = `<span class="user">👤 游客</span><button class="btn ghost sm" id="logoutGuestBtn">退出游客</button>`;
+    const lb = document.getElementById("logoutGuestBtn");
+    if (lb) lb.onclick = logoutGuest;
+    return;
+  }
   const u = currentUser();
   if (u) {
     const prof = (loadAccounts()[u] && loadAccounts()[u].profile) || {};
@@ -144,6 +162,18 @@ function wireAuthModal() {
   if (pw) pw.addEventListener("keydown", e => { if (e.key === "Enter") submitAuth(); });
   const un = document.getElementById("authUser");
   if (un) un.addEventListener("keydown", e => { if (e.key === "Enter" && pw) pw.focus(); });
+}
+
+/* ---------- 游客登录（受限体验模式） ---------- */
+function loginGuest() {
+  setGuest(true); setCurrentUser("guest"); resetFilters();
+  updateAuthUI(); refreshWrongBadge(); renderHome();
+  toast("已进入游客模式（限部分内容，登录后解锁全部）");
+}
+function logoutGuest() {
+  setGuest(false); setCurrentUser(null); setToken(null); resetFilters();
+  updateAuthUI(); refreshWrongBadge(); renderHome();
+  toast("已退出游客模式");
 }
 
 /* ---------- 练习历史 & 成绩记录（按用户隔离） ---------- */
@@ -322,19 +352,52 @@ function switchMode(mode) {
 function renderHome() {
   const q = state.allQ;
   const papers = state.papers.length;
-  const writing = q.filter(x => x.sectionType === "writing").length;
   const app = $("#app");
-  app.innerHTML = `
+
+  // 顶部欢迎 / 登录注册 / 游客 三种状态
+  let topCard = "";
+  if (isGuest()) {
+    topCard = `
+    <div class="card guest-hero">
+      <h2>👤 游客模式</h2>
+      <p>已为您开放体验：整卷模考·模拟试卷（一）｜专项训练·单项选择。登录后可解锁全部 ${papers} 套卷与全部题型筛选。</p>
+      <button class="btn ghost" id="exitGuest">退出游客模式</button>
+    </div>`;
+  } else if (currentUser()) {
+    const prof = (loadAccounts()[currentUser()] && loadAccounts()[currentUser()].profile) || {};
+    topCard = `
     <div class="card hero">
-      <h2>欢迎使用南通中考英语模拟训练系统</h2>
-      <p>基于 2025 南通改革结构原创编写 · 共 ${papers} 套卷 · ${q.length} 道小题 · 五维标签体系</p>
+      <h2>${esc(prof.avatar || "🧑‍🎓")} 欢迎回来，${esc(currentUser())}</h2>
+      <p>账号已与云端同步，错题本、练习历史与学习画像会跟着你走。</p>
+    </div>`;
+  } else {
+    topCard = `
+    <div class="card login-card">
+      <h2>登录 / 注册</h2>
+      <p class="meta">注册账号后，错题本、练习历史、学习画像将随账号云端保存、多设备同步。</p>
+      <div class="seg" style="margin:8px 0">
+        <button class="seg-btn active" id="homeLoginTab">登录</button>
+        <button class="seg-btn" id="homeRegTab">注册</button>
+      </div>
+      <input id="homeUser" class="auth-input" placeholder="用户名" autocomplete="username" />
+      <input id="homePw" class="auth-input" type="password" placeholder="密码（至少 3 位）" autocomplete="current-password" />
+      <button class="btn wide" id="homeSubmit">登录</button>
+      <button class="btn ghost wide" id="homeGuest">🚪 游客登录（免注册，限部分内容）</button>
+    </div>`;
+  }
+
+  const statsCard = `
+    <div class="card">
+      <h2>题库概览</h2>
       <div class="stat-row">
         <div class="stat"><b>${papers}</b><span>模拟套卷</span></div>
         <div class="stat"><b>${q.length}</b><span>训练小题</span></div>
         <div class="stat"><b>7</b><span>覆盖题型</span></div>
         <div class="stat"><b>5</b><span>筛选维度</span></div>
       </div>
-    </div>
+    </div>`;
+
+  const tilesCard = `
     <div class="card">
       <h2>选择训练方式</h2>
       <p class="meta">整卷模考用于综合演练；专项训练按标签精准突破薄弱点；错题本自动沉淀错漏。</p>
@@ -345,17 +408,54 @@ function renderHome() {
         <button class="tile" data-go="wrong"><b>错题本</b><span>复习错漏、重练</span></button>
       </div>
     </div>`;
+
+  app.innerHTML = topCard + statsCard + tilesCard;
+
   app.querySelectorAll("[data-go]").forEach(b =>
     b.onclick = () => {
-      if (b.dataset.go === "random") startRandom("home");
-      else switchMode(b.dataset.go);
+      if (b.dataset.go === "random") {
+        if (isGuest()) { toast("游客模式暂不支持随机组卷，登录后解锁"); return; }
+        startRandom("home");
+      } else {
+        switchMode(b.dataset.go);
+      }
     });
+
+  const eg = $("#exitGuest"); if (eg) eg.onclick = logoutGuest;
+
+  if (!currentUser() && !isGuest()) {
+    const ht = $("#homeLoginTab"), hrt = $("#homeRegTab");
+    const setHomeMode = m => {
+      window.__homeMode = m;
+      ht.classList.toggle("active", m === "login");
+      hrt.classList.toggle("active", m === "reg");
+      $("#homeSubmit").textContent = m === "reg" ? "注册并登录" : "登录";
+    };
+    window.__homeMode = "login";
+    ht.onclick = () => setHomeMode("login");
+    hrt.onclick = () => setHomeMode("reg");
+    $("#homeSubmit").onclick = async () => {
+      const name = $("#homeUser").value, pw = $("#homePw").value;
+      if (window.__homeMode === "reg") { if (await registerUser(name, pw)) renderHome(); }
+      else { if (await loginUser(name, pw)) renderHome(); }
+    };
+    $("#homeGuest").onclick = loginGuest;
+    const pw = $("#homePw");
+    if (pw) pw.addEventListener("keydown", e => { if (e.key === "Enter") $("#homeSubmit").click(); });
+    const un = $("#homeUser");
+    if (un) un.addEventListener("keydown", e => { if (e.key === "Enter" && pw) pw.focus(); });
+  }
 }
 
 /* ---------- 渲染：整卷列表 ---------- */
 function renderMockList() {
   const app = $("#app");
-  const tiles = state.papers.map(p => {
+  const isG = isGuest();
+  const papers = isG ? state.papers.slice(0, 1) : state.papers;
+  const guestNote = isG
+    ? `<p class="meta warn">游客模式：整卷模考仅开放 <b>模拟试卷（一）</b>。登录后解锁全部 ${state.papers.length} 套卷。</p>`
+    : "";
+  const tiles = papers.map(p => {
     const n = p.sections.reduce((s, sec) => {
       if (sec.type === "reading") return s + sec.passages.reduce((a, x) => a + x.questions.length, 0);
       if (sec.type === "writing") return s + 1;
@@ -364,15 +464,19 @@ function renderMockList() {
     return `<button class="tile" data-paper="${p.id}"><b>${esc(p.title)}</b>
       <span>主题：${esc(p.theme || "")} · ${n} 题 · ${p.totalScore}分</span></button>`;
   }).join("");
+  const randBtn = isG
+    ? `<button class="btn wide" id="randBtn" disabled title="游客模式暂不支持">🎲 随机组卷（登录后解锁）</button>`
+    : `<button class="btn wide" id="randBtn">🎲 随机组卷（从十套卷随机抽取，题型同整卷）</button>`;
   app.innerHTML = `
     <div class="card">
       <h2>选择一套试卷</h2>
       <p class="meta">点击进入整卷答题，提交后显示得分与逐题解析。</p>
-      <button class="btn wide" id="randBtn">🎲 随机组卷（从十套卷随机抽取，题型同整卷）</button>
+      ${guestNote}
+      ${randBtn}
       <div class="grid" style="margin-top:14px">${tiles}</div>
     </div>`;
   const rb = $("#randBtn");
-  if (rb) rb.onclick = () => startRandom("mock");
+  if (rb && !isG) rb.onclick = () => startRandom("mock");
   app.querySelectorAll("[data-paper]").forEach(b =>
     b.onclick = () => startMock(b.dataset.paper));
 }
@@ -443,6 +547,7 @@ function buildRandomPaper() {
 }
 
 function startRandom(backMode) {
+  if (isGuest()) { toast("游客模式暂不支持随机组卷，登录后解锁"); return; }
   const qs = buildRandomPaper();
   if (!qs.length) { toast("题库为空，无法组卷"); return; }
   startSession(`随机组卷（题型同整卷 · 共 ${qs.length} 题）`, qs, backMode || "home", "random");
@@ -459,7 +564,18 @@ function renderPracticeSetup() {
     { key: "skill", label: "能力技能", cls: "s" },
     { key: "difficulty", label: "难度", cls: "d" },
   ];
+  const isG = isGuest();
+  if (isG) state.filters.questionType = ["单项选择"]; // 游客锁定单项选择
+  const guestNote = isG
+    ? `<p class="meta warn">游客模式：专项训练仅开放 <b>单项选择</b> 题型。登录后解锁全部题型筛选。</p>`
+    : "";
   const groups = dims.map(d => {
+    if (isG && d.key === "questionType") {
+      return `<div class="filter-group"><h4>题型</h4><div class="chips">
+        <span class="chip on locked" data-dim="questionType" data-val="单项选择">单项选择</span>
+        <span class="chip locked" data-dim="questionType" data-val="__locked">🔒 其他题型（登录解锁）</span>
+      </div></div>`;
+    }
     const chips = v[d.key].map(val => {
       const on = state.filters[d.key].includes(val) ? "on" : "";
       const txt = d.key === "difficulty" ? `${val} 星` : esc(val);
@@ -472,6 +588,7 @@ function renderPracticeSetup() {
   const matched = applyFilters().length;
   app.innerHTML = `
     <div class="card">
+      ${guestNote}
       <h2>专项训练 · 条件筛选</h2>
       <p class="meta">维度内多选为「或」，维度间为「且」。当前匹配 <b id="matchN">${matched}</b> 题。</p>
       <div class="filters" style="margin-top:14px">${groups}</div>
@@ -485,6 +602,7 @@ function renderPracticeSetup() {
     </div>`;
 
   app.querySelectorAll(".chip").forEach(c => c.onclick = () => {
+    if (c.classList.contains("locked")) return; // 锁定项不可切换
     const dim = c.dataset.dim, val = c.dataset.val;
     const arr = state.filters[dim];
     const i = arr.indexOf(val);
@@ -517,6 +635,9 @@ function applyFilters() {
     if (f.difficulty.length && !f.difficulty.includes(String(q.difficulty))) return false;
     return true;
   });
+}
+function resetFilters() {
+  state.filters = { questionType: [], knowledge: [], topic: [], skill: [], difficulty: [] };
 }
 
 /* ---------- 渲染：答题会话 ---------- */
@@ -800,6 +921,8 @@ function accPill(a) {
 async function renderProfile() {
   const app = $("#app");
   const u = currentUser();
+  const isG = isGuest();
+  const displayName = isG ? "游客（本机）" : u;
   if (!u) {
     app.innerHTML = `<div class="card center">
       <h2>我的学习中心</h2>
@@ -854,15 +977,15 @@ async function renderProfile() {
     <div class="card profile-head">
       <div class="avatar">${avatar}</div>
       <div class="p-info">
-        <h2>${esc(u)} 的学习中心</h2>
+        <h2>${esc(displayName)} 的学习中心</h2>
         <p class="meta">学段：${esc(grade)} · 目标分：<b>${esc(target)}</b> / 120</p>
         <div class="p-tags">
           ${goals.map(g => `<span class="tag s">${esc(g)}</span>`).join("")}
           ${weakSel.map(w => `<span class="tag k">薄弱·${esc(w)}</span>`).join("")}
-          ${!goals.length && !weakSel.length ? `<span class="muted">尚未完善画像，点右侧按钮补充</span>` : ""}
+          ${!goals.length && !weakSel.length ? `<span class="muted">${isG ? "游客数据保存在本机浏览器" : "尚未完善画像，点右侧按钮补充"}</span>` : ""}
         </div>
       </div>
-      <button class="btn" id="editProf">完善画像</button>
+      ${isG ? "" : `<button class="btn" id="editProf">完善画像</button>`}
     </div>
 
     <div class="stat-row plain">
@@ -973,6 +1096,159 @@ function wireProfileModal() {
   if (cancel) cancel.onclick = closeProfileModal;
 }
 
+/* ---------- 管理后台（管理员入口，见页脚「管理后台」） ---------- */
+async function apiAdmin(method, path, body) {
+  const headers = {};
+  const t = getAdminToken();
+  if (t) headers["Authorization"] = "Bearer " + t;
+  if (body !== undefined) headers["Content-Type"] = "application/json";
+  const r = await fetch(path, { method, headers, body: body !== undefined ? JSON.stringify(body) : undefined });
+  if (r.status === 204) return null;
+  let data = null;
+  try { data = await r.json(); } catch (e) {}
+  if (!r.ok) {
+    if (r.status === 401) setAdminToken(null); // token 失效
+    const msg = (data && data.error && data.error.message) || ("请求失败(" + r.status + ")");
+    throw new Error(msg);
+  }
+  return data;
+}
+function openAdmin() {
+  const ov = document.getElementById("adminOverlay");
+  if (!ov) return;
+  ov.style.display = "flex";
+  if (!getAdminToken()) { renderAdminLogin(); return; }
+  apiAdmin("GET", "/api/admin/users")
+    .then(renderAdminPanel)
+    .catch(e => renderAdminLogin(e.message));
+}
+function closeAdmin() {
+  const ov = document.getElementById("adminOverlay");
+  if (ov) ov.style.display = "none";
+}
+function renderAdminLogin(errMsg) {
+  const panel = document.getElementById("adminPanel");
+  if (!panel) return;
+  panel.innerHTML = `
+    <h2>管理后台登录</h2>
+    <p class="meta">请输入管理员密码（由部署环境变量 <code>ADMIN_PASSWORD</code> 设置）。</p>
+    ${errMsg ? `<p class="meta warn">${esc(errMsg)}</p>` : ""}
+    <input id="adminPw" class="auth-input" type="password" placeholder="管理员密码" autocomplete="current-password" />
+    <button class="btn wide" id="adminLoginBtn">登录</button>
+    <button class="btn ghost wide" id="adminCancelBtn">关闭</button>`;
+  const submit = async () => {
+    const pw = document.getElementById("adminPw").value;
+    try {
+      const r = await apiAdmin("POST", "/api/admin/login", { password: pw });
+      if (r && r.token) { setAdminToken(r.token); const d = await apiAdmin("GET", "/api/admin/users"); renderAdminPanel(d); }
+    } catch (e) { renderAdminLogin(e.message); }
+  };
+  const lb = document.getElementById("adminLoginBtn");
+  if (lb) lb.onclick = submit;
+  const pw = document.getElementById("adminPw");
+  if (pw) pw.addEventListener("keydown", e => { if (e.key === "Enter") submit(); });
+  const cb = document.getElementById("adminCancelBtn");
+  if (cb) cb.onclick = closeAdmin;
+}
+function renderAdminPanel(data) {
+  const panel = document.getElementById("adminPanel");
+  if (!panel) return;
+  const users = (data && data.users) || [];
+  const stats = (data && data.stats) || {};
+  const rows = users.length ? users.map(u => {
+    const last = u.lastActive ? new Date(u.lastActive).toLocaleString("zh-CN") : "—";
+    const created = u.createdAt ? new Date(u.createdAt).toLocaleDateString("zh-CN") : "—";
+    return `<tr data-name="${esc(u.username)}" style="cursor:pointer">
+      <td>${esc(u.username)}</td>
+      <td>${created}</td>
+      <td>${u.wrongCount}</td>
+      <td>${u.historyCount}</td>
+      <td>${u.targetScore || "—"}</td>
+      <td class="muted">${last}</td>
+      <td><button class="btn ghost sm del-user" data-name="${esc(u.username)}">删除</button></td>
+    </tr>`;
+  }).join("") : `<tr><td colspan="7" class="center">暂无用户</td></tr>`;
+
+  panel.innerHTML = `
+    <div style="display:flex;justify-content:space-between;align-items:center">
+      <h2>管理后台</h2>
+      <button class="btn ghost sm" id="adminLogout">退出登录</button>
+    </div>
+    <div class="stat-row plain" style="margin:10px 0">
+      <div class="stat"><b>${stats.userCount || 0}</b><span>注册用户</span></div>
+      <div class="stat"><b>${stats.totalWrong || 0}</b><span>累计错题</span></div>
+      <div class="stat"><b>${stats.totalHistory || 0}</b><span>练习次数</span></div>
+    </div>
+    <div class="table-wrap">
+      <table class="hist-table admin-table">
+        <thead><tr><th>用户名</th><th>注册</th><th>错题</th><th>练习</th><th>目标分</th><th>最近活跃</th><th>操作</th></tr></thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </div>`;
+
+  const lo = document.getElementById("adminLogout");
+  if (lo) lo.onclick = async () => {
+    try { await apiAdmin("POST", "/api/admin/logout"); } catch (e) {}
+    setAdminToken(null); renderAdminLogin();
+  };
+  panel.querySelectorAll("tbody tr[data-name]").forEach(tr => {
+    tr.onclick = (e) => {
+      if (e.target.closest(".del-user")) return; // 删除按钮单独处理
+      openUserDetail(tr.dataset.name);
+    };
+  });
+  panel.querySelectorAll(".del-user").forEach(b => {
+    b.onclick = async (e) => {
+      e.stopPropagation();
+      const name = b.dataset.name;
+      if (!confirm(`确定删除用户「${name}」？其错题本与练习记录将一并清除，不可恢复。`)) return;
+      try {
+        await apiAdmin("DELETE", "/api/admin/user?name=" + encodeURIComponent(name));
+        toast("已删除：" + name);
+        const d = await apiAdmin("GET", "/api/admin/users");
+        renderAdminPanel(d);
+      } catch (ex) { toast(ex.message); }
+    };
+  });
+}
+async function openUserDetail(name) {
+  try {
+    const d = await apiAdmin("GET", "/api/admin/user?name=" + encodeURIComponent(name));
+    const panel = document.getElementById("adminPanel");
+    if (!panel) return;
+    const prof = d.profile || {};
+    const hist = d.history || [];
+    const histRows = hist.slice().reverse().slice(0, 10).map(h => {
+      const acc = h.accuracy != null ? h.accuracy + "%" : "—";
+      return `<tr><td>${KIND_CN[h.kind] || h.kind}</td><td>${h.correct}/${h.total}</td><td>${acc}</td></tr>`;
+    }).join("");
+    const wrongRows = (d.wrong || []).slice().reverse().slice(0, 15)
+      .map(w => `<li>${esc(w.stem || "")}</li>`).join("");
+    panel.innerHTML = `
+      <div style="display:flex;justify-content:space-between;align-items:center">
+        <h2>用户：${esc(name)}</h2>
+        <button class="btn ghost sm" id="backAdmin">返回列表</button>
+      </div>
+      <div class="card" style="margin-top:10px">
+        <h2 style="font-size:15px">画像</h2>
+        <p class="meta">学段：${esc(prof.grade || "—")} ｜ 目标分：${prof.targetScore || "—"} ｜ 头像：${esc(prof.avatar || "🧑‍🎓")}</p>
+        <p class="meta">目标：${(prof.goals || []).join("、") || "—"} ｜ 薄弱点：${(prof.weakAreas || []).join("、") || "—"}</p>
+      </div>
+      <div class="card">
+        <h2 style="font-size:15px">练习历史（最近 ${hist.length} 条）</h2>
+        ${histRows ? `<div class="table-wrap"><table class="hist-table"><thead><tr><th>类型</th><th>得分</th><th>正确率</th></tr></thead><tbody>${histRows}</tbody></table></div>` : '<p class="muted">暂无练习记录</p>'}
+      </div>
+      <div class="card">
+        <h2 style="font-size:15px">错题本（${d.wrong.length} 题）</h2>
+        ${wrongRows ? `<ul class="wrong-list-mini">${wrongRows}</ul>` : '<p class="muted">暂无错题</p>'}
+      </div>`;
+    const ba = document.getElementById("backAdmin");
+    if (ba) ba.onclick = () => {
+      apiAdmin("GET", "/api/admin/users").then(renderAdminPanel).catch(e => renderAdminLogin(e.message));
+    };
+  } catch (e) { toast(e.message); }
+}
+
 /* ---------- 启动 ---------- */
 (async function init() {
   const app = $("#app");
@@ -984,6 +1260,11 @@ function wireProfileModal() {
     wireProfileModal();
     updateAuthUI();
     switchMode("home");
+    // 管理后台入口（页脚）与弹层关闭
+    const ae = document.getElementById("adminEntry");
+    if (ae) ae.onclick = openAdmin;
+    const aov = document.getElementById("adminOverlay");
+    if (aov) aov.addEventListener("click", e => { if (e.target === aov) closeAdmin(); });
   } catch (e) {
     app.innerHTML = `<div class="card center">
       <h2>题库加载失败</h2>

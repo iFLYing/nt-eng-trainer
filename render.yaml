@@ -12,3 +12,5 @@ services:
     envVars:
       - key: DATABASE_URL
         sync: false   # 部署后在 Dashboard 填入外部 Postgres 连接串（推荐 Neon/Supabase 免费库，不过期）
+      - key: ADMIN_PASSWORD
+        sync: false   # 管理后台密码（页脚「管理后台」登录用），部署时务必设置，否则用默认 admin123

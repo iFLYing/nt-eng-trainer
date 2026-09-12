@@ -272,6 +272,36 @@ textarea.fill-input { min-height: 140px; resize: vertical; font-family: inherit;
 .av-opt:hover { border-color: var(--blue); }
 .av-opt.sel { border-color: var(--blue); background: var(--chip); box-shadow: 0 0 0 2px var(--chip); }
 
+/* 页脚署名 */
+.site-foot {
+  text-align: center; padding: 22px 16px 34px; color: var(--muted);
+  font-size: 13px; display: flex; gap: 10px; align-items: center; justify-content: center;
+  flex-wrap: wrap;
+}
+.site-foot .foot-by { color: var(--muted); }
+.site-foot .foot-sep { color: #cbd5e1; }
+.site-foot .foot-admin {
+  color: var(--blue); cursor: pointer; text-decoration: none; font-weight: 600;
+  padding: 2px 8px; border-radius: 8px; transition: .15s;
+}
+.site-foot .foot-admin:hover { background: var(--chip); text-decoration: underline; }
+
+/* 游客提示与锁定 */
+.meta.warn {
+  color: var(--amber); background: #fffbeb; border: 1px solid #fde68a;
+  padding: 8px 10px; border-radius: 8px; display: inline-block; margin: 8px 0;
+}
+.guest-hero { background: linear-gradient(135deg, #0ea5e9, #22d3ee); color: #fff; border: none; }
+.guest-hero h2 { color: #fff; font-size: 20px; }
+.guest-hero p { color: #ecfeff; }
+.chip.locked { opacity: .65; cursor: not-allowed; background: #f1f5f9; color: #94a3b8; border-color: var(--line); }
+
+/* 管理后台面板 */
+.admin-panel { max-height: 86vh; overflow: auto; }
+.admin-table th, .admin-table td { font-size: 13px; padding: 8px 10px; }
+.wrong-list-mini { margin: 8px 0 0; padding-left: 18px; font-size: 13px; color: var(--ink); }
+.wrong-list-mini li { margin: 4px 0; }
+
 @media (max-width: 560px) {
   .topbar { padding: 12px 14px; }
   .brand h1 { font-size: 16px; }

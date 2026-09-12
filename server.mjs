@@ -17,7 +17,13 @@
         PUT  /api/history            覆盖保存练习历史（按用户）
         GET  /api/profile            用户画像（按用户）
         POST /api/profile            保存用户画像（按用户）
-     3) GET  /health                 健康检查（Render 探活）
+     3) 管理后台（ADMIN_PASSWORD 环境变量设置密码）：
+        POST /api/admin/login        管理员登录（password → token）
+        POST /api/admin/logout       管理员登出（作废 token）
+        GET  /api/admin/users        用户列表 + 统计（需管理员 token）
+        GET  /api/admin/user?name=   用户详情：画像/错题/历史（需管理员 token）
+        DELETE /api/admin/user?name= 删除用户（需管理员 token）
+     4) GET  /health                 健康检查（Render 探活）
    鉴权：Bearer token（登录后下发，存于账号记录）
    数据持久化：SQLite（本地） / PostgreSQL（云端），重启不丢
    ============================================================ */
@@ -105,6 +111,7 @@ async function initStore() {
           .run(name, JSON.stringify(data));
       },
     };
+    await loadAdminTokens();
   }
 }
 
@@ -149,6 +156,26 @@ async function getUser(req) {
     if (accounts[k] && accounts[k].token === token) return accounts[k];
   }
   return null;
+}
+
+/* ---------------- 管理员鉴权 ---------------- */
+const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || "admin123";
+if (!process.env.ADMIN_PASSWORD) {
+  console.warn("[管理后台] 未设置 ADMIN_PASSWORD 环境变量，使用默认密码 admin123，请尽快在 Render 环境变量中修改！");
+}
+const adminTokens = new Set();
+async function loadAdminTokens() {
+  try {
+    const t = await store.get("admin_tokens");
+    if (Array.isArray(t)) t.forEach(x => x && adminTokens.add(x));
+  } catch (e) { /* 忽略 */ }
+}
+async function persistAdminTokens() {
+  try { await store.set("admin_tokens", [...adminTokens]); } catch (e) {}
+}
+function isAdminReq(req) {
+  const m = String(req.headers["authorization"] || "").match(/^Bearer\s+(.+)$/i);
+  return !!(m && adminTokens.has(m[1]));
 }
 
 /* ---------------- HTTP 工具 ---------------- */
@@ -243,6 +270,75 @@ const server = http.createServer(async (req, res) => {
         if (accounts[cu.username]) { accounts[cu.username].token = null; await saveAccounts(accounts); }
         sendJSON(res, 200, { ok: true });
         return;
+      }
+
+      /* ---------------- 管理后台接口 ---------------- */
+      // 管理员登录（校验 ADMIN_PASSWORD → 下发 token）
+      if (p === '/api/admin/login' && method === 'POST') {
+        const { password } = await readBody(req);
+        if (String(password || '') !== ADMIN_PASSWORD)
+          return sendJSON(res, 401, { error: { message: '管理员密码错误' } });
+        const tok = genToken();
+        adminTokens.add(tok); await persistAdminTokens();
+        sendJSON(res, 200, { token: tok });
+        return;
+      }
+      // 管理员登出（作废 token）
+      if (p === '/api/admin/logout' && method === 'POST') {
+        const m = String(req.headers['authorization'] || '').match(/^Bearer\s+(.+)$/i);
+        if (m && adminTokens.has(m[1])) { adminTokens.delete(m[1]); await persistAdminTokens(); }
+        sendJSON(res, 200, { ok: true });
+        return;
+      }
+      // 以下管理接口均需管理员 token
+      if (p.startsWith('/api/admin/')) {
+        if (!isAdminReq(req)) return sendJSON(res, 401, { error: { message: '需要管理员权限' } });
+
+        // 用户列表 + 统计
+        if (p === '/api/admin/users' && method === 'GET') {
+          const accounts = await getAccounts();
+          const users = Object.values(accounts).map(a => ({
+            username: a.username,
+            createdAt: a.createdAt || null,
+            wrongCount: (a.wrong || []).length,
+            historyCount: (a.history || []).length,
+            targetScore: (a.profile && a.profile.targetScore) || null,
+            grade: (a.profile && a.profile.grade) || null,
+            lastActive: (a.history && a.history.length) ? a.history[a.history.length - 1].ts : null,
+          })).sort((x, y) => (y.lastActive || 0) - (x.lastActive || 0));
+          const stats = {
+            userCount: users.length,
+            totalWrong: users.reduce((s, x) => s + x.wrongCount, 0),
+            totalHistory: users.reduce((s, x) => s + x.historyCount, 0),
+          };
+          sendJSON(res, 200, { users, stats });
+          return;
+        }
+        // 单个用户详情
+        if (p === '/api/admin/user' && method === 'GET') {
+          const name = u.searchParams.get('name');
+          const accounts = await getAccounts();
+          const a = accounts[name];
+          if (!a) return sendJSON(res, 404, { error: { message: '用户不存在' } });
+          sendJSON(res, 200, {
+            username: a.username,
+            profile: a.profile || {},
+            wrong: a.wrong || [],
+            history: a.history || [],
+          });
+          return;
+        }
+        // 删除用户（含其错题本与练习记录）
+        if (p === '/api/admin/user' && method === 'DELETE') {
+          const name = u.searchParams.get('name');
+          const accounts = await getAccounts();
+          if (!accounts[name]) return sendJSON(res, 404, { error: { message: '用户不存在' } });
+          delete accounts[name];
+          await saveAccounts(accounts);
+          sendJSON(res, 200, { ok: true });
+          return;
+        }
+        return sendJSON(res, 404, { error: { message: '未知管理接口: ' + p } });
       }
 
       // 以下接口需鉴权
