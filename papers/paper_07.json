@@ -1,0 +1,130 @@
+{
+  "id": "P07",
+  "title": "南通市中考英语模拟试卷（七）",
+  "paperIndex": 7,
+  "totalScore": 120,
+  "durationMinutes": 120,
+  "theme": "动物科普·生态保护",
+  "structureNote": "按2025南通改革结构精简：覆盖全部7大题型。",
+  "sections": [
+    {
+      "type": "single_choice",
+      "name": "单项选择",
+      "scorePerQuestion": 1,
+      "questions": [
+        {"id": "P07-S01", "stem": "She has taught in this school ___ 2015.", "options": ["A. for", "B. since", "C. in", "D. during"], "answer": "B", "analysis": "考查介词。since + 过去时间点（2015），与现在完成时连用。", "knowledgePoint": "介词", "difficulty": 2, "topic": "介词"},
+        {"id": "P07-S02", "stem": "The bridge ___ in 1990 and is still in use.", "options": ["A. builds", "B. built", "C. was built", "D. has built"], "answer": "C", "analysis": "考查被动语态。bridge 与 build 为被动，1990 用一般过去时被动 was built。", "knowledgePoint": "被动语态", "difficulty": 2, "topic": "语态"},
+        {"id": "P07-S03", "stem": "The boy ___ be the thief; he was at home at that time.", "options": ["A. must", "B. can't", "C. may", "D. should"], "answer": "B", "analysis": "考查情态动词表推测。'当时在家'说明'不可能是小偷'，否定推测用 can't。", "knowledgePoint": "情态动词", "difficulty": 3, "topic": "情态动词"},
+        {"id": "P07-S04", "stem": "We went to the zoo ___ the pandas yesterday.", "options": ["A. see", "B. to see", "C. seeing", "D. seen"], "answer": "B", "analysis": "考查非谓语动词。不定式 to see 表目的'去看熊猫'。", "knowledgePoint": "非谓语动词", "difficulty": 2, "topic": "非谓语"},
+        {"id": "P07-S05", "stem": "He was late ___ he missed the early bus.", "options": ["A. because", "B. so", "C. but", "D. though"], "answer": "A", "analysis": "考查连词。'错过早班车'是迟到的原因，用 because。", "knowledgePoint": "连词", "difficulty": 2, "topic": "连词"},
+        {"id": "P07-S06", "stem": "I'm worried ___ the coming math exam.", "options": ["A. with", "B. about", "C. for", "D. to"], "answer": "B", "analysis": "考查介词。be worried about 为固定搭配，意为'担心…'。", "knowledgePoint": "介词", "difficulty": 1, "topic": "介词"},
+        {"id": "P07-S07", "stem": "This elephant is ___ heavy ___ that one.", "options": ["A. as; as", "B. so; that", "C. too; to", "D. more; than"], "answer": "A", "analysis": "考查原级比较。as + 原级 + as 表示'和…一样重'。", "knowledgePoint": "形容词原级", "difficulty": 2, "topic": "比较级"},
+        {"id": "P07-S08", "stem": "The sun ___ in the east and sets in the west.", "options": ["A. rises", "B. raises", "C. rose", "D. raised"], "answer": "A", "analysis": "考查动词辨析。rise 为不及物'升起'；raise 为及物'举起'。太阳'升起'用 rises。", "knowledgePoint": "词汇辨析", "difficulty": 2, "topic": "词汇"},
+        {"id": "P07-S09", "stem": "—I failed the English test again. —___! Try harder next time.", "options": ["A. Cheer up", "B. Congratulations", "C. Thank you", "D. You're welcome"], "answer": "A", "analysis": "考查情景交际。安慰失利者用 Cheer up（振作起来）。", "knowledgePoint": "情景交际", "difficulty": 1, "topic": "情景交际"},
+        {"id": "P07-S10", "stem": "There is ___ milk in the glass, so I need to buy some.", "options": ["A. few", "B. a few", "C. little", "D. a little"], "answer": "C", "analysis": "考查代词。milk 不可数，'几乎没有'用 little（表否定）。", "knowledgePoint": "代词", "difficulty": 2, "topic": "代词"}
+      ]
+    },
+    {
+      "type": "cloze",
+      "name": "完形填空",
+      "passage": "Last spring, my classmates and I joined a project to protect ___ (1) ___ birds in the wetland. We put up signs to tell people not to ___ (2) ___ the eggs. One day, we found a baby bird that had fallen from its ___ (3) ___. It looked weak, so we took it to a care center. The workers fed it and kept it ___ (4) ___. After two weeks, it was strong enough to ___ (5) ___. We returned it to the wild with joy. This experience taught me that every small life ___ (6) ___ and we should ___ (7) ___ nature. I hope more people will ___ (8) ___ us.",
+      "scorePerQuestion": 1,
+      "questions": [
+        {"id": "P07-C01", "blankLabel": "(1)", "options": ["A. wild", "B. pet", "C. farm", "D. toy"], "answer": "A", "analysis": "保护'野生'鸟类，wild 符合湿地语境。", "knowledgePoint": "形容词辨析", "difficulty": 2, "topic": "完形·生态"},
+        {"id": "P07-C02", "blankLabel": "(2)", "options": ["A. touch", "B. count", "C. draw", "D. cook"], "answer": "A", "analysis": "立牌提醒不要'触碰'鸟蛋，touch 符合。", "knowledgePoint": "动词辨析", "difficulty": 2, "topic": "完形·生态"},
+        {"id": "P07-C03", "blankLabel": "(3)", "options": ["A. tree", "B. nest", "C. box", "D. lake"], "answer": "B", "analysis": "小鸟从'巢'中掉下，nest 符合。", "knowledgePoint": "名词辨析", "difficulty": 2, "topic": "完形·生态"},
+        {"id": "P07-C04", "blankLabel": "(4)", "options": ["A. warm", "B. cold", "C. wet", "D. dark"], "answer": "A", "analysis": "救助中心喂它并保暖，kept it warm 符合。", "knowledgePoint": "形容词辨析", "difficulty": 2, "topic": "完形·生态"},
+        {"id": "P07-C05", "blankLabel": "(5)", "options": ["A. fly", "B. swim", "C. run", "D. climb"], "answer": "A", "analysis": "小鸟康复后'飞'回野外，fly 符合。", "knowledgePoint": "动词辨析", "difficulty": 1, "topic": "完形·生态"},
+        {"id": "P07-C06", "blankLabel": "(6)", "options": ["A. matters", "B. fails", "C. disappears", "D. repeats"], "answer": "A", "analysis": "每个小生命都'重要'，matters 符合。", "knowledgePoint": "动词辨析", "difficulty": 2, "topic": "完形·生态"},
+        {"id": "P07-C07", "blankLabel": "(7)", "options": ["A. destroy", "B. protect", "C. forget", "D. leave"], "answer": "B", "analysis": "应当'保护'自然，protect 符合主题。", "knowledgePoint": "动词辨析", "difficulty": 1, "topic": "完形·生态"},
+        {"id": "P07-C08", "blankLabel": "(8)", "options": ["A. follow", "B. refuse", "C. doubt", "D. hate"], "answer": "A", "analysis": "希望更多人'跟随/加入'我们，follow 在此意为'效仿行动'。", "knowledgePoint": "动词辨析", "difficulty": 2, "topic": "完形·生态"}
+      ]
+    },
+    {
+      "type": "reading",
+      "name": "阅读理解",
+      "passages": [
+        {
+          "subId": "A", "genre": "应用文", "title": "Wetland Park Visiting Rules",
+          "body": "Welcome to the Wetland Park!\n● Open: 8:00 a.m. – 6:00 p.m., Tuesday to Sunday.\n● Ticket: Free for students with school ID.\n● Rules: Stay on the path; do not feed the birds; keep quiet.\n● Activity: Free bird-watching tour at 9:00 a.m. every Saturday.\n● Hotline: 0513-12345678.\nEnjoy nature, but please protect it.",
+          "questions": [
+            {"id": "P07-R-A1", "stem": "When is the park closed?", "options": ["A. Mondays", "B. Sundays", "C. Saturdays", "D. Every day"], "answer": "A", "analysis": "细节题。Open 写明周二至周日，故周一闭园。", "skill": "细节理解", "difficulty": 1},
+            {"id": "P07-R-A2", "stem": "What can students do for free?", "options": ["A. Feed birds", "B. Enter with school ID", "C. Take the hotline", "D. Camp"], "answer": "B", "analysis": "细节题。Ticket 写明学生凭校牌免费入园。", "skill": "细节理解", "difficulty": 1},
+            {"id": "P07-R-A3", "stem": "What is NOT allowed?", "options": ["A. Staying on the path", "B. Keeping quiet", "C. Feeding the birds", "D. Watching birds"], "answer": "C", "analysis": "细节题。Rules 明确'do not feed the birds'。", "skill": "细节理解", "difficulty": 1}
+          ]
+        },
+        {
+          "subId": "B", "genre": "记叙文", "title": "My Friend, the Guide Dog",
+          "body": "Xiao Ming is blind. His best friend is a guide dog named Lele. Every morning, Lele leads him to school safely, stopping at red lights and avoiding crowds. At school, Lele waits quietly beside his desk. Once, Lele pulled Xiao Ming back from a speeding bicycle—it may have saved his life. Xiao Ming says, 'Lele is not just a dog; he is my eyes and my family.' Their story shows the deep bond between humans and animals.",
+          "questions": [
+            {"id": "P07-R-B1", "stem": "What does Lele do for Xiao Ming?", "options": ["A. Teaches him", "B. Leads him and keeps him safe", "C. Plays music", "D. Cleans the room"], "answer": "B", "analysis": "细节题。首段说明导盲犬引路、避车流、保安全。", "skill": "细节理解", "difficulty": 1},
+            {"id": "P07-R-B2", "stem": "What happened once on the road?", "options": ["A. Lele saved him from a bicycle", "B. Lele ran away", "C. They got lost", "D. Lele barked at a teacher"], "answer": "A", "analysis": "细节题。'pulled Xiao Ming back from a speeding bicycle' 体现救主。", "skill": "细节理解", "difficulty": 1},
+            {"id": "P07-R-B3", "stem": "What does the story show?", "options": ["A. Dogs are funny", "B. Deep bond between humans and animals", "C. School life", "D. How to train dogs"], "answer": "B", "analysis": "主旨题。末句点明人与动物的深厚纽带。", "skill": "主旨大意", "difficulty": 2}
+          ]
+        },
+        {
+          "subId": "C", "genre": "七选五", "title": "How to Protect Wild Animals",
+          "body": "Wild animals are our friends, but many are in danger.\n____(1)____ Learn about endangered species and tell others their stories.\n____(2)____ Never buy things made from wild animal parts.\n____(3)____ Join a local group to plant trees or clean rivers.\n____(4)____ Do not litter, and say no to illegal hunting.\n____(5)____ Small acts by many people can save a species.",
+          "options": ["A. Spread the word.", "B. Refuse illegal products.", "C. Take part in activities.", "D. Protect their homes.", "E. Every effort counts.", "F. Keep them as pets."],
+          "questions": [
+            {"id": "P07-R-C1", "stem": "空白 (1) 应选", "answer": "A", "analysis": "后文'了解濒危物种并告诉他人'对应'传播信息'，A 匹配。", "skill": "逻辑衔接", "difficulty": 2},
+            {"id": "P07-R-C2", "stem": "空白 (2) 应选", "answer": "B", "analysis": "后文'不买野生动物制品'对应'拒绝非法产品'，B 匹配。", "skill": "逻辑衔接", "difficulty": 2},
+            {"id": "P07-R-C3", "stem": "空白 (3) 应选", "answer": "C", "analysis": "后文'参加植树、清河活动'对应'参与活动'，C 匹配。", "skill": "逻辑衔接", "difficulty": 2},
+            {"id": "P07-R-C4", "stem": "空白 (4) 应选", "answer": "D", "analysis": "后文'不乱扔垃圾、反对非法狩猎'对应'保护家园/栖息地'，D 匹配。", "skill": "逻辑衔接", "difficulty": 2},
+            {"id": "P07-R-C5", "stem": "空白 (5) 应选", "answer": "E", "analysis": "后文'众人的微小行动能拯救物种'对应'每分努力都重要'，E 匹配；F 为干扰项。", "skill": "逻辑衔接", "difficulty": 3}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "name": "词汇运用",
+      "scorePerQuestion": 1,
+      "questions": [
+        {"id": "P07-V01", "stem": "We should stop ___ (cut) down trees in the forest.", "answer": "cutting", "analysis": "stop doing 指'停止正在做的事'，用 cutting。", "knowledgePoint": "非谓语动词", "difficulty": 2},
+        {"id": "P07-V02", "stem": "The panda is a(n) ___ (danger) animal, so we must save it.", "answer": "endangered", "analysis": "修饰 animal 用形容词 endangered（濒危的）。", "knowledgePoint": "名词变形容词", "difficulty": 2},
+        {"id": "P07-V03", "stem": "The keeper fed the little dog ___ (careful).", "answer": "carefully", "analysis": "修饰动词 fed 用副词 carefully。", "knowledgePoint": "形容词变副词", "difficulty": 1},
+        {"id": "P07-V04", "stem": "More trees ___ (plant) by the students last spring.", "answer": "were planted", "analysis": "trees 与 plant 被动，last spring 用一般过去时被动 were planted。", "knowledgePoint": "被动语态", "difficulty": 2},
+        {"id": "P07-V05", "stem": "The ___ (lose) of forests worries many scientists.", "answer": "loss", "analysis": "定冠词后接名词，lose→loss（丧失）。", "knowledgePoint": "动词变名词", "difficulty": 2},
+        {"id": "P07-V06", "stem": "It's our duty ___ (save) endangered animals.", "answer": "to save", "analysis": "It is + n. + to do，用不定式。", "knowledgePoint": "非谓语动词", "difficulty": 2}
+      ]
+    },
+    {
+      "type": "blank_filling",
+      "name": "短文填空",
+      "passage": "Our planet is home to millions of ___ (1) ___ (species). But many are in ___ (2) ___ (dangerous) because of pollution and hunting. We can help by ___ (3) ___ (recycle) and saving energy. Everyone should try ___ (4) ___ (do) small things every day. When we protect nature, we protect ___ (5) ___ (we). A green earth is a ___ (6) ___ (gift) from us to the future.",
+      "scorePerQuestion": 1,
+      "questions": [
+        {"id": "P07-BF01", "blankLabel": "(1)", "answer": "species", "analysis": "millions of species 意为'数百万物种'，species 单复同形。", "knowledgePoint": "名词", "difficulty": 1},
+        {"id": "P07-BF02", "blankLabel": "(2)", "answer": "danger", "analysis": "in danger 固定搭配'处于危险中'。", "knowledgePoint": "固定搭配", "difficulty": 1},
+        {"id": "P07-BF03", "blankLabel": "(3)", "answer": "recycling", "analysis": "by + doing，recycle→recycling。", "knowledgePoint": "介词+动名词", "difficulty": 2},
+        {"id": "P07-BF04", "blankLabel": "(4)", "answer": "to do", "analysis": "try to do 意为'努力去做'，用不定式。", "knowledgePoint": "非谓语动词", "difficulty": 2},
+        {"id": "P07-BF05", "blankLabel": "(5)", "answer": "ourselves", "analysis": "protect oneself 保护自己，we→ourselves。", "knowledgePoint": "反身代词", "difficulty": 2},
+        {"id": "P07-BF06", "blankLabel": "(6)", "answer": "gift", "analysis": "a 后接单数名词，gift 原级（礼物/馈赠）。", "knowledgePoint": "名词", "difficulty": 1}
+      ]
+    },
+    {
+      "type": "task_reading",
+      "name": "阅读与回答问题",
+      "passage": "Elephants are the largest land animals. They live in families led by an old female. They use their long trunks to eat, drink and even hug. Sadly, elephants are endangered because people hunt them for ivory. Some countries have made laws to protect them. Tourists are asked not to buy any ivory products.",
+      "scorePerQuestion": 2,
+      "questions": [
+        {"id": "P07-T01", "stem": "Who leads an elephant family?", "answer": "An old female (elephant).", "analysis": "细节定位第二句。", "skill": "信息提取", "difficulty": 1},
+        {"id": "P07-T02", "stem": "What do elephants use their trunks for?", "answer": "Eating, drinking and hugging.", "analysis": "细节第三句。", "skill": "信息提取", "difficulty": 1},
+        {"id": "P07-T03", "stem": "Why are elephants endangered?", "answer": "Because people hunt them for ivory.", "analysis": "细节第四句。", "skill": "信息提取", "difficulty": 2},
+        {"id": "P07-T04", "stem": "What are tourists asked not to do?", "answer": "Not to buy any ivory products.", "analysis": "末句直接要求。", "skill": "推理/主旨", "difficulty": 2}
+      ]
+    },
+    {
+      "type": "writing",
+      "id": "P07-W",
+      "name": "书面表达",
+      "score": 25,
+      "prompt": "学校英语广播站征集“保护野生动物”主题短文，请你投稿，说明野生动物面临的威胁并提出两条保护建议。",
+      "requirements": ["80词左右", "说明威胁并给出建议", "使用连接词"],
+      "referenceOutline": "第一段：野生动物是朋友但面临危险；第二段：威胁（偷猎/栖息地丧失）；第三段：两条建议（拒买制品、保护环境）。",
+      "referenceVersion": "Wild animals are our friends, but many are in danger. Some are hunted for their fur or ivory, and others lose their homes because of deforestation. To protect them, first, we should never buy products made from wild animals. Second, we must keep the environment clean and plant more trees. If everyone does a little, we can give them a safer world. Let's act now!",
+      "analysis": "评分要点：点明威胁、两条具体建议、连接词 first/second；常见失分：建议空洞、语法错误、词数不足。"
+    }
+  ]
+}

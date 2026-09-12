@@ -1,0 +1,130 @@
+{
+  "id": "P08",
+  "title": "南通市中考英语模拟试卷（八）",
+  "paperIndex": 8,
+  "totalScore": 120,
+  "durationMinutes": 120,
+  "theme": "学习方法·阅读策略与诚信",
+  "structureNote": "按2025南通改革结构精简：覆盖全部7大题型。",
+  "sections": [
+    {
+      "type": "single_choice",
+      "name": "单项选择",
+      "scorePerQuestion": 1,
+      "questions": [
+        {"id": "P08-S01", "stem": "I have ___ finished my reading project, so I can relax now.", "options": ["A. just", "B. yet", "C. ever", "D. never"], "answer": "A", "analysis": "考查现在完成时副词。肯定句表'刚刚'用 just；yet 用于疑问/否定。", "knowledgePoint": "现在完成时", "difficulty": 2, "topic": "时态"},
+        {"id": "P08-S02", "stem": "English ___ widely as a global language in the world.", "options": ["A. speaks", "B. is spoken", "C. spoke", "D. was spoken"], "answer": "B", "analysis": "考查被动语态。English 与 speak 为被动，客观事实用一般现在时被动 is spoken。", "knowledgePoint": "被动语态", "difficulty": 2, "topic": "语态"},
+        {"id": "P08-S03", "stem": "—Need I go to the office now? —No, you ___.", "options": ["A. needn't", "B. mustn't", "C. can't", "D. shouldn't"], "answer": "A", "analysis": "考查情态动词。Need 开头的一般疑问句，否定回答用 needn't（不必）。", "knowledgePoint": "情态动词", "difficulty": 2, "topic": "情态动词"},
+        {"id": "P08-S04", "stem": "He had his broken bike ___ by the worker yesterday.", "options": ["A. repair", "B. to repair", "C. repaired", "D. repairing"], "answer": "C", "analysis": "考查非谓语动词。have sth. done 表示'使某物被做'，用过去分词 repaired。", "knowledgePoint": "非谓语动词", "difficulty": 3, "topic": "非谓语"},
+        {"id": "P08-S05", "stem": "Hurry up, ___ you will be late for the meeting.", "options": ["A. and", "B. or", "C. but", "D. so"], "answer": "B", "analysis": "考查连词。祈使句 + or + 结果句，or 表'否则'。", "knowledgePoint": "连词", "difficulty": 2, "topic": "连词"},
+        {"id": "P08-S06", "stem": "He left the room ___ saying goodbye to anyone.", "options": ["A. with", "B. without", "C. for", "D. by"], "answer": "B", "analysis": "考查介词。'没道别就离开'用 without（没有）。", "knowledgePoint": "介词", "difficulty": 1, "topic": "介词"},
+        {"id": "P08-S07", "stem": "My ___ brother is a doctor in the city hospital.", "options": ["A. older", "B. elder", "C. old", "D. the oldest"], "answer": "B", "analysis": "考查形容词。表示'哥哥/长辈'用 elder（限定词前）；older 表年龄更大。", "knowledgePoint": "形容词比较级", "difficulty": 2, "topic": "比较级"},
+        {"id": "P08-S08", "stem": "Can I ___ your pen for a minute? Mine is broken.", "options": ["A. borrow", "B. lend", "C. keep", "D. buy"], "answer": "A", "analysis": "考查动词辨析。borrow 指'借入'，符合'借你的笔'。", "knowledgePoint": "词汇辨析", "difficulty": 2, "topic": "词汇"},
+        {"id": "P08-S09", "stem": "—Can I borrow your ruler? —___ Here you are.", "options": ["A. Sure", "B. Sorry, I can't", "C. You're welcome", "D. That's right"], "answer": "A", "analysis": "考查情景交际。同意借物用 Sure（当然可以）。", "knowledgePoint": "情景交际", "difficulty": 1, "topic": "情景交际"},
+        {"id": "P08-S10", "stem": "—How many students are there in the lab? —___. It's empty.", "options": ["A. None", "B. No one", "C. Nothing", "D. Nobody"], "answer": "A", "analysis": "考查代词。问'多少学生'（可数复数），'一个也没有'用 none；no one 回答 who。", "knowledgePoint": "代词", "difficulty": 2, "topic": "代词"}
+      ]
+    },
+    {
+      "type": "cloze",
+      "name": "完形填空",
+      "passage": "On my way home, I found a wallet on the ground. It was full of money and a ___ (1) ___. I could keep it, but my father always told me to be ___ (2) ___. I stood there, not sure what to do. Then I decided to take it to the ___ (3) ___ station. The policeman found the owner, an old woman. She was so ___ (4) ___ and gave me a sweet. I felt ___ (5) ___ because I did the right thing. Honesty is not always easy, but it builds ___ (6) ___ between people. From that day, I understood that a clear ___ (7) ___ is worth more than any money. I will ___ (8) ___ this lesson all my life.",
+      "scorePerQuestion": 1,
+      "questions": [
+        {"id": "P08-C01", "blankLabel": "(1)", "options": ["A. card", "B. book", "C. photo", "D. letter"], "answer": "A", "analysis": "钱包里有钱和'名片/卡片'，card 符合常理。", "knowledgePoint": "名词辨析", "difficulty": 2, "topic": "完形·诚信"},
+        {"id": "P08-C02", "blankLabel": "(2)", "options": ["A. honest", "B. brave", "C. clever", "D. strong"], "answer": "A", "analysis": "父亲教导要'诚实'，honest 点明主题。", "knowledgePoint": "形容词辨析", "difficulty": 2, "topic": "完形·诚信"},
+        {"id": "P08-C03", "blankLabel": "(3)", "options": ["A. bus", "B. police", "C. fire", "D. train"], "answer": "B", "analysis": "捡到钱包应送'警察'局，police 符合。", "knowledgePoint": "名词辨析", "difficulty": 1, "topic": "完形·诚信"},
+        {"id": "P08-C04", "blankLabel": "(4)", "options": ["A. angry", "B. sad", "C. thankful", "D. bored"], "answer": "C", "analysis": "失主找回钱包应'感激'，thankful 符合。", "knowledgePoint": "形容词辨析", "difficulty": 2, "topic": "完形·诚信"},
+        {"id": "P08-C05", "blankLabel": "(5)", "options": ["A. proud", "B. afraid", "C. tired", "D. lonely"], "answer": "A", "analysis": "做了正确的事感到'自豪'，proud 符合。", "knowledgePoint": "形容词辨析", "difficulty": 2, "topic": "完形·诚信"},
+        {"id": "P08-C06", "blankLabel": "(6)", "options": ["A. trust", "B. money", "C. noise", "D. fear"], "answer": "A", "analysis": "诚实建立人与人之间的'信任'，trust 符合。", "knowledgePoint": "名词辨析", "difficulty": 2, "topic": "完形·诚信"},
+        {"id": "P08-C07", "blankLabel": "(7)", "options": ["A. face", "B. mind", "C. record", "D. conscience"], "answer": "D", "analysis": "a clear conscience 意为'问心无愧'，比金钱更可贵。", "knowledgePoint": "名词辨析", "difficulty": 3, "topic": "完形·诚信"},
+        {"id": "P08-C08", "blankLabel": "(8)", "options": ["A. forget", "B. remember", "C. refuse", "D. doubt"], "answer": "B", "analysis": "将铭记这堂课，remember 符合。", "knowledgePoint": "动词辨析", "difficulty": 1, "topic": "完形·诚信"}
+      ]
+    },
+    {
+      "type": "reading",
+      "name": "阅读理解",
+      "passages": [
+        {
+          "subId": "A", "genre": "应用文", "title": "School Reading Festival",
+          "body": "Reading Festival is coming!\n● Time: November 8–14.\n● Activities: Book swap, story-telling contest, reading marathon.\n● Prize: Top readers get book coupons.\n● How to join: Bring a book to the library and sign up.\n● Tip: Read at least 20 pages a day for the marathon.\nReading makes a full man!",
+          "questions": [
+            {"id": "P08-R-A1", "stem": "When is the Reading Festival?", "options": ["A. November 8–14", "B. December 8", "C. Every day", "D. October 14"], "answer": "A", "analysis": "细节题。Time 一行写明 11 月 8–14 日。", "skill": "细节理解", "difficulty": 1},
+            {"id": "P08-R-A2", "stem": "What can top readers get?", "options": ["A. Money", "B. Book coupons", "C. A trip", "D. A medal"], "answer": "B", "analysis": "细节题。Prize 一行写明书券。", "skill": "细节理解", "difficulty": 1},
+            {"id": "P08-R-A3", "stem": "How can students join the marathon?", "options": ["A. Run 20 pages", "B. Read at least 20 pages a day", "C. Buy a book", "D. Win a contest"], "answer": "B", "analysis": "细节题。Tip 写明每天至少读 20 页。", "skill": "细节理解", "difficulty": 1}
+          ]
+        },
+        {
+          "subId": "B", "genre": "记叙文", "title": "The Right Choice",
+          "body": "During the final exam, Li Na found a note with answers under her desk. Her heart beat fast. She could copy and get a high mark. But she remembered her teacher's words: 'A grade is temporary; honesty lasts forever.' She pushed the note away and finished by herself. After the exam, she felt light and calm. She didn't get the top score, but she won something better—her own pride. Years later, she still thanks that decision.",
+          "questions": [
+            {"id": "P08-R-B1", "stem": "What did Li Na find under her desk?", "options": ["A. A book", "B. A note with answers", "C. Money", "D. A pen"], "answer": "B", "analysis": "细节题。首段'found a note with answers'。", "skill": "细节理解", "difficulty": 1},
+            {"id": "P08-R-B2", "stem": "What did she do at last?", "options": ["A. Copied the answers", "B. Reported to teacher", "C. Finished by herself", "D. Left the room"], "answer": "C", "analysis": "细节题。'pushed the note away and finished by herself'。", "skill": "细节理解", "difficulty": 1},
+            {"id": "P08-R-B3", "stem": "What did she win instead of a top score?", "options": ["A. A prize", "B. Her own pride", "C. A friend", "D. A book"], "answer": "B", "analysis": "主旨/推理题。末段'won something better—her own pride'。", "skill": "主旨大意", "difficulty": 2}
+          ]
+        },
+        {
+          "subId": "C", "genre": "七选五", "title": "How to Read More Efficiently",
+          "body": "Reading is a skill you can improve.\n____(1)____ Pick books that interest you, not just hard ones.\n____(2)____ Guess the meaning of new words from the sentence around them.\n____(3)____ Take notes of good sentences and review them later.\n____(4)____ Read a little every day; consistency beats speed.\n____(5)____ Share what you read with friends to deepen understanding.",
+          "options": ["A. Choose what you love.", "B. Learn words in context.", "C. Keep a reading notebook.", "D. Make it a daily habit.", "E. Talk about your reading.", "F. Read only textbooks."],
+          "questions": [
+            {"id": "P08-R-C1", "stem": "空白 (1) 应选", "answer": "A", "analysis": "后文'选感兴趣的书'对应'选你所爱'，A 匹配。", "skill": "逻辑衔接", "difficulty": 2},
+            {"id": "P08-R-C2", "stem": "空白 (2) 应选", "answer": "B", "analysis": "后文'根据上下文猜词义'对应'在语境中学词'，B 匹配。", "skill": "逻辑衔接", "difficulty": 2},
+            {"id": "P08-R-C3", "stem": "空白 (3) 应选", "answer": "C", "analysis": "后文'记好句并复习'对应'做阅读笔记'，C 匹配。", "skill": "逻辑衔接", "difficulty": 2},
+            {"id": "P08-R-C4", "stem": "空白 (4) 应选", "answer": "D", "analysis": "后文'每天读一点，坚持胜过速度'对应'养成日常习惯'，D 匹配。", "skill": "逻辑衔接", "difficulty": 2},
+            {"id": "P08-R-C5", "stem": "空白 (5) 应选", "answer": "E", "analysis": "后文'与朋友分享以加深理解'对应'谈论阅读'，E 匹配；F 为干扰项。", "skill": "逻辑衔接", "difficulty": 3}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "name": "词汇运用",
+      "scorePerQuestion": 1,
+      "questions": [
+        {"id": "P08-V01", "stem": "He made a ___ (decide) to study harder this term.", "answer": "decision", "analysis": "make a decision 固定搭配，decide→decision（决定）。", "knowledgePoint": "动词变名词", "difficulty": 2},
+        {"id": "P08-V02", "stem": "The book is very ___ (help) for our English study.", "answer": "helpful", "analysis": "作表语用形容词 helpful（有帮助的）。", "knowledgePoint": "名词变形容词", "difficulty": 1},
+        {"id": "P08-V03", "stem": "She reads English ___ (loud) every morning to practice.", "answer": "aloud", "analysis": "read aloud 固定搭配'大声朗读'，用 aloud。", "knowledgePoint": "副词", "difficulty": 1},
+        {"id": "P08-V04", "stem": "We should be ___ (honest) in the exam.", "answer": "honest", "analysis": "be + adj.，honest 原级（诚实的）。", "knowledgePoint": "形容词", "difficulty": 1},
+        {"id": "P08-V05", "stem": "The teacher asked us ___ (not copy) others' homework.", "answer": "not to copy", "analysis": "ask sb. (not) to do，用 not to copy。", "knowledgePoint": "非谓语动词", "difficulty": 2},
+        {"id": "P08-V06", "stem": "He spent two hours ___ (read) the story yesterday.", "answer": "reading", "analysis": "spend ... (in) doing，用 reading。", "knowledgePoint": "非谓语动词", "difficulty": 2}
+      ]
+    },
+    {
+      "type": "blank_filling",
+      "name": "短文填空",
+      "passage": "Good readers have good ___ (1) ___ (habit). First, they read ___ (2) ___ (careful) and think about the meaning. Second, they guess the ___ (3) ___ (mean) of new words from the context. Third, they take ___ (4) ___ (note) while reading. Also, ___ (5) ___ (discuss) with classmates helps a lot. The more you read, the ___ (6) ___ (fast) you understand.",
+      "scorePerQuestion": 1,
+      "questions": [
+        {"id": "P08-BF01", "blankLabel": "(1)", "answer": "habits", "analysis": "good 后接复数名词，habit→habits（习惯）。", "knowledgePoint": "名词复数", "difficulty": 1},
+        {"id": "P08-BF02", "blankLabel": "(2)", "answer": "carefully", "analysis": "修饰动词 read 用副词 carefully。", "knowledgePoint": "形容词变副词", "difficulty": 1},
+        {"id": "P08-BF03", "blankLabel": "(3)", "answer": "meaning", "analysis": "the + 名词，mean→meaning（意思）。", "knowledgePoint": "动词变名词", "difficulty": 2},
+        {"id": "P08-BF04", "blankLabel": "(4)", "answer": "notes", "analysis": "take notes 固定搭配'做笔记'，用复数。", "knowledgePoint": "固定搭配", "difficulty": 1},
+        {"id": "P08-BF05", "blankLabel": "(5)", "answer": "discussing", "analysis": "动名词作主语，discuss→discussing。", "knowledgePoint": "非谓语动词", "difficulty": 2},
+        {"id": "P08-BF06", "blankLabel": "(6)", "answer": "faster", "analysis": "the + 比较级 …, the + 比较级 …，fast→faster。", "knowledgePoint": "副词比较级", "difficulty": 2}
+      ]
+    },
+    {
+      "type": "task_reading",
+      "name": "阅读与回答问题",
+      "passage": "Honesty is a bright star in our life. Last week, Lin Tao found 200 yuan in the library. Instead of keeping it, he gave it to the teacher. The money was returned to its owner, a foreign student. The owner wrote a thank-you letter to the school. Lin Tao said, 'Doing the right thing makes me happy.' His act shows that small honesty lights up the world.",
+      "scorePerQuestion": 2,
+      "questions": [
+        {"id": "P08-T01", "stem": "Where did Lin Tao find the money?", "answer": "In the library.", "analysis": "细节定位第二句。", "skill": "信息提取", "difficulty": 1},
+        {"id": "P08-T02", "stem": "How much money was it?", "answer": "200 yuan.", "analysis": "细节第二句。", "skill": "信息提取", "difficulty": 1},
+        {"id": "P08-T03", "stem": "What did he do with it?", "answer": "He gave it to the teacher (who returned it to the owner).", "analysis": "细节第三句。", "skill": "信息提取", "difficulty": 2},
+        {"id": "P08-T04", "stem": "Why does he feel happy?", "answer": "Because he did the right thing.", "analysis": "直接引用人物话语。", "skill": "推理/主旨", "difficulty": 2}
+      ]
+    },
+    {
+      "type": "writing",
+      "id": "P08-W",
+      "name": "书面表达",
+      "score": 25,
+      "prompt": "学校英语俱乐部请你就（如何成为高效阅读者）写一篇短文，分享三条实用阅读方法。",
+      "requirements": ["80词左右", "给出三条具体方法", "使用连接词"],
+      "referenceOutline": "开头点题；三条方法（选感兴趣的书/语境猜词/每日坚持）；结尾鼓励。",
+      "referenceVersion": "Reading is a key to knowledge. Here are three tips for efficient reading. First, choose books you truly like, so you won't give up. Second, guess new words from the context instead of checking the dictionary all the time. Third, read a little every day because consistency matters more than speed. Try these and you will enjoy reading and learn faster. Happy reading!",
+      "analysis": "评分要点：三条方法具体、使用 first/second/third、结尾鼓励；常见失分：方法空泛、语法错误、词数不足。"
+    }
+  ]
+}

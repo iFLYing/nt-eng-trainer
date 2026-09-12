@@ -1,0 +1,130 @@
+{
+  "id": "P10",
+  "title": "南通市中考英语模拟试卷（十）",
+  "paperIndex": 10,
+  "totalScore": 120,
+  "durationMinutes": 120,
+  "theme": "航天探索·青春奋斗",
+  "structureNote": "按2025南通改革结构精简：覆盖全部7大题型。第十套为收官卷。",
+  "sections": [
+    {
+      "type": "single_choice",
+      "name": "单项选择",
+      "scorePerQuestion": 1,
+      "questions": [
+        {"id": "P10-S01", "stem": "We have known each other ___ we were children.", "options": ["A. for", "B. since", "C. in", "D. during"], "answer": "B", "analysis": "考查介词。since + 过去时间点（we were children），与现在完成时连用。", "knowledgePoint": "介词", "difficulty": 2, "topic": "介词"},
+        {"id": "P10-S02", "stem": "A new science lab ___ in our school next year.", "options": ["A. builds", "B. built", "C. will be built", "D. has built"], "answer": "C", "analysis": "考查被动语态。lab 与 build 为被动，next year 用一般将来时被动 will be built。", "knowledgePoint": "被动语态", "difficulty": 2, "topic": "语态"},
+        {"id": "P10-S03", "stem": "When I was five, I ___ ride a bike by myself.", "options": ["A. can", "B. could", "C. may", "D. must"], "answer": "B", "analysis": "考查情态动词。表过去的能力用 could（can 的过去式）。", "knowledgePoint": "情态动词", "difficulty": 2, "topic": "情态动词"},
+        {"id": "P10-S04", "stem": "He used ___ in the city, but now he lives in the countryside.", "options": ["A. live", "B. to live", "C. living", "D. lived"], "answer": "B", "analysis": "考查非谓语动词。used to do 表'过去常常'，用 to live。", "knowledgePoint": "非谓语动词", "difficulty": 3, "topic": "非谓语"},
+        {"id": "P10-S05", "stem": "___ he is young, he knows a lot about space.", "options": ["A. Although", "B. Because", "C. If", "D. Unless"], "answer": "A", "analysis": "考查连词。'年轻'与'懂很多'为让步关系，用 Although。", "knowledgePoint": "连词", "difficulty": 2, "topic": "连词"},
+        {"id": "P10-S06", "stem": "The rocket flew ___ space and disappeared in the blue sky.", "options": ["A. into", "B. on", "C. at", "D. for"], "answer": "A", "analysis": "考查介词。fly into space 为固定表达，意为'飞入太空'。", "knowledgePoint": "介词", "difficulty": 1, "topic": "介词"},
+        {"id": "P10-S07", "stem": "The higher we fly, the ___ we can see.", "options": ["A. much", "B. more", "C. many", "D. most"], "answer": "B", "analysis": "考查比较级。the + 比较级 …, the + 比较级 … 结构，'越多…越…'。", "knowledgePoint": "形容词比较级", "difficulty": 2, "topic": "比较级"},
+        {"id": "P10-S08", "stem": "He ___ his dream of becoming a pilot at last.", "options": ["A. achieved", "B. received", "C. accepted", "D. carried"], "answer": "A", "analysis": "考查动词辨析。achieve one's dream 为固定搭配，意为'实现梦想'。", "knowledgePoint": "词汇辨析", "difficulty": 2, "topic": "词汇"},
+        {"id": "P10-S09", "stem": "—I'm afraid I can't work out the problem. —___! You can do it.", "options": ["A. Come on", "B. That's right", "C. Thank you", "D. Never mind"], "answer": "A", "analysis": "考查情景交际。鼓励他人用 Come on（加油/振作）。", "knowledgePoint": "情景交际", "difficulty": 1, "topic": "情景交际"},
+        {"id": "P10-S10", "stem": "This T-shirt is too small; please show me ___ one.", "options": ["A. other", "B. another", "C. the other", "D. others"], "answer": "B", "analysis": "考查代词。another 指'另一个'（三者或以上中的任意一个），符合语境。", "knowledgePoint": "代词", "difficulty": 2, "topic": "代词"}
+      ]
+    },
+    {
+      "type": "cloze",
+      "name": "完形填空",
+      "passage": "Since I was a child, I have dreamed of flying to ___ (1) ___. I watched every rocket launch on TV. My parents supported me and bought me books about ___ (2) ___. In middle school, I joined the science club and built small ___ (3) ___ with my friends. It was not easy; we failed many times. But our teacher said, 'Failure is the mother of ___ (4) ___.' We kept trying and finally won a prize. Now I study harder than before, because I know a dream needs both ___ (5) ___ and effort. I believe one day I will stand under the stars and say, 'I ___ (6) ___ it.' To young people, I want to say: never stop ___ (7) ___, for the sky is not the ___ (8) ___.",
+      "scorePerQuestion": 1,
+      "questions": [
+        {"id": "P10-C01", "blankLabel": "(1)", "options": ["A. space", "B. school", "C. home", "D. sea"], "answer": "A", "analysis": "后文 rocket、stars 提示梦想飞向'太空'，space 符合。", "knowledgePoint": "名词辨析", "difficulty": 2, "topic": "完形·航天"},
+        {"id": "P10-C02", "blankLabel": "(2)", "options": ["A. music", "B. space", "C. art", "D. sports"], "answer": "B", "analysis": "父母买关于'太空'的书，space 呼应主题。", "knowledgePoint": "名词辨析", "difficulty": 2, "topic": "完形·航天"},
+        {"id": "P10-C03", "blankLabel": "(3)", "options": ["A. models", "B. cakes", "C. houses", "D. cars"], "answer": "A", "analysis": "科学俱乐部制作小'模型'（火箭模型），models 符合。", "knowledgePoint": "名词辨析", "difficulty": 2, "topic": "完形·航天"},
+        {"id": "P10-C04", "blankLabel": "(4)", "options": ["A. success", "B. sadness", "C. trouble", "D. fear"], "answer": "A", "analysis": "Failure is the mother of success 谚语'失败是成功之母'。", "knowledgePoint": "名词辨析", "difficulty": 2, "topic": "完形·航天"},
+        {"id": "P10-C05", "blankLabel": "(5)", "options": ["A. luck", "B. courage", "C. money", "D. time"], "answer": "B", "analysis": "梦想需要'勇气'与努力，courage 符合。", "knowledgePoint": "名词辨析", "difficulty": 2, "topic": "完形·航天"},
+        {"id": "P10-C06", "blankLabel": "(6)", "options": ["A. made", "B. found", "C. lost", "D. missed"], "answer": "A", "analysis": "make it 为固定搭配，意为'成功做到'。", "knowledgePoint": "动词短语", "difficulty": 2, "topic": "完形·航天"},
+        {"id": "P10-C07", "blankLabel": "(7)", "options": ["A. dreaming", "B. sleeping", "C. eating", "D. crying"], "answer": "A", "analysis": "呼应开头梦想，'永不停止做梦/追梦'，dreaming 符合。", "knowledgePoint": "动词辨析", "difficulty": 2, "topic": "完形·航天"},
+        {"id": "P10-C08", "blankLabel": "(8)", "options": ["A. beginning", "B. limit", "C. problem", "D. answer"], "answer": "B", "analysis": "'天空不是极限'（天空不是终点），limit 升华主题。", "knowledgePoint": "名词辨析", "difficulty": 3, "topic": "完形·航天"}
+      ]
+    },
+    {
+      "type": "reading",
+      "name": "阅读理解",
+      "passages": [
+        {
+          "subId": "A", "genre": "应用文", "title": "Young Astronaut Camp",
+          "body": "Young Astronaut Camp is open for students!\n● Age: 10–15\n● Date: August 5–9\n● Place: City Space Museum\n● Activities: Visit a real simulator, make a model rocket, meet a space scientist.\n● Cost: 300 yuan (lunch and kit included)\n● Apply: Fill the form at www.spacecamp.cn before July 20.\nDream big, start small!",
+          "questions": [
+            {"id": "P10-R-A1", "stem": "Who can join the camp?", "options": ["A. Children aged 10–15", "B. Only teachers", "C. Adults", "D. Babies"], "answer": "A", "analysis": "细节题。Age 一行写明 10–15 岁。", "skill": "细节理解", "difficulty": 1},
+            {"id": "P10-R-A2", "stem": "What can students do at the camp?", "options": ["A. Visit a simulator and make a model rocket", "B. Fly to space", "C. Meet the president", "D. Cook meals"], "answer": "A", "analysis": "细节题。Activities 列出参观模拟器、做火箭模型、见科学家。", "skill": "细节理解", "difficulty": 1},
+            {"id": "P10-R-A3", "stem": "How can students apply?", "options": ["A. Call the museum", "B. Fill the form online before July 20", "C. Send an email", "D. Go there directly"], "answer": "B", "analysis": "细节题。Apply 一行写明 7 月 20 日前网上报名。", "skill": "细节理解", "difficulty": 1}
+          ]
+        },
+        {
+          "subId": "B", "genre": "记叙文", "title": "Wang Yaping in Space",
+          "body": "Wang Yaping is a Chinese astronaut. In 2013, she gave the first space lesson to students on Earth. In 2021, she flew to the space station on Shenzhou XIII and became the first Chinese woman to walk in space. During her six-month stay, she taught children again through a special class. She told young people, 'The stars are not far if you dare to reach.' Her story inspires millions of students to love science and dream big.",
+          "questions": [
+            {"id": "P10-R-B1", "stem": "When did Wang Yaping give the first space lesson?", "options": ["A. In 2013", "B. In 2021", "C. In 2003", "D. In 2010"], "answer": "A", "analysis": "细节题。首段'In 2013, she gave the first space lesson'。", "skill": "细节理解", "difficulty": 1},
+            {"id": "P10-R-B2", "stem": "What made her special in 2021?", "options": ["A. She flew to the Moon", "B. She became the first Chinese woman to walk in space", "C. She taught math", "D. She stayed one month"], "answer": "B", "analysis": "细节题。'became the first Chinese woman to walk in space'。", "skill": "细节理解", "difficulty": 1},
+            {"id": "P10-R-B3", "stem": "What does her story show?", "options": ["A. Space is easy", "B. Dare to reach the stars", "C. Women cannot fly", "D. Lessons are boring"], "answer": "B", "analysis": "主旨题。末段引语与点题'敢于触及星辰'，B 最贴切。", "skill": "主旨大意", "difficulty": 2}
+          ]
+        },
+        {
+          "subId": "C", "genre": "七选五", "title": "Grow Your Love for Science",
+          "body": "Science is fun if you find the right way.\n____(1)____ Ask questions about everyday things: why the sky is blue, how a phone works.\n____(2)____ Do small experiments at home with simple tools.\n____(3)____ Read science books or watch documentaries for fun.\n____(4)____ Join a school club and learn with friends.\n____(5)____ A curious mind today may become a great scientist tomorrow.",
+          "options": ["A. Stay curious.", "B. Try it yourself.", "C. Read and watch.", "D. Learn together.", "E. Dream of the future.", "F. Avoid difficult topics."],
+          "questions": [
+            {"id": "P10-R-C1", "stem": "空白 (1) 应选", "answer": "A", "analysis": "后文'对日常事物提问'对应'保持好奇'，A 匹配。", "skill": "逻辑衔接", "difficulty": 2},
+            {"id": "P10-R-C2", "stem": "空白 (2) 应选", "answer": "B", "analysis": "后文'在家做小实验'对应'自己动手尝试'，B 匹配。", "skill": "逻辑衔接", "difficulty": 2},
+            {"id": "P10-R-C3", "stem": "空白 (3) 应选", "answer": "C", "analysis": "后文'读书或看纪录片'对应'阅读与观看'，C 匹配。", "skill": "逻辑衔接", "difficulty": 2},
+            {"id": "P10-R-C4", "stem": "空白 (4) 应选", "answer": "D", "analysis": "后文'加入社团与朋友共学'对应'一起学习'，D 匹配。", "skill": "逻辑衔接", "difficulty": 2},
+            {"id": "P10-R-C5", "stem": "空白 (5) 应选", "answer": "E", "analysis": "后文'好奇的心或成科学家'对应'畅想未来'，E 匹配；F 为干扰项。", "skill": "逻辑衔接", "difficulty": 3}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "name": "词汇运用",
+      "scorePerQuestion": 1,
+      "questions": [
+        {"id": "P10-V01", "stem": "China ___ (send) three astronauts into space last year.", "answer": "sent", "analysis": "last year 表过去，send→sent。", "knowledgePoint": "动词过去式", "difficulty": 1},
+        {"id": "P10-V02", "stem": "The dream is ___ (achieve) if you work hard.", "answer": "achievable", "analysis": "作表语用形容词 achievable（可实现的）。", "knowledgePoint": "动词变形容词", "difficulty": 2},
+        {"id": "P10-V03", "stem": "He is ___ (interest) in science fiction books.", "answer": "interested", "analysis": "be interested in 固定搭配'对…感兴趣'。", "knowledgePoint": "固定搭配", "difficulty": 1},
+        {"id": "P10-V04", "stem": "They practiced ___ (fly) the model rocket in the park.", "answer": "flying", "analysis": "practice doing，用 flying。", "knowledgePoint": "非谓语动词", "difficulty": 2},
+        {"id": "P10-V05", "stem": "It took years of work ___ (become) a real pilot.", "answer": "to become", "analysis": "It takes time to do，用不定式。", "knowledgePoint": "非谓语动词", "difficulty": 2},
+        {"id": "P10-V06", "stem": "The news was ___ (excite) for all of us.", "answer": "exciting", "analysis": "修饰事用 -ing 形容词 exciting（令人兴奋的）。", "knowledgePoint": "形容词 -ing/-ed", "difficulty": 1}
+      ]
+    },
+    {
+      "type": "blank_filling",
+      "name": "短文填空",
+      "passage": "Space is full of ___ (1) ___ (mystery). Scientists ___ (2) ___ (study) the stars for centuries. With powerful telescopes, we can see ___ (3) ___ (far) than before. China's space station shows that ___ (4) ___ (human) can work in orbit. Young people should learn science so that they can ___ (5) ___ (explore) the unknown. The universe is so big that there is always something new ___ (6) ___ (wait) for us.",
+      "scorePerQuestion": 1,
+      "questions": [
+        {"id": "P10-BF01", "blankLabel": "(1)", "answer": "mysteries", "analysis": "full of 后接复数，mystery→mysteries（奥秘）。", "knowledgePoint": "名词复数", "difficulty": 1},
+        {"id": "P10-BF02", "blankLabel": "(2)", "answer": "have studied", "analysis": "for centuries 与现在完成时连用，study→have studied。", "knowledgePoint": "现在完成时", "difficulty": 2},
+        {"id": "P10-BF03", "blankLabel": "(3)", "answer": "farther", "analysis": "than 前用比较级，far→farther/further（更远）。", "knowledgePoint": "副词比较级", "difficulty": 2},
+        {"id": "P10-BF04", "blankLabel": "(4)", "answer": "humans", "analysis": "that 后接复数主语，human→humans（人类）。", "knowledgePoint": "名词复数", "difficulty": 1},
+        {"id": "P10-BF05", "blankLabel": "(5)", "answer": "explore", "analysis": "can 后接动词原形 explore。", "knowledgePoint": "情态动词+原形", "difficulty": 1},
+        {"id": "P10-BF06", "blankLabel": "(6)", "answer": "waiting", "analysis": "现在分词作后置定语，wait→waiting。", "knowledgePoint": "非谓语动词", "difficulty": 2}
+      ]
+    },
+    {
+      "type": "task_reading",
+      "name": "阅读与回答问题",
+      "passage": "On October 16, 2021, the Shenzhou XIII spacecraft sent three astronauts to China's space station. They stayed there for six months, doing experiments and giving space lessons to students on Earth. Wang Yaping became the first Chinese woman to walk in space. Their work shows that with hard work, ordinary young people can reach for the stars.",
+      "scorePerQuestion": 2,
+      "questions": [
+        {"id": "P10-T01", "stem": "When did Shenzhou XIII go into space?", "answer": "On October 16, 2021.", "analysis": "细节定位首句。", "skill": "信息提取", "difficulty": 1},
+        {"id": "P10-T02", "stem": "How long did the astronauts stay there?", "answer": "For six months.", "analysis": "细节第二句。", "skill": "信息提取", "difficulty": 1},
+        {"id": "P10-T03", "stem": "Who was the first Chinese woman to walk in space?", "answer": "Wang Yaping.", "analysis": "细节第三句。", "skill": "信息提取", "difficulty": 1},
+        {"id": "P10-T04", "stem": "What can young people learn from them?", "answer": "With hard work, ordinary youth can reach for the stars.", "analysis": "末句点明主旨。", "skill": "推理/主旨", "difficulty": 2}
+      ]
+    },
+    {
+      "type": "writing",
+      "id": "P10-W",
+      "name": "书面表达",
+      "score": 25,
+      "prompt": "学校英语演讲比赛主题为（我的梦想），请你写一篇英文演讲稿，谈谈你的梦想（如成为宇航员或探索宇宙）以及为实现它你将如何努力。",
+      "requirements": ["80词左右", "包含梦想内容与行动规划", "语言有感染力"],
+      "referenceOutline": "开头问候+点明梦想；正文说明为何及如何努力（学习/science/坚持）；结尾鼓励大家追梦。",
+      "referenceVersion": "Good morning, everyone! My dream is to become an astronaut and explore the stars. Space is full of mystery, and I want to know it better. To make it come true, I will study science hard, read more books, and never give up when facing difficulties. I believe where there is a dream, there is a way. Let's chase our dreams bravely and reach for the stars. Thank you!",
+      "analysis": "评分要点：梦想明确、行动具体、使用连接词与号召性结尾；常见失分：空喊口号无计划、语法错误、词数不足。"
+    }
+  ]
+}

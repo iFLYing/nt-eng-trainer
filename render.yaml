@@ -1,0 +1,14 @@
+# Render Blueprint —— 一键部署（也可在 Dashboard 手动建）
+# 用法：把本仓库（mock_papers/ 这一层）推到 GitHub 后，Render 导入此文件即可。
+# 存储：本地 SQLite；云端设 DATABASE_URL 后自动切 PostgreSQL（持久化用户数据）。
+services:
+  - type: web
+    name: nt-eng-trainer
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node --experimental-sqlite server.mjs
+    healthCheckPath: /health
+    envVars:
+      - key: DATABASE_URL
+        sync: false   # 部署后在 Dashboard 填入外部 Postgres 连接串（推荐 Neon/Supabase 免费库，不过期）

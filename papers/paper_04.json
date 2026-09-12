@@ -1,0 +1,130 @@
+{
+  "id": "P04",
+  "title": "南通市中考英语模拟试卷（四）",
+  "paperIndex": 4,
+  "totalScore": 120,
+  "durationMinutes": 120,
+  "theme": "人物故事·非遗传承",
+  "structureNote": "按2025南通改革结构精简：覆盖全部7大题型。",
+  "sections": [
+    {
+      "type": "single_choice",
+      "name": "单项选择",
+      "scorePerQuestion": 1,
+      "questions": [
+        {"id": "P04-S01", "stem": "The little girl ___ play the erhu very well at the age of six.", "options": ["A. can", "B. must", "C. need", "D. should"], "answer": "A", "analysis": "考查情态动词。表示'能够'用 can；此处指小女孩有演奏能力。", "knowledgePoint": "情态动词", "difficulty": 1, "topic": "情态动词"},
+        {"id": "P04-S02", "stem": "The letter ___ by him yesterday evening.", "options": ["A. writes", "B. wrote", "C. was written", "D. is written"], "answer": "C", "analysis": "考查被动语态。letter 与 write 为被动关系，yesterday 用一般过去时被动 was written。", "knowledgePoint": "被动语态", "difficulty": 2, "topic": "语态"},
+        {"id": "P04-S03", "stem": "The village ___ I was born is now a beautiful town.", "options": ["A. who", "B. which", "C. where", "D. what"], "answer": "C", "analysis": "考查定语从句。先行词 village 表地点，关系副词用 where。", "knowledgePoint": "定语从句", "difficulty": 2, "topic": "从句"},
+        {"id": "P04-S04", "stem": "His mother made him ___ his room every weekend.", "options": ["A. clean", "B. to clean", "C. cleaning", "D. cleaned"], "answer": "A", "analysis": "考查非谓语动词。make sb. do sth. 用省略 to 的不定式。", "knowledgePoint": "非谓语动词", "difficulty": 2, "topic": "非谓语"},
+        {"id": "P04-S05", "stem": "___ it rained heavily, they still went to the match.", "options": ["A. Because", "B. Although", "C. If", "D. Unless"], "answer": "B", "analysis": "考查连词。前后为让步关系（雨大仍去），用 Although。", "knowledgePoint": "连词", "difficulty": 2, "topic": "连词"},
+        {"id": "P04-S06", "stem": "Please cut the apple ___ a sharp knife.", "options": ["A. by", "B. with", "C. in", "D. on"], "answer": "B", "analysis": "考查介词。表示'用工具'用 with。", "knowledgePoint": "介词", "difficulty": 1, "topic": "介词"},
+        {"id": "P04-S07", "stem": "This book is ___ interesting than that one, I think.", "options": ["A. less", "B. few", "C. fewer", "D. little"], "answer": "A", "analysis": "考查比较级。than 前用比较级，little 的比较级为 less（修饰多音节interesting 用 less）。", "knowledgePoint": "形容词比较级", "difficulty": 2, "topic": "比较级"},
+        {"id": "P04-S08", "stem": "—How long can I ___ the book? —For two weeks.", "options": ["A. borrow", "B. lend", "C. keep", "D. buy"], "answer": "C", "analysis": "考查动词辨析。borrow/lend 为瞬间动词，不能与 how long 连用；keep 表持续'借'。", "knowledgePoint": "词汇辨析", "difficulty": 2, "topic": "词汇"},
+        {"id": "P04-S09", "stem": "—Would you like to visit the museum with us? —___", "options": ["A. Yes, I'd love to", "B. You're welcome", "C. That's right", "D. Not at all"], "answer": "A", "analysis": "考查情景交际。回应邀请用 Yes, I'd love to。", "knowledgePoint": "情景交际", "difficulty": 1, "topic": "情景交际"},
+        {"id": "P04-S10", "stem": "___ of the two answers is right, so we must check again.", "options": ["A. Either", "B. Neither", "C. Both", "D. All"], "answer": "B", "analysis": "考查代词。of the two 限定两者，'都不正确'用 neither。", "knowledgePoint": "代词", "difficulty": 2, "topic": "代词"}
+      ]
+    },
+    {
+      "type": "cloze",
+      "name": "完形填空",
+      "passage": "Mei is a young embroiderer. She learned the skill from her grandma at the age of eight. At first, it was ___ (1) ___ for her little fingers to hold the needle. Her works were not ___ (2) ___, and some people even laughed. But she didn't ___ (3) ___. She practiced for hours every day. Slowly, her skills ___ (4) ___. Years later, her embroidery won prizes and was ___ (5) ___ in a museum. Now she teaches young people so that this art will not ___ (6) ___. She says, 'Tradition is not old; it is a ___ (7) ___ that connects us to our roots.' Her story ___ (8) ___ many students to love traditional culture.",
+      "scorePerQuestion": 1,
+      "questions": [
+        {"id": "P04-C01", "blankLabel": "(1)", "options": ["A. easy", "B. hard", "C. fun", "D. safe"], "answer": "B", "analysis": "小孩手指拿针'困难'，hard 符合语境。", "knowledgePoint": "形容词辨析", "difficulty": 2, "topic": "完形·非遗"},
+        {"id": "P04-C02", "blankLabel": "(2)", "options": ["A. perfect", "B. cheap", "C. big", "D. new"], "answer": "A", "analysis": "初期作品不'完美'，perfect 与后文'有人笑'呼应。", "knowledgePoint": "形容词辨析", "difficulty": 2, "topic": "完形·非遗"},
+        {"id": "P04-C03", "blankLabel": "(3)", "options": ["A. give up", "B. grow up", "C. wake up", "D. hurry up"], "answer": "A", "analysis": "前文遇挫，但她没'放弃'，give up 符合。", "knowledgePoint": "动词短语", "difficulty": 2, "topic": "完形·非遗"},
+        {"id": "P04-C04", "blankLabel": "(4)", "options": ["A. disappeared", "B. improved", "C. stopped", "D. failed"], "answer": "B", "analysis": "长期练习后技艺'提高'，improved 符合。", "knowledgePoint": "动词辨析", "difficulty": 2, "topic": "完形·非遗"},
+        {"id": "P04-C05", "blankLabel": "(5)", "options": ["A. hidden", "B. shown", "C. thrown", "D. sold"], "answer": "B", "analysis": "作品在博物馆被'展出'，shown 符合。", "knowledgePoint": "动词辨析", "difficulty": 2, "topic": "完形·非遗"},
+        {"id": "P04-C06", "blankLabel": "(6)", "options": ["A. return", "B. appear", "C. disappear", "D. change"], "answer": "C", "analysis": "传承的目的是不让艺术'消失'，disappear 符合。", "knowledgePoint": "动词辨析", "difficulty": 2, "topic": "完形·非遗"},
+        {"id": "P04-C07", "blankLabel": "(7)", "options": ["A. bridge", "B. wall", "C. door", "D. road"], "answer": "A", "analysis": "传统是连接根脉的'桥梁'，bridge 比喻贴切。", "knowledgePoint": "名词辨析", "difficulty": 2, "topic": "完形·非遗"},
+        {"id": "P04-C08", "blankLabel": "(8)", "options": ["A. forces", "B. encourages", "C. warns", "D. orders"], "answer": "B", "analysis": "她的故事'鼓励'学生热爱传统，encourages 符合。", "knowledgePoint": "动词辨析", "difficulty": 2, "topic": "完形·非遗"}
+      ]
+    },
+    {
+      "type": "reading",
+      "name": "阅读理解",
+      "passages": [
+        {
+          "subId": "A", "genre": "应用文", "title": "Intangible Cultural Heritage Experience Day",
+          "body": "Join us for Intangible Cultural Heritage Experience Day!\n● Time: Saturday, June 14, 9:00 a.m.–4:00 p.m.\n● Place: City Art Center, Hall 3.\n● Activities: Try paper-cutting, make a small clay figure, watch a shadow-play show.\n● Cost: 30 yuan (materials included).\n● Book: Scan the QR code on the poster before June 10.\nOnly 100 seats! Don't miss it.",
+          "questions": [
+            {"id": "P04-R-A1", "stem": "When is the experience day?", "options": ["A. June 10", "B. June 14", "C. Every Saturday", "D. June 4"], "answer": "B", "analysis": "细节题。Time 一行写明 6 月 14 日。", "skill": "细节理解", "difficulty": 1},
+            {"id": "P04-R-A2", "stem": "What can visitors do there?", "options": ["A. Watch a movie", "B. Try paper-cutting and make clay figures", "C. Buy clothes", "D. Swim"], "answer": "B", "analysis": "细节题。Activities 列出剪纸、做泥人、看皮影。", "skill": "细节理解", "difficulty": 1},
+            {"id": "P04-R-A3", "stem": "How should people book a seat?", "options": ["A. Call the center", "B. Scan the QR code before June 10", "C. Send an email", "D. Pay at the door"], "answer": "B", "analysis": "细节题。Book 一行写明 6 月 10 日前扫码预约。", "skill": "细节理解", "difficulty": 1}
+          ]
+        },
+        {
+          "subId": "B", "genre": "记叙文", "title": "The Tree Planter",
+          "body": "Mr. Li, a 65-year-old farmer, has planted trees on the hill near his village for 30 years. When he started, the hill was bare and the wind blew the soil away. He carried water up the hill every day and planted saplings with his own hands. Many villagers thought he was wasting time. But he kept going. Today, the hill is green, birds sing in the trees, and the soil stays put. 'Trees are the lungs of the earth,' he says with a smile. His simple act changed the land and inspired the whole village to protect nature.",
+          "questions": [
+            {"id": "P04-R-B1", "stem": "Why did Mr. Li plant trees?", "options": ["A. To make money", "B. To stop soil from blowing away", "C. To build a park", "D. To sell wood"], "answer": "B", "analysis": "细节/推理题。荒山'风把土吹走'，种树为防止水土流失。", "skill": "推理判断", "difficulty": 2},
+            {"id": "P04-R-B2", "stem": "What do we know about the villagers at first?", "options": ["A. They helped him", "B. They thought he wasted time", "C. They planted with him", "D. They stopped him"], "answer": "B", "analysis": "细节题。'Many villagers thought he was wasting time.'", "skill": "细节理解", "difficulty": 1},
+            {"id": "P04-R-B3", "stem": "What is the best title?", "options": ["A. A Rich Farmer", "B. The Lungs of the Earth", "C. A Man Who Greened a Hill", "D. How to Plant Trees"], "answer": "C", "analysis": "主旨题。全文讲老人 30 年绿化荒山，C 最贴切。", "skill": "主旨大意", "difficulty": 2}
+          ]
+        },
+        {
+          "subId": "C", "genre": "七选五", "title": "How to Protect Traditional Culture",
+          "body": "Traditional culture is our treasure. Here is how we can keep it alive.\n____(1)____ Visit museums and learn the stories behind old objects.\n____(2)____ Try paper-cutting, calligraphy or local food with your family.\n____(3)____ Share photos and short videos of traditional skills on social media.\n____(4)____ Young people can learn from masters and pass them on.\n____(5)____ When more people join, the culture will shine again.",
+          "options": ["A. Learn about the past.", "B. Experience it by doing.", "C. Spread it online.", "D. Train the next generation.", "E. Work together.", "F. Buy old things."],
+          "questions": [
+            {"id": "P04-R-C1", "stem": "空白 (1) 应选", "answer": "A", "analysis": "后文'参观博物馆、了解老物件背后的故事'对应'了解过去'，A 匹配。", "skill": "逻辑衔接", "difficulty": 2},
+            {"id": "P04-R-C2", "stem": "空白 (2) 应选", "answer": "B", "analysis": "后文'动手尝试剪纸、书法、地方美食'对应'体验式传承'，B 匹配。", "skill": "逻辑衔接", "difficulty": 2},
+            {"id": "P04-R-C3", "stem": "空白 (3) 应选", "answer": "C", "analysis": "后文'在社交媒体分享'对应'线上传播'，C 匹配。", "skill": "逻辑衔接", "difficulty": 2},
+            {"id": "P04-R-C4", "stem": "空白 (4) 应选", "answer": "D", "analysis": "后文'年轻人向大师学习并传承'对应'培养下一代'，D 匹配。", "skill": "逻辑衔接", "difficulty": 2},
+            {"id": "P04-R-C5", "stem": "空白 (5) 应选", "answer": "E", "analysis": "后文'更多人参与，文化重新发光'对应'共同努力'，E 匹配；F 为干扰项。", "skill": "逻辑衔接", "difficulty": 3}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "name": "词汇运用",
+      "scorePerQuestion": 1,
+      "questions": [
+        {"id": "P04-V01", "stem": "He spent two hours ___ (finish) the picture.", "answer": "finishing", "analysis": "spend ... (in) doing，用动名词 finishing。", "knowledgePoint": "非谓语动词", "difficulty": 2},
+        {"id": "P04-V02", "stem": "The story is so ___ (move) that we all cried.", "answer": "moving", "analysis": "修饰事用 -ing 形容词 moving（令人感动的）。", "knowledgePoint": "形容词 -ing/-ed", "difficulty": 1},
+        {"id": "P04-V03", "stem": "She is one of the ___ (good) dancers in our school.", "answer": "best", "analysis": "one of + the + 最高级，good 最高级为 best。", "knowledgePoint": "形容词最高级", "difficulty": 2},
+        {"id": "P04-V04", "stem": "They ___ (success) held the show last week.", "answer": "successfully", "analysis": "修饰动词 held 用副词 successfully。", "knowledgePoint": "名词变形容词/副词", "difficulty": 2},
+        {"id": "P04-V05", "stem": "We should protect ___ (tradition) culture.", "answer": "traditional", "analysis": "修饰名词 culture 用形容词 traditional（传统的）。", "knowledgePoint": "名词变形容词", "difficulty": 1},
+        {"id": "P04-V06", "stem": "It took them three days ___ (complete) the work.", "answer": "to complete", "analysis": "It takes sb. some time to do 固定句型，用不定式。", "knowledgePoint": "非谓语动词", "difficulty": 2}
+      ]
+    },
+    {
+      "type": "blank_filling",
+      "name": "短文填空",
+      "passage": "Wang is a master of wood carving. He started to learn it when he was a ___ (1) ___ (young) boy. His teacher was very ___ (2) ___ (strict) with him. At that time, few young people were ___ (3) ___ (interest) in the old skill. But Wang never stopped. Now his works are ___ (4) ___ (sell) all over the world. He believes art can bring people ___ (5) ___ (happy). He also trains students so that the skill will be kept ___ (6) ___ (live).",
+      "scorePerQuestion": 1,
+      "questions": [
+        {"id": "P04-BF01", "blankLabel": "(1)", "answer": "young", "analysis": "a young boy 为固定表达，young 无需变形。", "knowledgePoint": "形容词", "difficulty": 1},
+        {"id": "P04-BF02", "blankLabel": "(2)", "answer": "strict", "analysis": "be strict with 固定搭配'对…严格'，strict 无需变形。", "knowledgePoint": "固定搭配", "difficulty": 1},
+        {"id": "P04-BF03", "blankLabel": "(3)", "answer": "interested", "analysis": "be interested in 固定搭配'对…感兴趣'。", "knowledgePoint": "固定搭配", "difficulty": 1},
+        {"id": "P04-BF04", "blankLabel": "(4)", "answer": "sold", "analysis": "works 与 sell 为被动，are sold（被销售）。", "knowledgePoint": "被动语态", "difficulty": 2},
+        {"id": "P04-BF05", "blankLabel": "(5)", "answer": "happiness", "analysis": "bring sb. + 名词，happy→happiness（幸福）。", "knowledgePoint": "形容词变名词", "difficulty": 2},
+        {"id": "P04-BF06", "blankLabel": "(6)", "answer": "alive", "analysis": "keep + 宾语 + 形容词，live→alive（保持活力/存续）。", "knowledgePoint": "形容词", "difficulty": 2}
+      ]
+    },
+    {
+      "type": "task_reading",
+      "name": "阅读与回答问题",
+      "passage": "Chen Zhen is a 70-year-old paper-cut artist. She has made paper-cuts for over 50 years. Every spring, she teaches children in her village for free. 'I want the red paper to bring joy to more people,' she says. Her works show birds, flowers and folk stories. Many schools now invite her to give lessons.",
+      "scorePerQuestion": 2,
+      "questions": [
+        {"id": "P04-T01", "stem": "How long has Chen Zhen made paper-cuts?", "answer": "For over 50 years.", "analysis": "细节定位第二句。", "skill": "信息提取", "difficulty": 1},
+        {"id": "P04-T02", "stem": "Who does she teach in spring?", "answer": "Children in her village.", "analysis": "细节第三句。", "skill": "信息提取", "difficulty": 1},
+        {"id": "P04-T03", "stem": "What do her works show?", "answer": "Birds, flowers and folk stories.", "analysis": "细节第四句。", "skill": "信息提取", "difficulty": 2},
+        {"id": "P04-T04", "stem": "Why does she teach for free?", "answer": "Because she wants the red paper to bring joy to more people.", "analysis": "直接引用人物话语。", "skill": "推理/主旨", "difficulty": 2}
+      ]
+    },
+    {
+      "type": "writing",
+      "id": "P04-W",
+      "name": "书面表达",
+      "score": 25,
+      "prompt": "你们学校将举办“传统文化周”，请你用英文写一篇短文介绍一项中国传统手艺（如剪纸、书法或刺绣），说明其特点与意义。",
+      "requirements": ["80词左右", "包含手艺名称、特点与意义", "语言通顺"],
+      "referenceOutline": "第一段：点明手艺名称；第二段：特点（如用料、图案、传承）；第三段：文化意义（连接传统、带来美感）。",
+      "referenceVersion": "Paper-cutting is a traditional Chinese art with a history of over 1,500 years. Artists use red paper and scissors to make flowers, birds and characters. It is often seen on windows during the Spring Festival, bringing good luck. I think this art is beautiful and meaningful. It connects us to our culture and shows the wisdom of Chinese people. We should learn and pass it on.",
+      "analysis": "评分要点：手艺名称明确、特点具体、点出文化意义、连接词使用；常见失分：泛泛而谈无细节、时态混乱、词数不足。"
+    }
+  ]
+}

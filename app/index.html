@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>南通中考英语 · 模拟训练</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo">NT</span>
+      <div>
+        <h1>南通中考英语 · 模拟训练</h1>
+        <p class="sub">原创模拟卷 · 五维标签 · 专项训练</p>
+      </div>
+    </div>
+    <nav class="tabs" id="tabs">
+      <button class="tab active" data-mode="home">首页</button>
+      <button class="tab" data-mode="mock">整卷模考</button>
+      <button class="tab" data-mode="practice">专项训练</button>
+      <button class="tab" data-mode="wrong">错题本 <span id="wrongCount" class="badge">0</span></button>
+      <button class="tab" data-mode="profile">我的</button>
+    </nav>
+    <div class="auth" id="authArea"></div>
+  </header>
+
+  <!-- 登录 / 注册弹窗 -->
+  <div id="authModal" class="modal-mask">
+    <div class="modal">
+      <h2 id="authTitle">登录账号</h2>
+      <div class="seg">
+        <button class="seg-btn active" data-auth="login">登录</button>
+        <button class="seg-btn" data-auth="reg">注册</button>
+      </div>
+      <input id="authUser" class="auth-input" placeholder="用户名" autocomplete="username" />
+      <input id="authPw" class="auth-input" type="password" placeholder="密码（至少 3 位）" autocomplete="current-password" />
+      <button class="btn wide" id="authSubmit">登录</button>
+      <button class="btn ghost wide" id="authCancel">取消</button>
+      <p class="muted" style="font-size:12px;text-align:center;margin:6px 0 0">
+        账号与错题均保存在本机浏览器（localStorage），不会上传服务器。
+      </p>
+    </div>
+  </div>
+
+  <main id="app" class="container"><!-- 动态渲染 --></main>
+
+  <!-- 画像编辑弹窗 -->
+  <div id="profileModal" class="modal-mask">
+    <div class="modal wide">
+      <h2>完善我的画像</h2>
+      <p class="muted">画像用于个性化练习建议，仅保存在本机，随账号隔离。</p>
+
+      <div class="pf-row">
+        <span class="pf-label">头像</span>
+        <div id="pfAvatars" class="avatars"></div>
+        <input id="pfAvatar" class="auth-input" style="width:84px" />
+      </div>
+
+      <div class="pf-row">
+        <span class="pf-label">学段</span>
+        <select id="pfGrade" class="auth-input">
+          <option>初一</option><option>初二</option><option>初三</option><option>其他</option>
+        </select>
+      </div>
+
+      <div class="pf-row">
+        <span class="pf-label">目标分</span>
+        <input id="pfTarget" class="auth-input" type="number" min="0" max="120" style="width:96px" />
+        <span class="muted">/ 120</span>
+      </div>
+
+      <div class="filter-group"><h4>快速画像预设</h4>
+        <div class="chips" id="pfPresets">
+          <span class="chip" data-preset="sprint">冲刺重点高中</span>
+          <span class="chip" data-preset="steady">稳步提升</span>
+          <span class="chip" data-preset="start">基础起步</span>
+        </div>
+      </div>
+
+      <div class="filter-group"><h4>学习目标（可多选）</h4>
+        <div class="chips" id="pfGoals">
+          <span class="chip" data-val="巩固基础">巩固基础</span>
+          <span class="chip" data-val="专项突破">专项突破</span>
+          <span class="chip" data-val="冲刺高分">冲刺高分</span>
+          <span class="chip" data-val="应付考试">应付考试</span>
+        </div>
+      </div>
+
+      <div class="filter-group"><h4>自述薄弱点（可多选）</h4>
+        <div class="chips" id="pfWeak"><!-- 由 JS 注入知识点标签 --></div>
+      </div>
+
+      <button class="btn wide" id="pfSubmit">保存画像</button>
+      <button class="btn ghost wide" id="pfCancel">取消</button>
+    </div>
+  </div>
+
+  <div id="toast" class="toast"></div>
+
+  <script src="./app.js"></script>
+</body>
+</html>

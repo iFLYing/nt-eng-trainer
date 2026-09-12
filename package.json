@@ -1,0 +1,16 @@
+{
+  "name": "nt-eng-trainer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "南通中考英语模拟训练系统 · 前端 + 后端（Render Web Service 部署，Node + SQLite/Postgres 双模式）",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node --experimental-sqlite server.mjs"
+  },
+  "dependencies": {
+    "pg": "^8.13.1"
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "id": "P01",
+  "title": "南通市中考英语模拟试卷（一）",
+  "paperIndex": 1,
+  "totalScore": 120,
+  "durationMinutes": 120,
+  "theme": "传统文化与成长",
+  "structureNote": "按2025南通改革结构精简：覆盖全部7大题型，题量约为真实卷2/3，用于日常训练与App题库。",
+  "sections": [
+    {
+      "type": "single_choice",
+      "name": "单项选择",
+      "scorePerQuestion": 1,
+      "questions": [
+        {
+          "id": "P01-S01",
+          "stem": "—How long ___ you ___ English? —For three years.",
+          "options": ["A. have; learned", "B. did; learn", "C. do; learn", "D. are; learning"],
+          "answer": "A",
+          "analysis": "考查现在完成时。'For three years' 为延续性时间状语，需用 have/has + 过去分词；主语 you 用 have。",
+          "knowledgePoint": "现在完成时",
+          "difficulty": 2,
+          "topic": "时态"
+        },
+        {
+          "id": "P01-S02",
+          "stem": "The moonlight goes ___ the window and makes the room bright.",
+          "options": ["A. across", "B. through", "C. over", "D. past"],
+          "answer": "B",
+          "analysis": "考查介词。月光'从窗户内部穿过'用 through；across 指表面穿过，over 指越过，past 指经过。",
+          "knowledgePoint": "介词辨析",
+          "difficulty": 2,
+          "topic": "介词"
+        },
+        {
+          "id": "P01-S03",
+          "stem": "—___ I use your bike? —Sure, here you are.",
+          "options": ["A. Must", "B. Should", "C. May", "D. Need"],
+          "answer": "C",
+          "analysis": "考查情态动词。请求许可且语气委婉用 May I...?；Must 表必须，Need 表需要，均不符语境。",
+          "knowledgePoint": "情态动词",
+          "difficulty": 1,
+          "topic": "情景交际"
+        },
+        {
+          "id": "P01-S04",
+          "stem": "My little brother enjoys ___ model planes in his free time.",
+          "options": ["A. make", "B. makes", "C. making", "D. to make"],
+          "answer": "C",
+          "analysis": "考查非谓语动词。enjoy 后接动名词 doing，固定搭配 enjoy doing sth.",
+          "knowledgePoint": "非谓语动词",
+          "difficulty": 2,
+          "topic": "非谓语"
+        },
+        {
+          "id": "P01-S05",
+          "stem": "—Thank you for helping me with my homework. —___",
+          "options": ["A. Never mind", "B. You're welcome", "C. That's right", "D. All right"],
+          "answer": "B",
+          "analysis": "考查情景交际。回应感谢用 You're welcome；Never mind 用于安慰或回应道歉。",
+          "knowledgePoint": "情景交际",
+          "difficulty": 1,
+          "topic": "情景交际"
+        },
+        {
+          "id": "P01-S06",
+          "stem": "Can you ___ the difference between the twins? They look so similar.",
+          "options": ["A. say", "B. speak", "C. tell", "D. talk"],
+          "answer": "C",
+          "analysis": "考查动词辨析。tell the difference 为固定搭配，意为'辨别差异'；say/speak/talk 无此用法。",
+          "knowledgePoint": "词汇辨析",
+          "difficulty": 2,
+          "topic": "词汇"
+        },
+        {
+          "id": "P01-S07",
+          "stem": "It was raining heavily, ___ we had to stay at home.",
+          "options": ["A. but", "B. because", "C. so", "D. though"],
+          "answer": "C",
+          "analysis": "考查连词。前后为因果关系（雨大→只能待在家），用 so 表结果；because 表原因需置于前因。",
+          "knowledgePoint": "连词",
+          "difficulty": 2,
+          "topic": "连词"
+        },
+        {
+          "id": "P01-S08",
+          "stem": "After practicing for a month, he plays basketball ___ than before.",
+          "options": ["A. well", "B. good", "C. better", "D. best"],
+          "answer": "C",
+          "analysis": "考查比较级。than 前用比较级，good/well 的比较级为 better。",
+          "knowledgePoint": "形容词副词比较级",
+          "difficulty": 2,
+          "topic": "比较级"
+        },
+        {
+          "id": "P01-S09",
+          "stem": "Could you tell me ___ the nearest hospital is?",
+          "options": ["A. what", "B. where", "C. how", "D. that"],
+          "answer": "B",
+          "analysis": "考查宾语从句。从句缺地点状语（医院'在哪里'），用 where 引导且用陈述语序。",
+          "knowledgePoint": "宾语从句",
+          "difficulty": 2,
+          "topic": "从句"
+        },
+        {
+          "id": "P01-S10",
+          "stem": "The weather in Nantong is nicer than ___ in Beijing in spring.",
+          "options": ["A. it", "B. this", "C. that", "D. one"],
+          "answer": "C",
+          "analysis": "考查代词。比较结构中用 that 指代前文同类异物（weather）；it 指代同一事物，one 指代单数可数名词。",
+          "knowledgePoint": "代词",
+          "difficulty": 3,
+          "topic": "代词"
+        }
+      ]
+    },
+    {
+      "type": "cloze",
+      "name": "完形填空",
+      "passage": "Last winter holiday, I learned to make paper cuttings from my grandmother. At first, it was not easy. The red paper was thin and my hands were not ____(1)____ enough. I made many mistakes and wanted to ____(2)____. But Grandma smiled and said, 'Patience is the ____(3)____ to art.' She showed me how to hold the scissors ____(4)____. Day by day, I became better. Now I can cut beautiful flowers and birds. I feel ____(5)____ when I give them to my friends. This traditional skill teaches me to be ____(6)____. It also helps me understand Chinese ____(7)____ better. I hope to ____(8)____ it with more young people.",
+      "scorePerQuestion": 1,
+      "questions": [
+        {"id": "P01-C01", "blankLabel": "(1)", "options": ["A. strong", "B. quick", "C. steady", "D. clever"], "answer": "C", "analysis": "剪纸需手'稳'，steady 符合语境；strong 强、quick 快、clever 聪明均不贴切。", "knowledgePoint": "形容词辨析", "difficulty": 2, "topic": "完形·传统文化"},
+        {"id": "P01-C02", "blankLabel": "(2)", "options": ["A. give up", "B. go on", "C. come back", "D. look out"], "answer": "A", "analysis": "前文'犯了好多错'自然想'放弃'，give up 符合；go on 继续、come back 回来、look out 小心。", "knowledgePoint": "动词短语", "difficulty": 2, "topic": "完形·传统文化"},
+        {"id": "P01-C03", "blankLabel": "(3)", "options": ["A. way", "B. key", "C. door", "D. answer"], "answer": "B", "analysis": "the key to ... 为固定搭配，意为'…的关键'。", "knowledgePoint": "固定搭配", "difficulty": 2, "topic": "完形·传统文化"},
+        {"id": "P01-C04", "blankLabel": "(4)", "options": ["A. happily", "B. carefully", "C. quickly", "D. loudly"], "answer": "B", "analysis": "剪纸需'小心地'握剪刀，carefully 符合；happily 开心地、quickly 快地、loudly 大声地均不符。", "knowledgePoint": "副词辨析", "difficulty": 2, "topic": "完形·传统文化"},
+        {"id": "P01-C05", "blankLabel": "(5)", "options": ["A. sad", "B. tired", "C. proud", "D. bored"], "answer": "C", "analysis": "把作品送给朋友时应感到'自豪'，proud 符合；sad 难过、tired 累、bored 无聊不符。", "knowledgePoint": "形容词辨析", "difficulty": 2, "topic": "完形·传统文化"},
+        {"id": "P01-C06", "blankLabel": "(6)", "options": ["A. patient", "B. active", "C. brave", "D. free"], "answer": "A", "analysis": "前文 Grandma 强调 patience，此处呼应'学会耐心'，patient 符合。", "knowledgePoint": "形容词辨析", "difficulty": 2, "topic": "完形·传统文化"},
+        {"id": "P01-C07", "blankLabel": "(7)", "options": ["A. food", "B. culture", "C. music", "D. science"], "answer": "B", "analysis": "剪纸是传统'文化'，culture 符合；food 食物、music 音乐、science 科学不符。", "knowledgePoint": "名词辨析", "difficulty": 2, "topic": "完形·传统文化"},
+        {"id": "P01-C08", "blankLabel": "(8)", "options": ["A. share", "B. compare", "C. argue", "D. fight"], "answer": "A", "analysis": "'与更多年轻人分享'用 share，符合传承语境；compare 比较、argue 争论、fight 打架不符。", "knowledgePoint": "动词辨析", "difficulty": 2, "topic": "完形·传统文化"}
+      ]
+    },
+    {
+      "type": "reading",
+      "name": "阅读理解",
+      "passages": [
+        {
+          "subId": "A",
+          "genre": "应用文",
+          "title": "Sunshine English Club Recruitment",
+          "body": "Sunshine English Club is looking for new members!\n● Who: Students in Grade 7–9 who love English.\n● Activities: English movies, role-play, and a weekly speech show.\n● Time: Every Friday 4:00–5:00 p.m.\n● Place: School Library, Room 205.\n● Fee: Free.\n● How to join: Send an email to englishclub@school.com before September 30.\nCome and improve your English with us!",
+          "questions": [
+            {"id": "P01-R-A1", "stem": "Who can join the club?", "options": ["A. All students", "B. Students in Grade 7–9 who love English", "C. Only teachers", "D. Parents"], "answer": "B", "analysis": "细节题。海报'Who'一行明确为 Grade 7–9 且热爱英语的学生。", "skill": "细节理解", "difficulty": 1},
+            {"id": "P01-R-A2", "stem": "When is the club activity?", "options": ["A. Every Monday morning", "B. Every Friday 4:00–5:00 p.m.", "C. Every weekend", "D. Once a month"], "answer": "B", "analysis": "细节题。'Time'一行写明每周五下午 4–5 点。", "skill": "细节理解", "difficulty": 1},
+            {"id": "P01-R-A3", "stem": "How can a student join?", "options": ["A. Go to Room 205 directly", "B. Pay 10 yuan", "C. Send an email before Sept 30", "D. Call the teacher"], "answer": "C", "analysis": "细节题。'How to join'写明九月三十日前发邮件；Fee 为 Free 排除付费。", "skill": "细节理解", "difficulty": 1}
+          ]
+        },
+        {
+          "subId": "B",
+          "genre": "记叙文",
+          "title": "Li Ming and His Calligraphy",
+          "body": "Li Ming, a 14-year-old boy, used to dislike writing. His handwriting was messy, and he felt ashamed. One day, his grandfather gave him a brush and said, 'Good writing needs a calm heart.' Li Ming started to practice calligraphy every evening. At first, his words looked ugly, and his friends laughed at him. But he didn't give up. Half a year later, he won first prize in the school writing contest. Now he understands that patience and practice can change a person. He also helps younger students learn calligraphy.",
+          "questions": [
+            {"id": "P01-R-B1", "stem": "Why did Li Ming dislike writing at first?", "options": ["A. He had no brush", "B. His handwriting was messy", "C. His teacher was strict", "D. He was too busy"], "answer": "B", "analysis": "细节题。首段'His handwriting was messy, and he felt ashamed'说明起因。", "skill": "细节理解", "difficulty": 1},
+            {"id": "P01-R-B2", "stem": "What did his grandfather tell him?", "options": ["A. Writing is useless", "B. Good writing needs a calm heart", "C. Practice makes perfect", "D. Don't care about others"], "answer": "B", "analysis": "细节题。祖父原话'Good writing needs a calm heart.'", "skill": "细节理解", "difficulty": 1},
+            {"id": "P01-R-B3", "stem": "What can we learn from Li Ming's story?", "options": ["A. Laughing at others is fun", "B. Patience and practice change a person", "C. Contests are unfair", "D. Handwriting is not important"], "answer": "B", "analysis": "主旨/推理题。末段点明'patience and practice can change a person'，为文章升华主题。", "skill": "主旨大意", "difficulty": 2}
+          ]
+        },
+        {
+          "subId": "C",
+          "genre": "七选五",
+          "title": "How to Improve Your English",
+          "body": "English is useful, but many students find it hard. Here are some ways to help you.\n____(1)____ Read English stories or news every day, even for ten minutes. It builds your sense of the language.\n____(2)____ Don't be afraid of making mistakes. Speak with classmates or record your own voice.\n____(3)____ Keep a small notebook for new words and review them often.\n____(4)____ Watching English cartoons helps you learn how words are used in life.\n____(5)____ Learning takes time, so keep going and you will see progress.",
+          "options": ["A. Listen to English songs and watch cartoons.", "B. Read a little every day.", "C. Practice speaking bravely.", "D. Write down new words.", "E. Never give up easily.", "F. Join an English club."],
+          "questions": [
+            {"id": "P01-R-C1", "stem": "空白 (1) 应选", "answer": "B", "analysis": "后句'Read English stories... every day'对应'每天读一点'，B 为段落主旨。", "skill": "逻辑衔接", "difficulty": 2},
+            {"id": "P01-R-C2", "stem": "空白 (2) 应选", "answer": "C", "analysis": "后文'Don't be afraid of making mistakes... Speak'对应'勇敢练习说'，C 匹配。", "skill": "逻辑衔接", "difficulty": 2},
+            {"id": "P01-R-C3", "stem": "空白 (3) 应选", "answer": "D", "analysis": "后文'notebook for new words... review'对应'记下新单词'，D 匹配。", "skill": "逻辑衔接", "difficulty": 2},
+            {"id": "P01-R-C4", "stem": "空白 (4) 应选", "answer": "A", "analysis": "后文'Watching English cartoons'对应'听歌看卡通'，A 匹配。", "skill": "逻辑衔接", "difficulty": 2},
+            {"id": "P01-R-C5", "stem": "空白 (5) 应选", "answer": "E", "analysis": "后文'keep going... see progress'对应'不要轻易放弃'，E 匹配；F 为干扰项（未提及 club）。", "skill": "逻辑衔接", "difficulty": 3}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "name": "词汇运用",
+      "scorePerQuestion": 1,
+      "questions": [
+        {"id": "P01-V01", "stem": "We should listen to the teacher ___ (careful) in class.", "answer": "carefully", "analysis": "修饰动词 listen 用副词，careful→carefully。", "knowledgePoint": "形容词变副词", "difficulty": 1},
+        {"id": "P01-V02", "stem": "My cousin ___ (visit) the museum next weekend.", "answer": "will visit", "analysis": "时间 next weekend 表将来，用一般将来时 will visit / is going to visit。", "knowledgePoint": "动词时态", "difficulty": 2},
+        {"id": "P01-V03", "stem": "There are many ___ (difference) between the two pictures.", "answer": "differences", "analysis": "many 后接可数名词复数，difference→differences。", "knowledgePoint": "名词复数", "difficulty": 1},
+        {"id": "P01-V04", "stem": "The book is ___ (use) because it helps me a lot.", "answer": "useful", "analysis": "作表语用形容词，use→useful（有用的）。", "knowledgePoint": "名词变形容词", "difficulty": 2},
+        {"id": "P01-V05", "stem": "They ___ (finish) the project yesterday.", "answer": "finished", "analysis": "yesterday 表过去，动词用过去式 finish→finished。", "knowledgePoint": "动词过去式", "difficulty": 1},
+        {"id": "P01-V06", "stem": "It's important ___ (read) more books.", "answer": "to read", "analysis": "It's + adj. + to do 固定句型，用不定式。", "knowledgePoint": "非谓语动词", "difficulty": 2}
+      ]
+    },
+    {
+      "type": "blank_filling",
+      "name": "短文填空",
+      "passage": "In our city, more people choose to go to work by ____(1)____ to protect the environment. Riding a bike not only ____(2)____ energy but also keeps us ____(3)____. We should also learn to ____(4)____ things in daily life. For example, we can use both ____(5)____ of the paper. Small actions can make a big ____(6)____.",
+      "scorePerQuestion": 1,
+      "questions": [
+        {"id": "P01-BF01", "blankLabel": "(1)", "answer": "bike", "analysis": "后句'Riding a bike'提示填 bike（固定表达 by bike）。", "knowledgePoint": "上下文/无提示", "difficulty": 1},
+        {"id": "P01-BF02", "blankLabel": "(2)", "answer": "saves", "analysis": "主语 riding a bike 单数，一般现在时动词用 saves。", "knowledgePoint": "主谓一致/时态", "difficulty": 2},
+        {"id": "P01-BF03", "blankLabel": "(3)", "answer": "healthy", "analysis": "keep + sb. + adj.，health→healthy（保持健康）。", "knowledgePoint": "名词变形容词", "difficulty": 2},
+        {"id": "P01-BF04", "blankLabel": "(4)", "answer": "reuse", "analysis": "环保语境'重复使用'，reuse 符合。", "knowledgePoint": "语境/词汇", "difficulty": 2},
+        {"id": "P01-BF05", "blankLabel": "(5)", "answer": "sides", "analysis": "both 后接复数，side→sides（纸的两面）。", "knowledgePoint": "名词复数", "difficulty": 1},
+        {"id": "P01-BF06", "blankLabel": "(6)", "answer": "difference", "analysis": "make a difference 固定搭配'起作用/有影响'。", "knowledgePoint": "固定搭配", "difficulty": 2}
+      ]
+    },
+    {
+      "type": "task_reading",
+      "name": "阅读与回答问题",
+      "passage": "Li Hua is a junior high school student. Every Sunday, he volunteers at an old people's home near his school. He helps the old clean their rooms and reads newspapers for them. Sometimes he plays chess with Grandpa Wang. 'I feel happy when I help others,' Li Hua says. 'Volunteering teaches me to care about people around me.'",
+      "scorePerQuestion": 2,
+      "questions": [
+        {"id": "P01-T01", "stem": "Where does Li Hua volunteer?", "answer": "At an old people's home (near his school).", "analysis": "细节定位首句。", "skill": "信息提取", "difficulty": 1},
+        {"id": "P01-T02", "stem": "How often does he go there?", "answer": "Every Sunday. / Once a week.", "analysis": "细节'Every Sunday'。", "skill": "信息提取", "difficulty": 1},
+        {"id": "P01-T03", "stem": "What does he do there?", "answer": "He helps clean rooms, reads newspapers and plays chess.", "analysis": "综合第二、三句。", "skill": "信息提取", "difficulty": 2},
+        {"id": "P01-T04", "stem": "Why does he like volunteering?", "answer": "Because it makes him happy and teaches him to care about others.", "analysis": "末句直接引用。", "skill": "推理/主旨", "difficulty": 2}
+      ]
+    },
+    {
+      "type": "writing",
+      "id": "P01-W",
+      "name": "书面表达",
+      "score": 25,
+      "prompt": "假定你是李华，你的英国笔友 Tom 想了解中国的传统节日。请你写一封邮件向他介绍春节（the Spring Festival），内容包括：1. 春节的时间；2. 主要活动（吃团圆饭、贴春联、收红包等）；3. 你的感受。",
+      "requirements": ["80词左右", "要点齐全，可适当发挥", "语言通顺，使用连接词"],
+      "referenceOutline": "要点1 时间（农历正月初一/一月或二月）；要点2 活动（family dinner, put up couplets, get red packets）；要点3 感受（warm, happy, my favourite festival）",
+      "referenceVersion": "Dear Tom, I'm glad to tell you about the Spring Festival, the most important traditional festival in China. It usually comes in January or February. On that day, families get together and enjoy a big dinner. We put up red couplets on the doors and children can get red packets from elders. I feel warm and happy because it's a time full of love. It's my favourite festival. Hope you can experience it one day! Yours, Li Hua",
+      "analysis": "评分要点：覆盖三要点、时态以一般现在时为主、使用连接词（and, because）、词数达标；常见失分：遗漏要点、中式英语、时态混乱。"
+    }
+  ]
+}

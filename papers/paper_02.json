@@ -1,0 +1,130 @@
+{
+  "id": "P02",
+  "title": "南通市中考英语模拟试卷（二）",
+  "paperIndex": 2,
+  "totalScore": 120,
+  "durationMinutes": 120,
+  "theme": "科技·AI学习与低碳环保",
+  "structureNote": "按2025南通改革结构精简：覆盖全部7大题型。",
+  "sections": [
+    {
+      "type": "single_choice",
+      "name": "单项选择",
+      "scorePerQuestion": 1,
+      "questions": [
+        {"id": "P02-S01", "stem": "Many useful apps ___ by Chinese developers every year.", "options": ["A. are created", "B. were created", "C. created", "D. have created"], "answer": "A", "analysis": "考查被动语态。every year 表经常性，用一般现在时被动；apps 复数→are created。", "knowledgePoint": "被动语态", "difficulty": 2, "topic": "语态"},
+        {"id": "P02-S02", "stem": "The AI tool ___ I used yesterday is very helpful.", "options": ["A. who", "B. which", "C. what", "D. where"], "answer": "B", "analysis": "考查定语从句。先行词 tool 指物，用 which/that 引导。", "knowledgePoint": "定语从句", "difficulty": 2, "topic": "从句"},
+        {"id": "P02-S03", "stem": "If it ___ rainy tomorrow, we will have the meeting online.", "options": ["A. is", "B. will be", "C. was", "D. has been"], "answer": "A", "analysis": "考查状语从句。if 条件句遵循主将从现，从句用一般现在时。", "knowledgePoint": "状语从句", "difficulty": 2, "topic": "从句"},
+        {"id": "P02-S04", "stem": "You ___ park here. There is a 'No Parking' sign.", "options": ["A. can't", "B. needn't", "C. mustn't", "D. shouldn't"], "answer": "C", "analysis": "考查情态动词。标志牌禁止停车，用 mustn't 表'禁止'。", "knowledgePoint": "情态动词", "difficulty": 2, "topic": "情态动词"},
+        {"id": "P02-S05", "stem": "We usually have a school meeting ___ Monday morning.", "options": ["A. in", "B. on", "C. at", "D. for"], "answer": "B", "analysis": "考查介词。具体某天的上午用 on。", "knowledgePoint": "介词", "difficulty": 1, "topic": "介词"},
+        {"id": "P02-S06", "stem": "Scientists ___ a new way to turn used plastic into fuel.", "options": ["A. invented", "B. discovered", "C. created", "D. found"], "answer": "B", "analysis": "考查动词辨析。discover 指'发现'原本存在的事物/方法；invent 指发明新事物。", "knowledgePoint": "词汇辨析", "difficulty": 2, "topic": "词汇"},
+        {"id": "P02-S07", "stem": "With the new method, the work becomes much ___ than before.", "options": ["A. easy", "B. easier", "C. easiest", "D. more easy"], "answer": "B", "analysis": "考查比较级。than 前用比较级，easy 的比较级为 easier。", "knowledgePoint": "形容词比较级", "difficulty": 2, "topic": "比较级"},
+        {"id": "P02-S08", "stem": "Please remember ___ off the lights when you leave.", "options": ["A. turn", "B. to turn", "C. turning", "D. turned"], "answer": "B", "analysis": "考查非谓语动词。remember to do 指'记得去做（尚未做）'。", "knowledgePoint": "非谓语动词", "difficulty": 2, "topic": "非谓语"},
+        {"id": "P02-S09", "stem": "—Could you help me carry the box? —___", "options": ["A. Not at all", "B. Of course", "C. That's right", "D. You're welcome"], "answer": "B", "analysis": "考查情景交际。回应求助且乐意帮忙用 Of course。", "knowledgePoint": "情景交际", "difficulty": 1, "topic": "情景交际"},
+        {"id": "P02-S10", "stem": "Some students like reading, while ___ prefer sports.", "options": ["A. other", "B. others", "C. the other", "D. another"], "answer": "B", "analysis": "考查代词。others = other students，与前面的 some 对应。", "knowledgePoint": "代词", "difficulty": 2, "topic": "代词"}
+      ]
+    },
+    {
+      "type": "cloze",
+      "name": "完形填空",
+      "passage": "When I was in Grade 7, I found English very difficult. I was afraid to speak in class because I made many ___ (1) ___. Then my teacher introduced an AI app to me. It could correct my pronunciation and explain grammar ___ (2) ___. At first, I thought it was just a ___ (3) ___ and wouldn't help much. But after a month, my scores went ___ (4) ___. The app didn't do the work for me; it taught me how to ___ (5) ___. However, my teacher warned us not to ___ (6) ___ too much on it. 'Technology is a tool, not a ___ (7) ___,' she said. Now I use AI wisely and enjoy learning. I believe a good learner knows how to ___ (8) ___ the best of technology.",
+      "scorePerQuestion": 1,
+      "questions": [
+        {"id": "P02-C01", "blankLabel": "(1)", "options": ["A. friends", "B. mistakes", "C. noises", "D. plans"], "answer": "B", "analysis": "前文'不敢开口'是因为常犯'错误'，mistakes 符合。", "knowledgePoint": "名词辨析", "difficulty": 2, "topic": "完形·科技"},
+        {"id": "P02-C02", "blankLabel": "(2)", "options": ["A. clearly", "B. loudly", "C. angrily", "D. secretly"], "answer": "A", "analysis": "AI'清晰地'讲解语法，clearly 符合语境。", "knowledgePoint": "副词辨析", "difficulty": 2, "topic": "完形·科技"},
+        {"id": "P02-C03", "blankLabel": "(3)", "options": ["A. game", "B. gift", "C. problem", "D. dream"], "answer": "A", "analysis": "起初以为它只是个'游戏'，game 符合'不会有多大帮助'的轻视语气。", "knowledgePoint": "名词辨析", "difficulty": 2, "topic": "完形·科技"},
+        {"id": "P02-C04", "blankLabel": "(4)", "options": ["A. down", "B. up", "C. out", "D. away"], "answer": "B", "analysis": "成绩'提高'用 go up，与后文 improved 呼应。", "knowledgePoint": "动词短语", "difficulty": 2, "topic": "完形·科技"},
+        {"id": "P02-C05", "blankLabel": "(5)", "options": ["A. play", "B. learn", "C. sleep", "D. eat"], "answer": "B", "analysis": "App 教我如何'学习'，learn 符合。", "knowledgePoint": "动词辨析", "difficulty": 2, "topic": "完形·科技"},
+        {"id": "P02-C06", "blankLabel": "(6)", "options": ["A. depend", "B. spend", "C. take", "D. put"], "answer": "A", "analysis": "depend on 固定搭配，意为'依赖'；老师提醒不要过度依赖。", "knowledgePoint": "固定搭配", "difficulty": 2, "topic": "完形·科技"},
+        {"id": "P02-C07", "blankLabel": "(7)", "options": ["A. teacher", "B. student", "C. friend", "D. parent"], "answer": "A", "analysis": "老师强调科技是工具而非'老师'，teacher 符合。", "knowledgePoint": "名词辨析", "difficulty": 2, "topic": "完形·科技"},
+        {"id": "P02-C08", "blankLabel": "(8)", "options": ["A. make", "B. take", "C. get", "D. put"], "answer": "A", "analysis": "make the best of 为固定搭配，意为'充分利用'。", "knowledgePoint": "固定搭配", "difficulty": 3, "topic": "完形·科技"}
+      ]
+    },
+    {
+      "type": "reading",
+      "name": "阅读理解",
+      "passages": [
+        {
+          "subId": "A", "genre": "应用文", "title": "Green Tech Summer Camp",
+          "body": "Want to learn about robots and green energy? Join our Green Tech Summer Camp!\n● Date: July 10–15\n● Place: City Science Museum\n● Activities: Build a small robot, visit a solar power station, make a recycled model.\n● Cost: 200 yuan (lunch included)\n● Sign up: Fill the form at the school office before July 1.\nSeats are limited!",
+          "questions": [
+            {"id": "P02-R-A1", "stem": "What can students do at the camp?", "options": ["A. Build a robot and visit a solar station", "B. Learn to swim", "C. Cook food", "D. Watch TV"], "answer": "A", "analysis": "细节题。Activities 一行列出建机器人、参观太阳能站、做回收模型。", "skill": "细节理解", "difficulty": 1},
+            {"id": "P02-R-A2", "stem": "Where is the camp?", "options": ["A. School library", "B. City Science Museum", "C. Park", "D. Cinema"], "answer": "B", "analysis": "细节题。Place 一行写明 City Science Museum。", "skill": "细节理解", "difficulty": 1},
+            {"id": "P02-R-A3", "stem": "How can students sign up?", "options": ["A. Call the museum", "B. Fill the form at school office before July 1", "C. Send an email", "D. Pay online"], "answer": "B", "analysis": "细节题。Sign up 一行写明在校办公室填表且截止 7 月 1 日。", "skill": "细节理解", "difficulty": 1}
+          ]
+        },
+        {
+          "subId": "B", "genre": "记叙文", "title": "My Friend and the AI",
+          "body": "My friend Lucy used to copy answers from an AI tool to finish her homework. Her grades looked good, but she learned little. One day, her teacher found out and said, 'AI should help you think, not think for you.' Lucy felt sorry. She started to use AI only to check her ideas and learn new words. Slowly, she really improved. Now she says, 'I am the boss of the AI, not its follower.'",
+          "questions": [
+            {"id": "P02-R-B1", "stem": "What did Lucy use to do?", "options": ["A. Copy answers from AI", "B. Teach others", "C. Read books", "D. Play sports"], "answer": "A", "analysis": "细节题。首句说明她过去用 AI 抄答案。", "skill": "细节理解", "difficulty": 1},
+            {"id": "P02-R-B2", "stem": "What did the teacher tell her?", "options": ["A. AI is useless", "B. AI should help you think, not think for you", "C. Never use AI", "D. Copy more"], "answer": "B", "analysis": "细节题。老师原话'AI should help you think, not think for you.'", "skill": "细节理解", "difficulty": 1},
+            {"id": "P02-R-B3", "stem": "What does Lucy learn at last?", "options": ["A. AI is the boss", "B. She should be the boss of AI", "C. Homework is useless", "D. Teachers are strict"], "answer": "B", "analysis": "推理题。末句'I am the boss of the AI'点明人应主导 AI。", "skill": "主旨大意", "difficulty": 2}
+          ]
+        },
+        {
+          "subId": "C", "genre": "七选五", "title": "Live a Low-carbon Life",
+          "body": "Our earth is getting warmer. A low-carbon life helps protect it.\n____(1)____ Turn off lights and fans when you leave a room. Small acts save energy.\n____(2)____ Riding a bike or walking is better than driving. It also keeps you fit.\n____(3)____ Take a cloth bag when shopping instead of using plastic bags.\n____(4)____ Reuse paper and bottles, and sort your rubbish.\n____(5)____ If everyone does a little, the world will be a better place.",
+          "options": ["A. Save electricity.", "B. Choose green transport.", "C. Reduce plastic use.", "D. Reuse and recycle.", "E. Start with yourself.", "F. Plant more trees."],
+          "questions": [
+            {"id": "P02-R-C1", "stem": "空白 (1) 应选", "answer": "A", "analysis": "后文'关灯关风扇省电'对应'节约用电'，A 为段落主旨。", "skill": "逻辑衔接", "difficulty": 2},
+            {"id": "P02-R-C2", "stem": "空白 (2) 应选", "answer": "B", "analysis": "后文'骑车或步行优于开车'对应'绿色出行'，B 匹配。", "skill": "逻辑衔接", "difficulty": 2},
+            {"id": "P02-R-C3", "stem": "空白 (3) 应选", "answer": "C", "analysis": "后文'用布袋代替塑料袋'对应'减少塑料使用'，C 匹配。", "skill": "逻辑衔接", "difficulty": 2},
+            {"id": "P02-R-C4", "stem": "空白 (4) 应选", "answer": "D", "analysis": "后文'重复利用、垃圾分类'对应'reuse and recycle'，D 匹配。", "skill": "逻辑衔接", "difficulty": 2},
+            {"id": "P02-R-C5", "stem": "空白 (5) 应选", "answer": "E", "analysis": "后文'每人做一点'对应'从自己做起'，E 匹配；F 为干扰项。", "skill": "逻辑衔接", "difficulty": 3}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "name": "词汇运用",
+      "scorePerQuestion": 1,
+      "questions": [
+        {"id": "P02-V01", "stem": "The film was ___ (interest), so we watched it twice.", "answer": "interesting", "analysis": "修饰物用 -ing 形容词 interesting（令人感兴趣的）。", "knowledgePoint": "形容词 -ing/-ed", "difficulty": 1},
+        {"id": "P02-V02", "stem": "More trees ___ (plant) in our city last year.", "answer": "were planted", "analysis": "trees 与 plant 为被动关系，last year 用一般过去时被动 were planted。", "knowledgePoint": "被动语态", "difficulty": 2},
+        {"id": "P02-V03", "stem": "He is ___ (good) at physics than his brother.", "answer": "better", "analysis": "than 前用比较级，good 的比较级为 better。", "knowledgePoint": "形容词比较级", "difficulty": 1},
+        {"id": "P02-V04", "stem": "We should stop ___ (use) plastic bags.", "answer": "using", "analysis": "stop doing 指'停止正在做的事'，此处停止用塑料袋。", "knowledgePoint": "非谓语动词", "difficulty": 2},
+        {"id": "P02-V05", "stem": "The ___ (invent) of the computer changed the world.", "answer": "invention", "analysis": "定冠词后接名词，invent→invention（发明）。", "knowledgePoint": "动词变名词", "difficulty": 2},
+        {"id": "P02-V06", "stem": "It is necessary ___ (save) water every day.", "answer": "to save", "analysis": "It is + adj. + to do 固定句型，用不定式。", "knowledgePoint": "非谓语动词", "difficulty": 2}
+      ]
+    },
+    {
+      "type": "blank_filling",
+      "name": "短文填空",
+      "passage": "To protect the earth, we should live a ___ (1) ___ life. We can save water by ___ (2) ___ off the tap while brushing teeth. We should also ___ (3) ___ more trees and flowers. Using public transport ___ (4) ___ (help) reduce air pollution. Remember that every small step ___ (5) ___ (make) a difference. Let's act ___ (6) ___ (quick) before it's too late.",
+      "scorePerQuestion": 1,
+      "questions": [
+        {"id": "P02-BF01", "blankLabel": "(1)", "answer": "green", "analysis": "环保语境'绿色生活'，green life 为常见搭配。", "knowledgePoint": "语境/词汇", "difficulty": 1},
+        {"id": "P02-BF02", "blankLabel": "(2)", "answer": "turning", "analysis": "by + doing，turn off 关掉。", "knowledgePoint": "介词+动名词", "difficulty": 2},
+        {"id": "P02-BF03", "blankLabel": "(3)", "answer": "plant", "analysis": "plant trees 种树，should 后接动词原形。", "knowledgePoint": "情态动词+原形", "difficulty": 1},
+        {"id": "P02-BF04", "blankLabel": "(4)", "answer": "helps", "analysis": "主语 using public transport 单数，一般现在时动词用 helps。", "knowledgePoint": "主谓一致", "difficulty": 2},
+        {"id": "P02-BF05", "blankLabel": "(5)", "answer": "makes", "analysis": "主语 every small step 单数，动词用 makes。", "knowledgePoint": "主谓一致", "difficulty": 2},
+        {"id": "P02-BF06", "blankLabel": "(6)", "answer": "quickly", "analysis": "修饰动词 act 用副词，quick→quickly。", "knowledgePoint": "形容词变副词", "difficulty": 1}
+      ]
+    },
+    {
+      "type": "task_reading",
+      "name": "阅读与回答问题",
+      "passage": "Robots are becoming part of our life. In some hospitals, robots help carry medicine to patients. In restaurants, robot waiters can take orders and serve food. A robot named 'Xiaoyi' can even talk with old people and remind them to take medicine. Scientists say robots will do more housework in the future, but they will never replace human love and care.",
+      "scorePerQuestion": 2,
+      "questions": [
+        {"id": "P02-T01", "stem": "Where do some robots help carry medicine?", "answer": "In some hospitals.", "analysis": "细节定位第二句。", "skill": "信息提取", "difficulty": 1},
+        {"id": "P02-T02", "stem": "What can robot waiters do?", "answer": "They can take orders and serve food.", "analysis": "细节第三句。", "skill": "信息提取", "difficulty": 1},
+        {"id": "P02-T03", "stem": "What can 'Xiaoyi' do for old people?", "answer": "It can talk with them and remind them to take medicine.", "analysis": "细节第四句。", "skill": "信息提取", "difficulty": 2},
+        {"id": "P02-T04", "stem": "What can robots never replace according to scientists?", "answer": "Human love and care.", "analysis": "末句直接点明。", "skill": "推理/主旨", "difficulty": 2}
+      ]
+    },
+    {
+      "type": "writing",
+      "id": "P02-W",
+      "name": "书面表达",
+      "score": 25,
+      "prompt": "随着 AI 工具普及，请你给校报写一篇短文，谈谈中学生应如何合理使用 AI（如用于查资料、练口语，但不抄袭、不依赖）。",
+      "requirements": ["80词左右", "观点明确，结构清晰", "使用连接词"],
+      "referenceOutline": "第一段：AI 无处不在，应明智使用；第二段：正面用法（查资料、练口语）+ 反面禁忌（不抄答案、不依赖）；第三段：做 AI 的主人。",
+      "referenceVersion": "With AI tools everywhere, we students should use them wisely. First, we can use AI to look up information and practice spoken English. It saves time and helps us learn. However, we must not copy answers or let AI do our homework. AI is a helpful tool, not our brain. Only by thinking by ourselves can we really improve. Let's be the master of AI!",
+      "analysis": "评分要点：立场明确（合理使用）、正反对比、连接词 however/only by；常见失分：通篇只夸 AI、缺少'不依赖'的约束、词数不足。"
+    }
+  ]
+}

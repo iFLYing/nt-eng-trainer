@@ -1,0 +1,130 @@
+{
+  "id": "P06",
+  "title": "南通市中考英语模拟试卷（六）",
+  "paperIndex": 6,
+  "totalScore": 120,
+  "durationMinutes": 120,
+  "theme": "旅游文化·丝路与跨文化交流",
+  "structureNote": "按2025南通改革结构精简：覆盖全部7大题型。",
+  "sections": [
+    {
+      "type": "single_choice",
+      "name": "单项选择",
+      "scorePerQuestion": 1,
+      "questions": [
+        {"id": "P06-S01", "stem": "We ___ to the Great Wall and took many photos last summer.", "options": ["A. go", "B. went", "C. will go", "D. have gone"], "answer": "B", "analysis": "考查一般过去时。last summer 表过去，动词用过去式 went。", "knowledgePoint": "一般过去时", "difficulty": 2, "topic": "时态"},
+        {"id": "P06-S02", "stem": "Look at the dark clouds. It ___ rain soon.", "options": ["A. is going to", "B. goes to", "C. went", "D. goes"], "answer": "A", "analysis": "考查一般将来时。根据迹象'乌云'判断'即将下雨'，用 be going to。", "knowledgePoint": "一般将来时", "difficulty": 2, "topic": "时态"},
+        {"id": "P06-S03", "stem": "You ___ obey the traffic rules when you cross the road.", "options": ["A. can", "B. may", "C. must", "D. need"], "answer": "C", "analysis": "考查情态动词。交通规则是强制的，用 must（必须）。", "knowledgePoint": "情态动词", "difficulty": 1, "topic": "情态动词"},
+        {"id": "P06-S04", "stem": "Would you mind ___ the window? It's a bit hot.", "options": ["A. open", "B. to open", "C. opening", "D. opened"], "answer": "C", "analysis": "考查非谓语动词。mind 后接动名词 doing，用 opening。", "knowledgePoint": "非谓语动词", "difficulty": 2, "topic": "非谓语"},
+        {"id": "P06-S05", "stem": "He studied hard ___ he could pass the entrance exam.", "options": ["A. so that", "B. because", "C. but", "D. though"], "answer": "A", "analysis": "考查连词。'努力学习'的目的是'通过考试'，用 so that 引导目的状语从句。", "knowledgePoint": "连词", "difficulty": 2, "topic": "连词"},
+        {"id": "P06-S06", "stem": "He improved his English ___ reading English novels aloud.", "options": ["A. by", "B. on", "C. for", "D. with"], "answer": "A", "analysis": "考查介词。表示'通过某种方式'用 by。", "knowledgePoint": "介词", "difficulty": 2, "topic": "介词"},
+        {"id": "P06-S07", "stem": "This math problem is ___ more difficult than that one.", "options": ["A. even", "B. very", "C. too", "D. quite"], "answer": "A", "analysis": "考查比较级修饰语。even 可修饰比较级，表'甚至更…'；very/too/quite 不修饰比较级。", "knowledgePoint": "形容词比较级", "difficulty": 2, "topic": "比较级"},
+        {"id": "P06-S08", "stem": "I ___ a strange noise outside my window last night.", "options": ["A. listened", "B. heard", "C. sounded", "D. sounded like"], "answer": "B", "analysis": "考查动词辨析。hear 强调'听到'的结果；listen 强调'听'的动作。", "knowledgePoint": "词汇辨析", "difficulty": 2, "topic": "词汇"},
+        {"id": "P06-S09", "stem": "—Could you say that again, please? —___", "options": ["A. Sure", "B. No, thanks", "C. You're welcome", "D. That's right"], "answer": "A", "analysis": "考查情景交际。回应'请再说一遍'，用 Sure（当然可以）。", "knowledgePoint": "情景交际", "difficulty": 1, "topic": "情景交际"},
+        {"id": "P06-S10", "stem": "The book on my desk is mine, and ___ on the chair is yours.", "options": ["A. one", "B. it", "C. the one", "D. that"], "answer": "C", "analysis": "考查代词。the one 指代同类单数可数名词（the book on the chair），表特指。", "knowledgePoint": "代词", "difficulty": 3, "topic": "代词"}
+      ]
+    },
+    {
+      "type": "cloze",
+      "name": "完形填空",
+      "passage": "Last summer, I joined a study trip along the Silk Road. We visited old cities and saw ___ (1) ___ we had only read about in books. The guide told us how traders used camels to carry silk and ___ (2) ___ across the desert. I was ___ (3) ___ by the stories of brave travelers. At Dunhuang, we saw beautiful paintings on the cave ___ (4) ___. The trip taught me that different cultures can ___ (5) ___ and learn from each other. It also made me ___ (6) ___ how big and colorful our world is. I took many photos to ___ (7) ___ the memory. This journey was not just a trip, but a lesson about ___ (8) ___.",
+      "scorePerQuestion": 1,
+      "questions": [
+        {"id": "P06-C01", "blankLabel": "(1)", "options": ["A. places", "B. books", "C. people", "D. songs"], "answer": "A", "analysis": "看到书里读过的'地方'，places 符合语境。", "knowledgePoint": "名词辨析", "difficulty": 2, "topic": "完形·文化"},
+        {"id": "P06-C02", "blankLabel": "(2)", "options": ["A. water", "B. tea", "C. spices", "D. paper"], "answer": "C", "analysis": "丝绸之路商人用骆驼运丝绸与'香料'，spices 符合历史。", "knowledgePoint": "名词辨析", "difficulty": 2, "topic": "完形·文化"},
+        {"id": "P06-C03", "blankLabel": "(3)", "options": ["A. bored", "B. moved", "C. tired", "D. worried"], "answer": "B", "analysis": "被勇敢旅人的故事'感动'，moved 符合。", "knowledgePoint": "形容词辨析", "difficulty": 2, "topic": "完形·文化"},
+        {"id": "P06-C04", "blankLabel": "(4)", "options": ["A. walls", "B. floors", "C. roofs", "D. doors"], "answer": "A", "analysis": "敦煌莫高窟'壁画'在洞窟墙壁上，walls 符合。", "knowledgePoint": "名词辨析", "difficulty": 2, "topic": "完形·文化"},
+        {"id": "P06-C05", "blankLabel": "(5)", "options": ["A. fight", "B. meet", "C. separate", "D. compete"], "answer": "B", "analysis": "不同文化能'相遇'并互相学习，meet 符合。", "knowledgePoint": "动词辨析", "difficulty": 2, "topic": "完形·文化"},
+        {"id": "P06-C06", "blankLabel": "(6)", "options": ["A. forget", "B. realize", "C. doubt", "D. promise"], "answer": "B", "analysis": "旅程让我'意识到'世界的广阔，realize 符合。", "knowledgePoint": "动词辨析", "difficulty": 2, "topic": "完形·文化"},
+        {"id": "P06-C07", "blankLabel": "(7)", "options": ["A. keep", "B. lose", "C. sell", "D. hide"], "answer": "A", "analysis": "拍照以'保留'记忆，keep the memory 符合。", "knowledgePoint": "动词辨析", "difficulty": 2, "topic": "完形·文化"},
+        {"id": "P06-C08", "blankLabel": "(8)", "options": ["A. war", "B. peace", "C. culture", "D. business"], "answer": "C", "analysis": "全文讲丝路文化交流，'关于文化的课'点题，culture 符合。", "knowledgePoint": "名词辨析", "difficulty": 2, "topic": "完形·文化"}
+      ]
+    },
+    {
+      "type": "reading",
+      "name": "阅读理解",
+      "passages": [
+        {
+          "subId": "A", "genre": "应用文", "title": "Museum Study Trip Notice",
+          "body": "Museum Study Trip for Grade 8\n● Date: October 18 (Friday)\n● Time: 8:30 a.m. – 3:30 p.m.\n● Place: Nantong Museum\n● What to do: Listen to a guide, see old coins and silk, write a report.\n● Bring: Notebook, lunch, student card.\n● Rule: No photos inside the showroom.\nMeet at the school gate at 8:00 a.m.",
+          "questions": [
+            {"id": "P06-R-A1", "stem": "When will the trip start?", "options": ["A. October 18", "B. October 8", "C. Friday afternoon", "D. October 18 morning only"], "answer": "A", "analysis": "细节题。Date 一行写明 10 月 18 日（周五）。", "skill": "细节理解", "difficulty": 1},
+            {"id": "P06-R-A2", "stem": "What can students see there?", "options": ["A. Old coins and silk", "B. Paintings only", "C. Movies", "D. Animals"], "answer": "A", "analysis": "细节题。What to do 提到看古币与丝绸。", "skill": "细节理解", "difficulty": 1},
+            {"id": "P06-R-A3", "stem": "Which rule must students follow?", "options": ["A. No lunch", "B. No photos inside showroom", "C. No notebook", "D. Arrive at 9:00"], "answer": "B", "analysis": "细节题。Rule 一行写明展厅内禁止拍照。", "skill": "细节理解", "difficulty": 1}
+          ]
+        },
+        {
+          "subId": "B", "genre": "记叙文", "title": "A Friend from Canada",
+          "body": "Emma came from Canada to study in our school for a term. At first she knew little Chinese, so I helped her with daily life. In return, she taught me English slang and shared stories of maple leaves and ice hockey. One weekend, she tried making dumplings at my home; hers looked funny but tasted good. We laughed a lot. Now we are best friends. She says China feels like a second home, and I say Canada is on my travel list.",
+          "questions": [
+            {"id": "P06-R-B1", "stem": "Why did the writer help Emma at first?", "options": ["A. She was rich", "B. She knew little Chinese", "C. She was a teacher", "D. She was sick"], "answer": "B", "analysis": "细节题。首段'knew little Chinese'说明需要帮助。", "skill": "细节理解", "difficulty": 1},
+            {"id": "P06-R-B2", "stem": "What did Emma teach the writer?", "options": ["A. How to cook", "B. English slang and her country's stories", "C. Math", "D. Chinese"], "answer": "B", "analysis": "细节题。'she taught me English slang and shared stories'。", "skill": "细节理解", "difficulty": 1},
+            {"id": "P06-R-B3", "stem": "What is the main idea?", "options": ["A. How to make dumplings", "B. Friendship across cultures", "C. Canadian food", "D. School life"], "answer": "B", "analysis": "主旨题。全文讲跨国友谊，B 最贴切。", "skill": "主旨大意", "difficulty": 2}
+          ]
+        },
+        {
+          "subId": "C", "genre": "七选五", "title": "Be a Good Traveler",
+          "body": "Travel is fun, but we should be responsible.\n____(1)____ Learn a few words of the local language and read about its history.\n____(2)____ Throw rubbish in bins and never carve on walls.\n____(3)____ Buy hand-made things from local people to help their life.\n____(4)____ Listen to others and respect different ways of living.\n____(5)____ A good traveler leaves only footprints and takes only memories.",
+          "options": ["A. Know before you go.", "B. Protect the environment.", "C. Support local people.", "D. Respect differences.", "E. Be kind to animals.", "F. Take lots of photos."],
+          "questions": [
+            {"id": "P06-R-C1", "stem": "空白 (1) 应选", "answer": "A", "analysis": "后文'出发前学当地语言、读历史'对应'行前了解'，A 匹配。", "skill": "逻辑衔接", "difficulty": 2},
+            {"id": "P06-R-C2", "stem": "空白 (2) 应选", "answer": "B", "analysis": "后文'垃圾入箱、不刻墙'对应'保护环境'，B 匹配。", "skill": "逻辑衔接", "difficulty": 2},
+            {"id": "P06-R-C3", "stem": "空白 (3) 应选", "answer": "C", "analysis": "后文'向当地人买手作以帮助其生活'对应'支持当地人'，C 匹配。", "skill": "逻辑衔接", "difficulty": 2},
+            {"id": "P06-R-C4", "stem": "空白 (4) 应选", "answer": "D", "analysis": "后文'尊重不同生活方式'对应'尊重差异'，D 匹配。", "skill": "逻辑衔接", "difficulty": 2},
+            {"id": "P06-R-C5", "stem": "空白 (5) 应选", "answer": "E", "analysis": "后文'只留脚印、只带回忆'升华责任旅行，E（善待动物/自然）最贴近；F 为干扰项。", "skill": "逻辑衔接", "difficulty": 3}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "name": "词汇运用",
+      "scorePerQuestion": 1,
+      "questions": [
+        {"id": "P06-V01", "stem": "We ___ (take) a trip to Xi'an next month.", "answer": "will take", "analysis": "next month 表将来，用一般将来时 will take。", "knowledgePoint": "一般将来时", "difficulty": 2},
+        {"id": "P06-V02", "stem": "The story is ___ (true) moving and everyone cried.", "answer": "truly", "analysis": "修饰形容词 moving 用副词 truly（真正地）。", "knowledgePoint": "形容词变副词", "difficulty": 1},
+        {"id": "P06-V03", "stem": "They showed us some ___ (tradition) clothes of their tribe.", "answer": "traditional", "analysis": "修饰名词 clothes 用形容词 traditional。", "knowledgePoint": "名词变形容词", "difficulty": 1},
+        {"id": "P06-V04", "stem": "I have never ___ (see) such a big museum before.", "answer": "seen", "analysis": "现在完成时 have + 过去分词，see→seen。", "knowledgePoint": "现在完成时", "difficulty": 2},
+        {"id": "P06-V05", "stem": "The guide spoke ___ (clear) so we all understood.", "answer": "clearly", "analysis": "修饰动词 spoke 用副词 clearly。", "knowledgePoint": "形容词变副词", "difficulty": 1},
+        {"id": "P06-V06", "stem": "It is important ___ (respect) local customs when traveling.", "answer": "to respect", "analysis": "It is + adj. + to do，用不定式。", "knowledgePoint": "非谓语动词", "difficulty": 2}
+      ]
+    },
+    {
+      "type": "blank_filling",
+      "name": "短文填空",
+      "passage": "Travel opens our eyes. When we visit a new place, we should learn about its ___ (1) ___ (culture) first. It is polite ___ (2) ___ (say) hello in the local way. We must also protect the ___ (3) ___ (environment) and not leave rubbish. A good traveler listens ___ (4) ___ (much) than he speaks. By meeting different people, we learn that we are all ___ (5) ___ (member) of one big family. Travel makes life ___ (6) ___ (color).",
+      "scorePerQuestion": 1,
+      "questions": [
+        {"id": "P06-BF01", "blankLabel": "(1)", "answer": "culture", "analysis": "learn about its culture 了解当地文化，culture 不可数。", "knowledgePoint": "名词", "difficulty": 1},
+        {"id": "P06-BF02", "blankLabel": "(2)", "answer": "to say", "analysis": "It is + adj. + to do，用不定式 to say。", "knowledgePoint": "非谓语动词", "difficulty": 2},
+        {"id": "P06-BF03", "blankLabel": "(3)", "answer": "environment", "analysis": "protect the environment 保护环境，名词原级。", "knowledgePoint": "名词", "difficulty": 1},
+        {"id": "P06-BF04", "blankLabel": "(4)", "answer": "more", "analysis": "than 前用比较级，much→more。", "knowledgePoint": "不定代词比较级", "difficulty": 2},
+        {"id": "P06-BF05", "blankLabel": "(5)", "answer": "members", "analysis": "all 后接复数，member→members。", "knowledgePoint": "名词复数", "difficulty": 1},
+        {"id": "P06-BF06", "blankLabel": "(6)", "answer": "colorful", "analysis": "make + 宾语 + adj.，color→colorful（多彩的）。", "knowledgePoint": "名词变形容词", "difficulty": 2}
+      ]
+    },
+    {
+      "type": "task_reading",
+      "name": "阅读与回答问题",
+      "passage": "The Silk Road was a network of trade routes over 2,000 years ago. It connected China with Central Asia, the Middle East and Europe. Silk, tea and porcelain went west, while horses, fruit and ideas came east. Beyond goods, it spread science, art and religion. Today, the Belt and Road Initiative brings people closer again.",
+      "scorePerQuestion": 2,
+      "questions": [
+        {"id": "P06-T01", "stem": "How old is the Silk Road?", "answer": "Over 2,000 years old.", "analysis": "细节定位首句。", "skill": "信息提取", "difficulty": 1},
+        {"id": "P06-T02", "stem": "What went west from China?", "answer": "Silk, tea and porcelain.", "analysis": "细节第三句。", "skill": "信息提取", "difficulty": 1},
+        {"id": "P06-T03", "stem": "What came east to China?", "answer": "Horses, fruit and ideas.", "analysis": "细节第三句后半。", "skill": "信息提取", "difficulty": 2},
+        {"id": "P06-T04", "stem": "What does the Belt and Road Initiative do today?", "answer": "It brings people closer again.", "analysis": "末句直接点明。", "skill": "推理/主旨", "difficulty": 2}
+      ]
+    },
+    {
+      "type": "writing",
+      "id": "P06-W",
+      "name": "书面表达",
+      "score": 25,
+      "prompt": "你刚结束一次研学旅行，请你给英国笔友 Amy 写一封邮件，介绍你参观的一处中国景点（如博物馆、古城或名胜），并谈谈你的收获。",
+      "requirements": ["80词左右", "包含景点名称与一处见闻", "结尾表达感受"],
+      "referenceOutline": "开头问候+说明旅行；正文介绍景点与见闻；结尾谈收获（了解历史/文化）。",
+      "referenceVersion": "Dear Amy, I just finished a study trip to the Nantong Museum. It was amazing! I saw old coins, silk clothes and paintings from hundreds of years ago. The guide told us stories about traders on the Silk Road. I learned a lot about Chinese history and felt proud of our culture. I hope to visit more places like this. What about your trips? Yours, Li Hua",
+      "analysis": "评分要点：景点名称具体、有真实见闻细节、结尾点明收获、连接词；常见失分：空泛无细节、时态混乱、词数不足。"
+    }
+  ]
+}

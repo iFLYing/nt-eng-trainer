@@ -1,0 +1,130 @@
+{
+  "id": "P09",
+  "title": "南通市中考英语模拟试卷（九）",
+  "paperIndex": 9,
+  "totalScore": 120,
+  "durationMinutes": 120,
+  "theme": "饮食健康·食品安全与社区",
+  "structureNote": "按2025南通改革结构精简：覆盖全部7大题型。",
+  "sections": [
+    {
+      "type": "single_choice",
+      "name": "单项选择",
+      "scorePerQuestion": 1,
+      "questions": [
+        {"id": "P09-S01", "stem": "Have you ___ been to the new science museum?", "options": ["A. ever", "B. never", "C. just", "D. already"], "answer": "A", "analysis": "考查现在完成时副词。ever 用于疑问句中表'曾经'，符合语境。", "knowledgePoint": "现在完成时", "difficulty": 2, "topic": "时态"},
+        {"id": "P09-S02", "stem": "The birthday cake ___ by my mom yesterday evening.", "options": ["A. makes", "B. made", "C. was made", "D. has made"], "answer": "C", "analysis": "考查被动语态。cake 与 make 为被动，yesterday 用一般过去时被动 was made。", "knowledgePoint": "被动语态", "difficulty": 2, "topic": "语态"},
+        {"id": "P09-S03", "stem": "You ___ go to bed early; you look so tired.", "options": ["A. had better", "B. mustn't", "C. can't", "D. need"], "answer": "A", "analysis": "考查情态动词。had better 表'最好'，后接动词原形，符合建议语境。", "knowledgePoint": "情态动词", "difficulty": 2, "topic": "情态动词"},
+        {"id": "P09-S04", "stem": "Let me ___ you with the heavy box.", "options": ["A. help", "B. to help", "C. helping", "D. helped"], "answer": "A", "analysis": "考查非谓语动词。let sb. do sth. 用省略 to 的不定式。", "knowledgePoint": "非谓语动词", "difficulty": 2, "topic": "非谓语"},
+        {"id": "P09-S05", "stem": "I was reading a book ___ my mom came in.", "options": ["A. while", "B. when", "C. after", "D. before"], "answer": "B", "analysis": "考查连词。when 表示'正在做某事，这时（突然）…'，符合语境。", "knowledgePoint": "连词", "difficulty": 2, "topic": "连词"},
+        {"id": "P09-S06", "stem": "He is good ___ math, so he often helps me.", "options": ["A. at", "B. in", "C. on", "D. for"], "answer": "A", "analysis": "考查介词。be good at 为固定搭配，意为'擅长…'。", "knowledgePoint": "介词", "difficulty": 1, "topic": "介词"},
+        {"id": "P09-S07", "stem": "She has ___ friends in this city than I do.", "options": ["A. many", "B. more", "C. much", "D. most"], "answer": "B", "analysis": "考查比较级。than 前用比较级，friend 可数，many 比较级为 more。", "knowledgePoint": "形容词比较级", "difficulty": 2, "topic": "比较级"},
+        {"id": "P09-S08", "stem": "My mom ___ delicious food for us every weekend.", "options": ["A. cooks", "B. cook", "C. cooking", "D. cooked"], "answer": "A", "analysis": "考查动词辨析。cook 作动词'烹饪'，主语第三人称单数用 cooks。", "knowledgePoint": "词汇辨析", "difficulty": 1, "topic": "词汇"},
+        {"id": "P09-S09", "stem": "—Sorry I'm late for the meal. —___", "options": ["A. That's OK", "B. You're welcome", "C. Thank you", "D. No problem at all (as thanks)"], "answer": "A", "analysis": "考查情景交际。回应道歉用 That's OK（没关系）。", "knowledgePoint": "情景交际", "difficulty": 1, "topic": "情景交际"},
+        {"id": "P09-S10", "stem": "Is there ___ wrong with the soup? It tastes strange.", "options": ["A. something", "B. anything", "C. nothing", "D. everything"], "answer": "B", "analysis": "考查代词。疑问句用 anything，'有什么不对劲吗'。", "knowledgePoint": "代词", "difficulty": 2, "topic": "代词"}
+      ]
+    },
+    {
+      "type": "cloze",
+      "name": "完形填空",
+      "passage": "Our community held a food festival last weekend. Families brought ___ (1) ___ dishes to share. My mother made dumplings, and the smell was ___ (2) ___. A cook from a local restaurant taught us to choose ___ (3) ___ food and read the date on packages. We learned that too much sugar and salt is ___ (4) ___ for health. The children made fruit salads with ___ (5) ___ own hands. In the end, we gave the leftover food to the poor. The festival not only filled our ___ (6) ___ but also brought neighbors ___ (7) ___. I think healthy eating and a warm community make a ___ (8) ___ life.",
+      "scorePerQuestion": 1,
+      "questions": [
+        {"id": "P09-C01", "blankLabel": "(1)", "options": ["A. same", "B. different", "C. cold", "D. new"], "answer": "B", "analysis": "各家带'不同的'菜肴分享，different 符合。", "knowledgePoint": "形容词辨析", "difficulty": 2, "topic": "完形·饮食"},
+        {"id": "P09-C02", "blankLabel": "(2)", "options": ["A. terrible", "B. wonderful", "C. strange", "D. weak"], "answer": "B", "analysis": "饺子香味'很棒'，wonderful 符合。", "knowledgePoint": "形容词辨析", "difficulty": 2, "topic": "完形·饮食"},
+        {"id": "P09-C03", "blankLabel": "(3)", "options": ["A. fresh", "B. cheap", "C. foreign", "D. fast"], "answer": "A", "analysis": "厨师教选'新鲜'食材，fresh 符合食品安全主题。", "knowledgePoint": "形容词辨析", "difficulty": 2, "topic": "完形·饮食"},
+        {"id": "P09-C04", "blankLabel": "(4)", "options": ["A. good", "B. bad", "C. useful", "D. ready"], "answer": "B", "analysis": "过多糖盐对身体'有害'，bad 符合。", "knowledgePoint": "形容词辨析", "difficulty": 1, "topic": "完形·饮食"},
+        {"id": "P09-C05", "blankLabel": "(5)", "options": ["A. their", "B. his", "C. her", "D. its"], "answer": "A", "analysis": "孩子们用'their'自己的手，与 children 对应。", "knowledgePoint": "代词", "difficulty": 1, "topic": "完形·饮食"},
+        {"id": "P09-C06", "blankLabel": "(6)", "options": ["A. bags", "B. stomachs", "C. boxes", "D. books"], "answer": "B", "analysis": "美食节填饱'肚子'，stomachs 符合。", "knowledgePoint": "名词辨析", "difficulty": 2, "topic": "完形·饮食"},
+        {"id": "P09-C07", "blankLabel": "(7)", "options": ["A. closer", "B. farther", "C. quieter", "D. colder"], "answer": "A", "analysis": "活动让邻里'更亲近'，closer 符合。", "knowledgePoint": "形容词比较级", "difficulty": 2, "topic": "完形·饮食"},
+        {"id": "P09-C08", "blankLabel": "(8)", "options": ["A. busy", "B. better", "C. harder", "D. worse"], "answer": "B", "analysis": "健康饮食与温暖社区成就'更好'的生活，better 点题。", "knowledgePoint": "形容词比较级", "difficulty": 2, "topic": "完形·饮食"}
+      ]
+    },
+    {
+      "type": "reading",
+      "name": "阅读理解",
+      "passages": [
+        {
+          "subId": "A", "genre": "应用文", "title": "Healthy Eating Talk",
+          "body": "Community Healthy Eating Talk\n● Speaker: Dr. Lin, a food expert\n● Time: This Sunday, 3:00–4:30 p.m.\n● Place: Community Center, Room 1\n● Topic: How to read food labels and eat balanced meals\n● Free; all neighbors welcome\n● Sign up at the front desk before Saturday",
+          "questions": [
+            {"id": "P09-R-A1", "stem": "Who will give the talk?", "options": ["A. A teacher", "B. Dr. Lin, a food expert", "C. A cook", "D. A student"], "answer": "B", "analysis": "细节题。Speaker 一行写明 Dr. Lin。", "skill": "细节理解", "difficulty": 1},
+            {"id": "P09-R-A2", "stem": "What is the talk about?", "options": ["A. Cooking dishes", "B. Reading food labels and balanced meals", "C. Growing vegetables", "D. Sports"], "answer": "B", "analysis": "细节题。Topic 一行点明主题。", "skill": "细节理解", "difficulty": 1},
+            {"id": "P09-R-A3", "stem": "How can people sign up?", "options": ["A. By phone", "B. At the front desk before Saturday", "C. Online", "D. No need"], "answer": "B", "analysis": "细节题。末句写明周六前到前台报名。", "skill": "细节理解", "difficulty": 1}
+          ]
+        },
+        {
+          "subId": "B", "genre": "记叙文", "title": "A Lesson from a Bad Egg",
+          "body": "Xiao Fang loves eggs. One morning, she took one from the fridge to make breakfast. It smelled a little odd, but she thought it was fine. After eating, she felt sick and went to the doctor. The doctor said, 'Always check the date and the smell before eating.' Xiao Fang learned that a small check can keep us safe. Now she reads the package date every time and never eats food that smells strange.",
+          "questions": [
+            {"id": "P09-R-B1", "stem": "What happened to Xiao Fang?", "options": ["A. She cooked well", "B. She got sick after eating a bad egg", "C. She won a prize", "D. She met a doctor friend"], "answer": "B", "analysis": "细节题。'After eating, she felt sick' 说明吃坏蛋后生病。", "skill": "细节理解", "difficulty": 1},
+            {"id": "P09-R-B2", "stem": "What did the doctor advise?", "options": ["A. Eat more eggs", "B. Check date and smell first", "C. Cook longer", "D. Buy cheap food"], "answer": "B", "analysis": "细节题。医生原话'Always check the date and the smell'。", "skill": "细节理解", "difficulty": 1},
+            {"id": "P09-R-B3", "stem": "What is the lesson?", "options": ["A. Eggs are bad", "B. A small check keeps us safe", "C. Doctors are kind", "D. Fridges are useful"], "answer": "B", "analysis": "主旨题。末段点明'小检查保安全'。", "skill": "主旨大意", "difficulty": 2}
+          ]
+        },
+        {
+          "subId": "C", "genre": "七选五", "title": "Eat for a Healthy Body",
+          "body": "Good eating habits keep us strong.\n____(1)____ Eat different kinds of food: grains, vegetables, meat and fruit.\n____(2)____ Drink enough water and less sugary soda.\n____(3)____ Eat meals at regular times and don't skip breakfast.\n____(4)____ Wash fruit and cook meat well before eating.\n____(5)____ When the whole family eats well, everyone stays happy.",
+          "options": ["A. Balance your plate.", "B. Choose healthy drinks.", "C. Keep regular meal times.", "D. Keep food clean and safe.", "E. Eat together as a family.", "F. Eat only meat."],
+          "questions": [
+            {"id": "P09-R-C1", "stem": "空白 (1) 应选", "answer": "A", "analysis": "后文'吃不同种类食物'对应'均衡膳食'，A 匹配。", "skill": "逻辑衔接", "difficulty": 2},
+            {"id": "P09-R-C2", "stem": "空白 (2) 应选", "answer": "B", "analysis": "后文'多喝水、少喝甜饮'对应'选择健康饮品'，B 匹配。", "skill": "逻辑衔接", "difficulty": 2},
+            {"id": "P09-R-C3", "stem": "空白 (3) 应选", "answer": "C", "analysis": "后文'规律进餐、不漏早餐'对应'规律用餐时间'，C 匹配。", "skill": "逻辑衔接", "difficulty": 2},
+            {"id": "P09-R-C4", "stem": "空白 (4) 应选", "answer": "D", "analysis": "后文'洗净水果、煮熟肉'对应'保持食物清洁安全'，D 匹配。", "skill": "逻辑衔接", "difficulty": 2},
+            {"id": "P09-R-C5", "stem": "空白 (5) 应选", "answer": "E", "analysis": "后文'全家一起吃好'对应'家庭共餐'，E 匹配；F 为干扰项。", "skill": "逻辑衔接", "difficulty": 3}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "name": "词汇运用",
+      "scorePerQuestion": 1,
+      "questions": [
+        {"id": "P09-V01", "stem": "We should eat more ___ (vegetable) and less meat.", "answer": "vegetables", "analysis": "more 后接复数，vegetable→vegetables。", "knowledgePoint": "名词复数", "difficulty": 1},
+        {"id": "P09-V02", "stem": "The soup tastes ___ (good) and we all like it.", "answer": "good", "analysis": "taste 为系动词，后接形容词 good 原级。", "knowledgePoint": "形容词", "difficulty": 1},
+        {"id": "P09-V03", "stem": "Too much sugar is ___ (health) for kids.", "answer": "unhealthy", "analysis": "too much sugar 对健康'有害'，health→unhealthy。", "knowledgePoint": "名词变形容词", "difficulty": 2},
+        {"id": "P09-V04", "stem": "She ___ (cook) dinner for the family yesterday.", "answer": "cooked", "analysis": "yesterday 表过去，cook→cooked。", "knowledgePoint": "动词过去式", "difficulty": 1},
+        {"id": "P09-V05", "stem": "It's important ___ (drink) enough water every day.", "answer": "to drink", "analysis": "It is + adj. + to do，用不定式。", "knowledgePoint": "非谓语动词", "difficulty": 2},
+        {"id": "P09-V06", "stem": "The food was so ___ (taste) that we ate it all.", "answer": "tasty", "analysis": "so + adj.，taste→tasty（美味的）。", "knowledgePoint": "名词变形容词", "difficulty": 2}
+      ]
+    },
+    {
+      "type": "blank_filling",
+      "name": "短文填空",
+      "passage": "To eat ___ (1) ___ (safe), we should wash fruit before eating. Always check the ___ (2) ___ (produce) date on packages. Food that smells ___ (3) ___ (bad) must be thrown away. A ___ (4) ___ (balance) diet keeps us strong. We should eat ___ (5) ___ (little) junk food and more home-cooked meals. Good ___ (6) ___ (eat) habits start from today.",
+      "scorePerQuestion": 1,
+      "questions": [
+        {"id": "P09-BF01", "blankLabel": "(1)", "answer": "safely", "analysis": "修饰动词 eat 用副词 safely。", "knowledgePoint": "形容词变副词", "difficulty": 1},
+        {"id": "P09-BF02", "blankLabel": "(2)", "answer": "production", "analysis": "production date 固定说法'生产日期'。", "knowledgePoint": "动词变名词", "difficulty": 2},
+        {"id": "P09-BF03", "blankLabel": "(3)", "answer": "bad", "analysis": "smell + adj.，用原级 bad（坏掉的）。", "knowledgePoint": "形容词", "difficulty": 1},
+        {"id": "P09-BF04", "blankLabel": "(4)", "answer": "balanced", "analysis": "a balanced diet 固定搭配'均衡饮食'。", "knowledgePoint": "动词变形容词", "difficulty": 2},
+        {"id": "P09-BF05", "blankLabel": "(5)", "answer": "less", "analysis": "与 more 对应，little 比较级为 less。", "knowledgePoint": "形容词比较级", "difficulty": 2},
+        {"id": "P09-BF06", "blankLabel": "(6)", "answer": "eating", "analysis": "eating habits 固定搭配'饮食习惯'。", "knowledgePoint": "动名词", "difficulty": 2}
+      ]
+    },
+    {
+      "type": "task_reading",
+      "name": "阅读与回答问题",
+      "passage": "Food safety matters. Last month, a boy ate a hamburger from a street stall and got sick. Doctors said the meat was not fresh. To stay safe, we should buy food from clean places, wash hands before meals, and cook meat well. Reading the date on the package is also important. A healthy body begins with safe food.",
+      "scorePerQuestion": 2,
+      "questions": [
+        {"id": "P09-T01", "stem": "What happened to the boy?", "answer": "He ate a bad hamburger and got sick.", "analysis": "细节定位第二、三句。", "skill": "信息提取", "difficulty": 1},
+        {"id": "P09-T02", "stem": "Where did he buy the hamburger?", "answer": "From a street stall.", "analysis": "细节第三句。", "skill": "信息提取", "difficulty": 1},
+        {"id": "P09-T03", "stem": "What should we do to stay safe?", "answer": "Buy from clean places, wash hands, cook meat well, read dates.", "analysis": "细节第四、五句综合。", "skill": "信息提取", "difficulty": 2},
+        {"id": "P09-T04", "stem": "What is the main idea of the passage?", "answer": "Food safety is important for health.", "analysis": "末句点明主旨。", "skill": "推理/主旨", "difficulty": 2}
+      ]
+    },
+    {
+      "type": "writing",
+      "id": "P09-W",
+      "name": "书面表达",
+      "score": 25,
+      "prompt": "请你给校报写一封短文，以（健康饮食）为题，给同学提出三条饮食建议。",
+      "requirements": ["80词左右", "三条具体建议", "使用连接词"],
+      "referenceOutline": "开头点题；三条建议（均衡膳食/少糖少垃圾食品/规律进餐）；结尾呼吁。",
+      "referenceVersion": "Healthy eating makes us strong. Here are three tips. First, eat a balanced diet with vegetables, fruit and grains every day. Second, drink more water and less sugary drinks, and say no to too much junk food. Third, have meals at regular times and never skip breakfast. Good habits start now. Let's eat well and grow healthy together!",
+      "analysis": "评分要点：三条建议具体、使用 first/second/third、结尾呼吁；常见失分：建议空泛、语法错误、词数不足。"
+    }
+  ]
+}

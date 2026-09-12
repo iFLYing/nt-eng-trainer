@@ -1,0 +1,130 @@
+{
+  "id": "P03",
+  "title": "南通市中考英语模拟试卷（三）",
+  "paperIndex": 3,
+  "totalScore": 120,
+  "durationMinutes": 120,
+  "theme": "校园生活·友谊与亲情",
+  "structureNote": "按2025南通改革结构精简：覆盖全部7大题型。",
+  "sections": [
+    {
+      "type": "single_choice",
+      "name": "单项选择",
+      "scorePerQuestion": 1,
+      "questions": [
+        {"id": "P03-S01", "stem": "Look! The boys ___ basketball on the playground.", "options": ["A. play", "B. plays", "C. are playing", "D. played"], "answer": "C", "analysis": "考查现在进行时。Look! 提示动作正在发生，用 am/is/are + doing。", "knowledgePoint": "现在进行时", "difficulty": 2, "topic": "时态"},
+        {"id": "P03-S02", "stem": "I ___ TV when you called me last night.", "options": ["A. watch", "B. was watching", "C. watched", "D. am watching"], "answer": "B", "analysis": "考查过去进行时。call 为过去瞬间动作，看电视是当时正在进行的动作，用 was/were + doing。", "knowledgePoint": "过去进行时", "difficulty": 2, "topic": "时态"},
+        {"id": "P03-S03", "stem": "By the time we got to the station, the train ___ already.", "options": ["A. left", "B. has left", "C. had left", "D. leaves"], "answer": "C", "analysis": "考查过去完成时。'到达'是过去动作，'离开'发生在到达之前（过去的过去），用 had + done。", "knowledgePoint": "过去完成时", "difficulty": 3, "topic": "时态"},
+        {"id": "P03-S04", "stem": "He went to the library ___ some books.", "options": ["A. read", "B. to read", "C. reading", "D. reads"], "answer": "B", "analysis": "考查非谓语动词。不定式 to read 表目的'去图书馆为了读书'。", "knowledgePoint": "非谓语动词", "difficulty": 2, "topic": "非谓语"},
+        {"id": "P03-S05", "stem": "___ beautiful the music is! I enjoy it very much.", "options": ["A. What", "B. How", "C. What a", "D. So"], "answer": "B", "analysis": "考查感叹句。How + 形容词 + 主语 + 谓语！beautiful 为形容词，用 How。", "knowledgePoint": "感叹句", "difficulty": 2, "topic": "句法"},
+        {"id": "P03-S06", "stem": "The book is shared ___ the students in our class.", "options": ["A. between", "B. among", "C. with", "D. by"], "answer": "B", "analysis": "考查介词。三者及以上'在…之间'用 among；between 用于两者。", "knowledgePoint": "介词", "difficulty": 2, "topic": "介词"},
+        {"id": "P03-S07", "stem": "—___ book is this? —It's Lily's.", "options": ["A. Who", "B. Whose", "C. Whom", "D. Which"], "answer": "B", "analysis": "考查疑问词。答语 Lily's 表所属，用 Whose（谁的）。", "knowledgePoint": "疑问词", "difficulty": 1, "topic": "句法"},
+        {"id": "P03-S08", "stem": "Tom is ___ tall ___ his father.", "options": ["A. as; as", "B. so; that", "C. too; to", "D. very; that"], "answer": "A", "analysis": "考查原级比较。as + 原级 + as 表示'和…一样'。", "knowledgePoint": "形容词原级", "difficulty": 2, "topic": "比较级"},
+        {"id": "P03-S09", "stem": "—I'm sorry I broke your cup. —___", "options": ["A. You're welcome", "B. Never mind", "C. Of course", "D. That's right"], "answer": "B", "analysis": "考查情景交际。回应道歉用 Never mind（没关系）；You're welcome 回应感谢。", "knowledgePoint": "情景交际", "difficulty": 1, "topic": "情景交际"},
+        {"id": "P03-S10", "stem": "Don't ___ today's work till tomorrow. Do it now.", "options": ["A. put off", "B. put on", "C. put up", "D. put down"], "answer": "A", "analysis": "考查动词短语。put off 意为'推迟'，符合'别把今天的事拖到明天'。", "knowledgePoint": "动词短语", "difficulty": 2, "topic": "词汇"}
+      ]
+    },
+    {
+      "type": "cloze",
+      "name": "完形填空",
+      "passage": "I still remember my first day in the new school. I was shy and had no ___ (1) ___. A boy named Tom came to me and ___ (2) ___ a smile. He showed me around and we became good ___ (3) ___. One day, I failed a math test and felt ___ (4) ___. Tom didn't laugh; instead, he helped me with the problems ___ (5) ___. With his help, I made ___ (6) ___ little by little. Now I know a true friend is someone who stays with you in ___ (7) ___ times. I feel lucky to have such a ___ (8) ___.",
+      "scorePerQuestion": 1,
+      "questions": [
+        {"id": "P03-C01", "blankLabel": "(1)", "options": ["A. friends", "B. teachers", "C. money", "D. time"], "answer": "A", "analysis": "新学校'没有朋友'符合 shy（害羞）的语境。", "knowledgePoint": "名词辨析", "difficulty": 2, "topic": "完形·友谊"},
+        {"id": "P03-C02", "blankLabel": "(2)", "options": ["A. gave", "B. wore", "C. lost", "D. hid"], "answer": "B", "analysis": "wear a smile 为固定表达，意为'面带微笑'。", "knowledgePoint": "动词辨析", "difficulty": 2, "topic": "完形·友谊"},
+        {"id": "P03-C03", "blankLabel": "(3)", "options": ["A. brothers", "B. friends", "C. cousins", "D. neighbors"], "answer": "B", "analysis": "前文相识并成为'好朋友'，friends 符合。", "knowledgePoint": "名词辨析", "difficulty": 1, "topic": "完形·友谊"},
+        {"id": "P03-C04", "blankLabel": "(4)", "options": ["A. happy", "B. sad", "C. angry", "D. excited"], "answer": "B", "analysis": "考试失利自然感到'sad（难过）'。", "knowledgePoint": "形容词辨析", "difficulty": 1, "topic": "完形·友谊"},
+        {"id": "P03-C05", "blankLabel": "(5)", "options": ["A. patiently", "B. quickly", "C. loudly", "D. suddenly"], "answer": "A", "analysis": "朋友'耐心地'讲题，patiently 体现品质。", "knowledgePoint": "副词辨析", "difficulty": 2, "topic": "完形·友谊"},
+        {"id": "P03-C06", "blankLabel": "(6)", "options": ["A. mistakes", "B. noise", "C. progress", "D. trouble"], "answer": "C", "analysis": "make progress 固定搭配，意为'取得进步'。", "knowledgePoint": "固定搭配", "difficulty": 2, "topic": "完形·友谊"},
+        {"id": "P03-C07", "blankLabel": "(7)", "options": ["A. hard", "B. easy", "C. good", "D. fun"], "answer": "A", "analysis": "in hard times 意为'在艰难时刻'，与 true friend 呼应。", "knowledgePoint": "形容词辨析", "difficulty": 2, "topic": "完形·友谊"},
+        {"id": "P03-C08", "blankLabel": "(8)", "options": ["A. friend", "B. teacher", "C. student", "D. stranger"], "answer": "A", "analysis": "全文讲友谊，结尾呼应'such a friend（这样的朋友）'。", "knowledgePoint": "名词辨析", "difficulty": 1, "topic": "完形·友谊"}
+      ]
+    },
+    {
+      "type": "reading",
+      "name": "阅读理解",
+      "passages": [
+        {
+          "subId": "A", "genre": "应用文", "title": "School Volunteer Program",
+          "body": "Join the School Volunteer Program!\n● Who: Students aged 12–15.\n● What: Help in the library, clean the school garden, or visit the community center.\n● When: Every Saturday 9:00–11:00 a.m.\n● Why: Learn to care for others and get a service certificate.\n● How: Talk to your class teacher before this Friday.\nBe a helper, be a star!",
+          "questions": [
+            {"id": "P03-R-A1", "stem": "Who can join the program?", "options": ["A. Only teachers", "B. Students aged 12–15", "C. Parents", "D. Anyone"], "answer": "B", "analysis": "细节题。Who 一行写明 12–15 岁学生。", "skill": "细节理解", "difficulty": 1},
+            {"id": "P03-R-A2", "stem": "When does the program take place?", "options": ["A. Every Saturday morning", "B. Every Sunday", "C. Every Friday", "D. Every day"], "answer": "A", "analysis": "细节题。When 一行写明每周六上午 9–11 点。", "skill": "细节理解", "difficulty": 1},
+            {"id": "P03-R-A3", "stem": "What can volunteers get at last?", "options": ["A. Money", "B. A service certificate", "C. A book", "D. A trip"], "answer": "B", "analysis": "细节题。Why 一行提到可获得 service certificate。", "skill": "细节理解", "difficulty": 1}
+          ]
+        },
+        {
+          "subId": "B", "genre": "记叙文", "title": "Mom's Little Notebook",
+          "body": "My mother is busy, but she always leaves me a small notebook on my desk. In it, she writes encouraging words like 'Believe in yourself' and 'Have a nice day'. When I feel tired after study, I read them and smile. One day I asked why she did it. She said, 'Words are small, but they can warm a heart.' Now I also write little notes for her. We share love through these words.",
+          "questions": [
+            {"id": "P03-R-B1", "stem": "What does the mother leave on the desk?", "options": ["A. A book", "B. A small notebook with words", "C. Some money", "D. A gift"], "answer": "B", "analysis": "细节题。首段说明母亲留'小笔记本'并写鼓励的话。", "skill": "细节理解", "difficulty": 1},
+            {"id": "P03-R-B2", "stem": "How does the writer feel after reading the notes?", "options": ["A. Tired", "B. Sad", "C. Warm and happy", "D. Angry"], "answer": "C", "analysis": "细节/推理题。'I read them and smile'及'warm a heart'体现温暖开心。", "skill": "推理判断", "difficulty": 2},
+            {"id": "P03-R-B3", "stem": "What is the best title?", "options": ["A. A Busy Mother", "B. Words That Warm a Heart", "C. How to Study", "D. My School Life"], "answer": "B", "analysis": "主旨题。全文围绕'母亲用文字温暖我心'展开，B 最贴切。", "skill": "主旨大意", "difficulty": 2}
+          ]
+        },
+        {
+          "subId": "C", "genre": "七选五", "title": "Healthy Study Habits",
+          "body": "Good study habits help you learn better.\n____(1)____ A quiet place helps you focus on books.\n____(2)____ Break big tasks into small ones and do a little each day.\n____(3)____ Reading aloud or teaching others makes memory stronger.\n____(4)____ A short break after an hour of study keeps your mind fresh.\n____(5)____ Healthy food and enough sleep give your brain power.",
+          "options": ["A. Find a quiet place to study.", "B. Plan your time wisely.", "C. Review in active ways.", "D. Take breaks often.", "E. Keep a healthy body.", "F. Join a club."],
+          "questions": [
+            {"id": "P03-R-C1", "stem": "空白 (1) 应选", "answer": "A", "analysis": "后文'安静的地方有助于专注'对应'找安静处学习'，A 为段落主旨。", "skill": "逻辑衔接", "difficulty": 2},
+            {"id": "P03-R-C2", "stem": "空白 (2) 应选", "answer": "B", "analysis": "后文'把大任务拆小、每天做一点'对应'明智规划时间'，B 匹配。", "skill": "逻辑衔接", "difficulty": 2},
+            {"id": "P03-R-C3", "stem": "空白 (3) 应选", "answer": "C", "analysis": "后文'朗读或教别人强化记忆'对应'主动复习'，C 匹配。", "skill": "逻辑衔接", "difficulty": 2},
+            {"id": "P03-R-C4", "stem": "空白 (4) 应选", "answer": "D", "analysis": "后文'学习一小时后的短休息'对应'常休息'，D 匹配。", "skill": "逻辑衔接", "difficulty": 2},
+            {"id": "P03-R-C5", "stem": "空白 (5) 应选", "answer": "E", "analysis": "后文'健康饮食与充足睡眠'对应'保持健康身体'，E 匹配；F 为干扰项。", "skill": "逻辑衔接", "difficulty": 3}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "name": "词汇运用",
+      "scorePerQuestion": 1,
+      "questions": [
+        {"id": "P03-V01", "stem": "The teacher asked us ___ (not talk) in class.", "answer": "not to talk", "analysis": "ask sb. (not) to do sth. 固定结构，用 not to talk。", "knowledgePoint": "非谓语动词", "difficulty": 2},
+        {"id": "P03-V02", "stem": "My friend ___ (be) in the art club for two years.", "answer": "has been", "analysis": "for two years 为延续性时间，用现在完成时 has been。", "knowledgePoint": "现在完成时", "difficulty": 2},
+        {"id": "P03-V03", "stem": "This is the ___ (excite) match I have ever watched.", "answer": "most exciting", "analysis": "the + 最高级，exciting 多音节词最高级为 most exciting。", "knowledgePoint": "形容词最高级", "difficulty": 2},
+        {"id": "P03-V04", "stem": "He ran ___ (fast) than any other student in his class.", "answer": "faster", "analysis": "than 前用比较级，fast 的比较级为 faster。", "knowledgePoint": "副词比较级", "difficulty": 1},
+        {"id": "P03-V05", "stem": "We should listen to our parents ___ (careful).", "answer": "carefully", "analysis": "修饰动词 listen 用副词 carefully。", "knowledgePoint": "形容词变副词", "difficulty": 1},
+        {"id": "P03-V06", "stem": "The ___ (friend) between us will last forever.", "answer": "friendship", "analysis": "定冠词后接名词，friend→friendship（友谊）。", "knowledgePoint": "名词派生", "difficulty": 2}
+      ]
+    },
+    {
+      "type": "blank_filling",
+      "name": "短文填空",
+      "passage": "Our school held a volunteer day last week. Students went to the park to ___ (1) ___ litter and planted flowers. Some visited the old people's home to ___ (2) ___ them clean the rooms. I joined a team to teach little ___ (3) ___ (kid) to read. We were tired but ___ (4) ___ (happy). Helping others makes us feel ___ (5) ___ (use) and brings us ___ (6) ___ (much) joy than we give.",
+      "scorePerQuestion": 1,
+      "questions": [
+        {"id": "P03-BF01", "blankLabel": "(1)", "answer": "collect", "analysis": "collect litter 意为'捡垃圾'，志愿者活动常见表达。", "knowledgePoint": "语境/词汇", "difficulty": 1},
+        {"id": "P03-BF02", "blankLabel": "(2)", "answer": "help", "analysis": "help sb. (to) do，意为'帮他们打扫房间'。", "knowledgePoint": "动词搭配", "difficulty": 1},
+        {"id": "P03-BF03", "blankLabel": "(3)", "answer": "kids", "analysis": "little 后接名词，kid 用复数 kids 表'小孩子们'。", "knowledgePoint": "名词复数", "difficulty": 1},
+        {"id": "P03-BF04", "blankLabel": "(4)", "answer": "happy", "analysis": "but 转折，'累但开心'，用形容词 happy 作表语。", "knowledgePoint": "形容词", "difficulty": 1},
+        {"id": "P03-BF05", "blankLabel": "(5)", "answer": "useful", "analysis": "feel + adj.，use→useful（有用的），感到'被需要'。", "knowledgePoint": "名词变形容词", "difficulty": 2},
+        {"id": "P03-BF06", "blankLabel": "(6)", "answer": "more", "analysis": "than 前用比较级，much 的比较级为 more。", "knowledgePoint": "不定代词比较级", "difficulty": 2}
+      ]
+    },
+    {
+      "type": "task_reading",
+      "name": "阅读与回答问题",
+      "passage": "Zhang Lei moved to a new city last year. At first he felt lonely because he knew nobody. His neighbor, an old man, often invited him to play chess. They became good friends. The old man told Zhang Lei, 'A kind neighbor is better than a distant relative.' Now Zhang Lei says making friends needs an open heart.",
+      "scorePerQuestion": 2,
+      "questions": [
+        {"id": "P03-T01", "stem": "Why did Zhang Lei feel lonely at first?", "answer": "Because he knew nobody.", "analysis": "细节定位第二句。", "skill": "信息提取", "difficulty": 1},
+        {"id": "P03-T02", "stem": "Who became his friend?", "answer": "His neighbor, an old man.", "analysis": "细节第三、四句。", "skill": "信息提取", "difficulty": 1},
+        {"id": "P03-T03", "stem": "What did they do together?", "answer": "They played chess.", "analysis": "细节第三句。", "skill": "信息提取", "difficulty": 1},
+        {"id": "P03-T04", "stem": "What does Zhang Lei learn about making friends?", "answer": "It needs an open heart.", "analysis": "末句点明主旨。", "skill": "推理/主旨", "difficulty": 2}
+      ]
+    },
+    {
+      "type": "writing",
+      "id": "P03-W",
+      "name": "书面表达",
+      "score": 25,
+      "prompt": "你的好朋友李雷即将转学，请你写一封英文信向他表达感谢与祝福（回忆一件你们共同的难忘小事，并祝他前程似锦）。",
+      "requirements": ["80词左右", "书信格式正确", "情感真诚、要点齐全"],
+      "referenceOutline": "开头问候+说明写信目的；正文回忆一件共同小事（如一起准备比赛/互相帮助）；结尾表达感谢与祝福。",
+      "referenceVersion": "Dear Li Lei, I heard you are moving to another city. I feel sad but want to say thank you. Do you remember the sports day when I fell and you helped me up? That moment showed me true friendship. You are the best friend I ever had. I will miss our time together. Wish you a bright future and happiness everywhere! Keep in touch. Yours, Zhang Wei",
+      "analysis": "评分要点：书信格式、回忆具体小事、情感真挚、连接词使用；常见失分：流水账无细节、语法错误多、未表达祝福。"
+    }
+  ]
+}

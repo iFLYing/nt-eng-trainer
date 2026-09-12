@@ -1,0 +1,130 @@
+{
+  "id": "P05",
+  "title": "南通市中考英语模拟试卷（五）",
+  "paperIndex": 5,
+  "totalScore": 120,
+  "durationMinutes": 120,
+  "theme": "健康生活·运动与睡眠",
+  "structureNote": "按2025南通改革结构精简：覆盖全部7大题型。",
+  "sections": [
+    {
+      "type": "single_choice",
+      "name": "单项选择",
+      "scorePerQuestion": 1,
+      "questions": [
+        {"id": "P05-S01", "stem": "I have ___ finished my homework, so I can watch TV now.", "options": ["A. already", "B. yet", "C. never", "D. ever"], "answer": "A", "analysis": "考查现在完成时副词。肯定句表'已经'用 already；yet 用于否定/疑问句。", "knowledgePoint": "现在完成时", "difficulty": 2, "topic": "时态"},
+        {"id": "P05-S02", "stem": "You ___ eat too much junk food; it's bad for you.", "options": ["A. should", "B. shouldn't", "C. need", "D. must"], "answer": "B", "analysis": "考查情态动词。'不该吃太多垃圾食品'用 shouldn't。", "knowledgePoint": "情态动词", "difficulty": 2, "topic": "情态动词"},
+        {"id": "P05-S03", "stem": "He got up early ___ catch the first bus to school.", "options": ["A. so that", "B. in order to", "C. because", "D. though"], "answer": "B", "analysis": "考查非谓语动词。in order to + 动词原形表目的'为了赶上'。", "knowledgePoint": "非谓语动词", "difficulty": 2, "topic": "非谓语"},
+        {"id": "P05-S04", "stem": "He has lived in this city ___ five years.", "options": ["A. since", "B. for", "C. in", "D. during"], "answer": "B", "analysis": "考查介词。for + 时间段，与现在完成时连用。", "knowledgePoint": "介词", "difficulty": 1, "topic": "介词"},
+        {"id": "P05-S05", "stem": "The doctor ___ saved the boy's life is very kind.", "options": ["A. which", "B. who", "C. whose", "D. whom"], "answer": "B", "analysis": "考查定语从句。先行词 doctor 指人，在从句作主语用 who。", "knowledgePoint": "定语从句", "difficulty": 2, "topic": "从句"},
+        {"id": "P05-S06", "stem": "My father often ___ with me about my school life.", "options": ["A. speaks", "B. tells", "C. talks", "D. says"], "answer": "C", "analysis": "考查动词辨析。talk with sb. 为固定搭配，意为'与…交谈'。", "knowledgePoint": "词汇辨析", "difficulty": 2, "topic": "词汇"},
+        {"id": "P05-S07", "stem": "The ___ you exercise, the healthier you will be.", "options": ["A. much", "B. more", "C. many", "D. most"], "answer": "B", "analysis": "考查比较级。the + 比较级 …, the + 比较级 … 结构，'越多…越…'。", "knowledgePoint": "形容词比较级", "difficulty": 2, "topic": "比较级"},
+        {"id": "P05-S08", "stem": "The window ___ by the strong wind yesterday.", "options": ["A. breaks", "B. broke", "C. was broken", "D. has broken"], "answer": "C", "analysis": "考查被动语态。window 与 break 为被动，yesterday 用一般过去时被动。", "knowledgePoint": "被动语态", "difficulty": 2, "topic": "语态"},
+        {"id": "P05-S09", "stem": "—Why not take a walk after dinner? —___", "options": ["A. Good idea", "B. That's right", "C. You're welcome", "D. No problem"], "answer": "A", "analysis": "考查情景交际。Why not …? 提建议，回应用 Good idea。", "knowledgePoint": "情景交际", "difficulty": 1, "topic": "情景交际"},
+        {"id": "P05-S10", "stem": "___ of the students passed the PE test because they trained hard.", "options": ["A. Both", "B. Neither", "C. All", "D. None"], "answer": "C", "analysis": "考查代词。students 为三者以上，'全部通过'用 all。", "knowledgePoint": "代词", "difficulty": 2, "topic": "代词"}
+      ]
+    },
+    {
+      "type": "cloze",
+      "name": "完形填空",
+      "passage": "Two years ago, I was weak and often ill. My doctor said I needed more ___ (1) ___. At first, running was hard and I wanted to ___ (2) ___. But my friend Li Hua ran with me and ___ (3) ___ me on. We ran three times a week. After a few months, I felt ___ (4) ___ and had more energy. Now I ___ (5) ___ running and even joined the school team. Exercise not only builds the ___ (6) ___ but also clears the mind. I learn that ___ (7) ___ is the key to a healthy life. I will ___ (8) ___ this good habit.",
+      "scorePerQuestion": 1,
+      "questions": [
+        {"id": "P05-C01", "blankLabel": "(1)", "options": ["A. sleep", "B. exercise", "C. food", "D. water"], "answer": "B", "analysis": "医生针对'虚弱多病'建议多'锻炼'，exercise 符合。", "knowledgePoint": "名词辨析", "difficulty": 2, "topic": "完形·健康"},
+        {"id": "P05-C02", "blankLabel": "(2)", "options": ["A. set off", "B. give up", "C. put off", "D. take up"], "answer": "B", "analysis": "跑步难自然想'放弃'，give up 符合。", "knowledgePoint": "动词短语", "difficulty": 2, "topic": "完形·健康"},
+        {"id": "P05-C03", "blankLabel": "(3)", "options": ["A. kept", "B. cheered", "C. turned", "D. called"], "answer": "B", "analysis": "cheer sb. on 为固定搭配，意为'为…加油'。", "knowledgePoint": "动词短语", "difficulty": 2, "topic": "完形·健康"},
+        {"id": "P05-C04", "blankLabel": "(4)", "options": ["A. weaker", "B. stronger", "C. shorter", "D. slower"], "answer": "B", "analysis": "锻炼后感到'更强壮'，stronger 符合。", "knowledgePoint": "形容词比较级", "difficulty": 2, "topic": "完形·健康"},
+        {"id": "P05-C05", "blankLabel": "(5)", "options": ["A. hate", "B. avoid", "C. enjoy", "D. mind"], "answer": "C", "analysis": "现在'享受'跑步并加入校队，enjoy 符合。", "knowledgePoint": "动词辨析", "difficulty": 2, "topic": "完形·健康"},
+        {"id": "P05-C06", "blankLabel": "(6)", "options": ["A. body", "B. book", "C. house", "D. car"], "answer": "A", "analysis": "运动强健'身体'，body 符合。", "knowledgePoint": "名词辨析", "difficulty": 1, "topic": "完形·健康"},
+        {"id": "P05-C07", "blankLabel": "(7)", "options": ["A. money", "B. luck", "C. persistence", "D. silence"], "answer": "C", "analysis": "全文讲坚持锻炼，'坚持'是健康生活的关键，persistence 符合。", "knowledgePoint": "名词辨析", "difficulty": 2, "topic": "完形·健康"},
+        {"id": "P05-C08", "blankLabel": "(8)", "options": ["A. break", "B. keep", "C. lose", "D. forget"], "answer": "B", "analysis": "keep a habit 固定搭配'保持习惯'。", "knowledgePoint": "固定搭配", "difficulty": 2, "topic": "完形·健康"}
+      ]
+    },
+    {
+      "type": "reading",
+      "name": "阅读理解",
+      "passages": [
+        {
+          "subId": "A", "genre": "应用文", "title": "School Health Week",
+          "body": "School Health Week is coming!\n● Date: September 20–26.\n● Activities: Morning run, fruit party, sleep-talk show, sports meeting.\n● Goal: Help students build healthy habits.\n● How to join: Sign your name on the list in the classroom.\n● Prize: The class with the most participants gets a basketball.",
+          "questions": [
+            {"id": "P05-R-A1", "stem": "When is the School Health Week?", "options": ["A. September 20–26", "B. October 1", "C. Every day", "D. June 20"], "answer": "A", "analysis": "细节题。Date 一行写明 9 月 20–26 日。", "skill": "细节理解", "difficulty": 1},
+            {"id": "P05-R-A2", "stem": "Which activity is NOT mentioned?", "options": ["A. Morning run", "B. Fruit party", "C. Sleep-talk show", "D. Singing contest"], "answer": "D", "analysis": "细节题。Activities 列出晨跑、水果派对、睡眠讲座、运动会，未提歌唱比赛。", "skill": "细节理解", "difficulty": 1},
+            {"id": "P05-R-A3", "stem": "What prize will the best class get?", "options": ["A. A book", "B. A basketball", "C. Money", "D. A trip"], "answer": "B", "analysis": "细节题。Prize 一行写明篮球。", "skill": "细节理解", "difficulty": 1}
+          ]
+        },
+        {
+          "subId": "B", "genre": "记叙文", "title": "The Price of Lost Sleep",
+          "body": "Last term, Mike stayed up late every night playing games. He slept only five hours. In class, he often fell asleep and got low marks. His teacher talked with him and his parents made a rule: no phones after 9 p.m. Mike began to sleep eight hours. Soon he felt fresh, listened carefully, and his grades went up. He said, 'I never knew sleep could change my life so much.'",
+          "questions": [
+            {"id": "P05-R-B1", "stem": "What did Mike use to do at night?", "options": ["A. Read books", "B. Play games", "C. Do sports", "D. Cook"], "answer": "B", "analysis": "细节题。首句'stayed up late every night playing games'。", "skill": "细节理解", "difficulty": 1},
+            {"id": "P05-R-B2", "stem": "What happened to him in class?", "options": ["A. He got high marks", "B. He fell asleep", "C. He taught others", "D. He won a prize"], "answer": "B", "analysis": "细节题。'In class, he often fell asleep and got low marks.'", "skill": "细节理解", "difficulty": 1},
+            {"id": "P05-R-B3", "stem": "What changed Mike's life?", "options": ["A. More sleep", "B. New phone", "C. New teacher", "D. More games"], "answer": "A", "analysis": "推理题。充足睡眠后状态与成绩改善，点明主题。", "skill": "主旨大意", "difficulty": 2}
+          ]
+        },
+        {
+          "subId": "C", "genre": "七选五", "title": "Build Healthy Habits",
+          "body": "Good habits keep us strong. Here are some tips.\n____(1)____ Go to bed and wake up at the same time every day.\n____(2)____ Eat more vegetables and less sugar; drink enough water.\n____(3)____ Walk, run or play ball games for at least an hour a day.\n____(4)____ Put down the phone and read a book before bed.\n____(5)____ A healthy mind lives in a healthy body.",
+          "options": ["A. Keep a regular sleep schedule.", "B. Eat a balanced diet.", "C. Do sports every day.", "D. Relax before sleep.", "E. Smile more often.", "F. Watch more TV."],
+          "questions": [
+            {"id": "P05-R-C1", "stem": "空白 (1) 应选", "answer": "A", "analysis": "后文'每天同一时间睡醒'对应'规律作息'，A 匹配。", "skill": "逻辑衔接", "difficulty": 2},
+            {"id": "P05-R-C2", "stem": "空白 (2) 应选", "answer": "B", "analysis": "后文'多吃蔬菜少糖、多喝水'对应'均衡饮食'，B 匹配。", "skill": "逻辑衔接", "difficulty": 2},
+            {"id": "P05-R-C3", "stem": "空白 (3) 应选", "answer": "C", "analysis": "后文'每天运动至少一小时'对应'每日锻炼'，C 匹配。", "skill": "逻辑衔接", "difficulty": 2},
+            {"id": "P05-R-C4", "stem": "空白 (4) 应选", "answer": "D", "analysis": "后文'睡前放下手机读书'对应'睡前放松'，D 匹配。", "skill": "逻辑衔接", "difficulty": 2},
+            {"id": "P05-R-C5", "stem": "空白 (5) 应选", "answer": "E", "analysis": "后文'健康的心灵寓于健康的身体'对应'多微笑'的积极心态，E 匹配；F 为干扰项。", "skill": "逻辑衔接", "difficulty": 3}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "name": "词汇运用",
+      "scorePerQuestion": 1,
+      "questions": [
+        {"id": "P05-V01", "stem": "Eating ___ (regular) is good for your stomach.", "answer": "regularly", "analysis": "修饰动名词 eating 用副词 regularly。", "knowledgePoint": "形容词变副词", "difficulty": 1},
+        {"id": "P05-V02", "stem": "He looks ___ (health) and happy after the trip.", "answer": "healthy", "analysis": "look + adj.，health→healthy（健康的）。", "knowledgePoint": "名词变形容词", "difficulty": 1},
+        {"id": "P05-V03", "stem": "The ___ (ill) made him stay in bed for a week.", "answer": "illness", "analysis": "定冠词后接名词，ill→illness（疾病）。", "knowledgePoint": "形容词变名词", "difficulty": 2},
+        {"id": "P05-V04", "stem": "She exercises ___ (two) a week.", "answer": "twice", "analysis": "表示'一周两次'用 twice。", "knowledgePoint": "频度表达", "difficulty": 1},
+        {"id": "P05-V05", "stem": "It's ___ (help) to take a walk after dinner.", "answer": "helpful", "analysis": "It's + adj.，help→helpful（有帮助的）。", "knowledgePoint": "名词变形容词", "difficulty": 2},
+        {"id": "P05-V06", "stem": "He was too ___ (sleep) to do his homework.", "answer": "sleepy", "analysis": "too + adj. + to，sleep→sleepy（困倦的）。", "knowledgePoint": "名词变形容词", "difficulty": 2}
+      ]
+    },
+    {
+      "type": "blank_filling",
+      "name": "短文填空",
+      "passage": "Good habits keep us ___ (1) ___ (health). We should go to bed early and get up ___ (2) ___ (early). A balanced diet means eating more vegetables and ___ (3) ___ (little) meat. ___ (4) ___ (wash) hands before meals stops germs. Also, a ___ (5) ___ (smile) face helps you make friends. Remember: an apple a day ___ (6) ___ (keep) the doctor away.",
+      "scorePerQuestion": 1,
+      "questions": [
+        {"id": "P05-BF01", "blankLabel": "(1)", "answer": "healthy", "analysis": "keep + sb. + adj.，health→healthy。", "knowledgePoint": "名词变形容词", "difficulty": 1},
+        {"id": "P05-BF02", "blankLabel": "(2)", "answer": "early", "analysis": "get up early 固定表达'早起'，early 原形。", "knowledgePoint": "副词", "difficulty": 1},
+        {"id": "P05-BF03", "blankLabel": "(3)", "answer": "less", "analysis": "与 more 对应，little 比较级为 less（更少肉）。", "knowledgePoint": "形容词比较级", "difficulty": 2},
+        {"id": "P05-BF04", "blankLabel": "(4)", "answer": "Washing", "analysis": "动名词作主语，wash→Washing。", "knowledgePoint": "非谓语动词", "difficulty": 2},
+        {"id": "P05-BF05", "blankLabel": "(5)", "answer": "smiling", "analysis": "修饰 face 用现在分词 smiling（微笑的）。", "knowledgePoint": "分词形容词", "difficulty": 2},
+        {"id": "P05-BF06", "blankLabel": "(6)", "answer": "keeps", "analysis": "主语 an apple 单数，一般现在时动词用 keeps。", "knowledgePoint": "主谓一致", "difficulty": 2}
+      ]
+    },
+    {
+      "type": "task_reading",
+      "name": "阅读与回答问题",
+      "passage": "Teenagers need about eight to nine hours of sleep each night. But many students stay up late playing games or doing homework. Lack of sleep makes them tired and unable to focus in class. A study shows that good sleep helps memory and mood. Experts advise turning off phones before bed and keeping a regular schedule.",
+      "scorePerQuestion": 2,
+      "questions": [
+        {"id": "P05-T01", "stem": "How many hours of sleep do teenagers need?", "answer": "About 8–9 hours.", "analysis": "细节定位首句。", "skill": "信息提取", "difficulty": 1},
+        {"id": "P05-T02", "stem": "Why do many students stay up late?", "answer": "Playing games or doing homework.", "analysis": "细节第二句。", "skill": "信息提取", "difficulty": 1},
+        {"id": "P05-T03", "stem": "What does lack of sleep cause?", "answer": "Tiredness and poor focus (in class).", "analysis": "细节第三句。", "skill": "信息提取", "difficulty": 2},
+        {"id": "P05-T04", "stem": "What do experts advise?", "answer": "Turn off phones before bed and keep a regular schedule.", "analysis": "末句直接建议。", "skill": "推理/主旨", "difficulty": 2}
+      ]
+    },
+    {
+      "type": "writing",
+      "id": "P05-W",
+      "name": "书面表达",
+      "score": 25,
+      "prompt": "假如你是李华，你的同学 Tom 总熬夜打游戏、精神不好。请你写一封英文信，给他提出保持健康的三条建议。",
+      "requirements": ["80词左右", "给出具体可操作的建议", "语气友善"],
+      "referenceOutline": "开头关心近况；三条建议（规律作息/健康饮食/适度运动）；结尾鼓励。",
+      "referenceVersion": "Dear Tom, I notice you look tired these days. I'm worried about your health. Here is my advice. First, go to bed before 10 p.m. and sleep eight hours. Second, eat more vegetables and less junk food. Third, do some sports every day instead of playing games all night. A healthy body helps you study better. Hope you feel better soon! Yours, Li Hua",
+      "analysis": "评分要点：三条建议具体、使用 first/second/third 连接、语气友善；常见失分：建议空泛、语法错误、未用连接词。"
+    }
+  ]
+}
