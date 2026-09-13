@@ -409,7 +409,17 @@ function renderHome() {
       </div>
     </div>`;
 
-  app.innerHTML = topCard + statsCard + tilesCard;
+  const tipCard = `
+    <div class="card tip-card">
+      <h2>☕ 支持作者</h2>
+      <p class="tip-desc">如果这个系统对你有帮助，欢迎打赏支持持续维护与更新</p>
+      <div class="tip-qrcode-wrap">
+        <img src="./tip-qrcode.png" alt="微信打赏二维码" />
+      </div>
+      <p class="tip-thanks">感谢你的支持 ❤️</p>
+    </div>`;
+
+  app.innerHTML = topCard + statsCard + tilesCard + tipCard;
 
   app.querySelectorAll("[data-go]").forEach(b =>
     b.onclick = () => {

@@ -272,6 +272,26 @@ textarea.fill-input { min-height: 140px; resize: vertical; font-family: inherit;
 .av-opt:hover { border-color: var(--blue); }
 .av-opt.sel { border-color: var(--blue); background: var(--chip); box-shadow: 0 0 0 2px var(--chip); }
 
+/* 打赏模块 */
+.tip-card {
+  text-align: center; padding: 28px 20px 24px;
+}
+.tip-card h2 { margin: 0 0 6px; font-size: 18px; }
+.tip-card .tip-desc {
+  color: var(--muted); font-size: 13px; margin-bottom: 18px;
+}
+.tip-card .tip-qrcode-wrap {
+  display: inline-block; padding: 12px;
+  background: #fff; border-radius: var(--radius);
+  box-shadow: 0 2px 12px rgba(0,0,0,.06), 0 0 0 1px rgba(0,0,0,.04);
+}
+.tip-card .tip-qrcode-wrap img {
+  display: block; width: 200px; height: 200px; border-radius: 8px;
+}
+.tip-card .tip-thanks {
+  margin-top: 14px; font-size: 13px; color: var(--amber);
+}
+
 /* 页脚署名 */
 .site-foot {
   text-align: center; padding: 22px 16px 34px; color: var(--muted);
