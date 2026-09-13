@@ -338,6 +338,11 @@ function tagValues() {
 
 /* ---------- 渲染：导航 ---------- */
 function switchMode(mode) {
+  // 未登录（非游客、非登录态）访问受限模块时，默认进入游客模式（仅游客权限）
+  if (mode !== "home" && !isAuthed() && !isGuest()) {
+    setGuest(true);
+    updateAuthUI();
+  }
   state.mode = mode;
   document.querySelectorAll(".tab").forEach(b =>
     b.classList.toggle("active", b.dataset.mode === mode));
@@ -460,7 +465,7 @@ function renderHome() {
 /* ---------- 渲染：整卷列表 ---------- */
 function renderMockList() {
   const app = $("#app");
-  const isG = isGuest();
+  const isG = !isAuthed(); // 未登录即受限（游客或匿名均只开放模拟试卷一）
   const papers = isG ? state.papers.slice(0, 1) : state.papers;
   const guestNote = isG
     ? `<p class="meta warn">游客模式：整卷模考仅开放 <b>模拟试卷（一）</b>。登录后解锁全部 ${state.papers.length} 套卷。</p>`
@@ -557,7 +562,7 @@ function buildRandomPaper() {
 }
 
 function startRandom(backMode) {
-  if (isGuest()) { toast("游客模式暂不支持随机组卷，登录后解锁"); return; }
+  if (!isAuthed()) { toast("随机组卷需登录后解锁（游客模式暂不支持）"); return; }
   const qs = buildRandomPaper();
   if (!qs.length) { toast("题库为空，无法组卷"); return; }
   startSession(`随机组卷（题型同整卷 · 共 ${qs.length} 题）`, qs, backMode || "home", "random");
@@ -574,7 +579,7 @@ function renderPracticeSetup() {
     { key: "skill", label: "能力技能", cls: "s" },
     { key: "difficulty", label: "难度", cls: "d" },
   ];
-  const isG = isGuest();
+  const isG = !isAuthed(); // 未登录即受限（游客或匿名均锁定单项选择）
   if (isG) state.filters.questionType = ["单项选择"]; // 游客锁定单项选择
   const guestNote = isG
     ? `<p class="meta warn">游客模式：专项训练仅开放 <b>单项选择</b> 题型。登录后解锁全部题型筛选。</p>`
