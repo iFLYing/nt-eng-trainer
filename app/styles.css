@@ -293,7 +293,7 @@ textarea.fill-input { min-height: 140px; resize: vertical; font-family: inherit;
   box-shadow: 0 2px 12px rgba(0,0,0,.06), 0 0 0 1px rgba(0,0,0,.04);
 }
 .tip-card .tip-qrcode-wrap img {
-  display: block; width: 200px; height: 200px; border-radius: 8px;
+  display: block; width: 280px; height: 280px; border-radius: 8px;
 }
 .tip-card .tip-thanks {
   margin-top: 14px; font-size: 13px; color: var(--amber);
