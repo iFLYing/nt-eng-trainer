@@ -145,6 +145,13 @@ input[type=number] {
   padding: 10px 14px; border-radius: 8px; font-size: 14px;
   margin-bottom: 12px; white-space: pre-wrap; line-height: 1.7;
 }
+/* 语篇组：语篇(题干)只显示一次，下面挂多个子题 */
+.passage-block { border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; margin-bottom: 16px; background: #fff; }
+.passage-block .passage { margin-top: 4px; margin-bottom: 14px; }
+.passage-title { font-weight: 700; color: var(--ink); font-size: 15px; margin-bottom: 6px; }
+.passage-block .q { border: none; padding: 0 0 12px; margin: 0 0 12px; border-bottom: 1px dashed var(--line); }
+.passage-block .q:last-child { border-bottom: none; padding-bottom: 0; margin-bottom: 0; }
+.q-blank { font-size: 12px; color: #94a3b8; font-weight: 600; background: #f1f5f9; border-radius: 6px; padding: 1px 7px; }
 
 /* 选项 */
 .options { display: flex; flex-direction: column; gap: 8px; }

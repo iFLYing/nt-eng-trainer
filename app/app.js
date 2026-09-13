@@ -696,7 +696,7 @@ function renderExam() {
          <p class="meta">已答 ${answered} / ${total} 题</p>
        </div>`;
 
-  const body = s.questions.map((q, i) => renderQuestion(q, i, s.review)).join("");
+  const body = renderGrouped(s);
   app.innerHTML = head + body;
 
   if (s.review) {
@@ -726,6 +726,38 @@ function renderExam() {
   }
 }
 
+/* 按"共享同一语篇"分组渲染：语篇(题干)只在组头输出一次，下面依次列子题，
+   子题编号沿用整卷连续序号(idx+1)，确保完形/阅读等跨题语篇不重复、编号一致。 */
+function renderGrouped(s) {
+  const review = s.review;
+  const qs = s.questions;
+  let html = "";
+  let i = 0;
+  while (i < qs.length) {
+    const q = qs[i];
+    const pb = (q.passageBody || "").trim();
+    if (pb) {
+      // 收集连续且同语篇、同题型的题目为一个语篇组
+      let j = i, group = [];
+      while (j < qs.length && (qs[j].passageBody || "").trim() === pb && qs[j].sectionType === q.sectionType) {
+        group.push(qs[j]); j++;
+      }
+      const title = q.passageTitle || q.sectionName || "";
+      let block = `<div class="passage-block">`;
+      if (title) block += `<div class="passage-title">${esc(title)}</div>`;
+      block += `<div class="passage">${esc(pb)}</div>`;
+      block += group.map((gq, k) => renderQuestion(gq, i + k, review, false)).join("");
+      block += `</div>`;
+      html += block;
+      i = j;
+    } else {
+      html += renderQuestion(q, i, review, false);
+      i++;
+    }
+  }
+  return html;
+}
+
 function updateProgress() {
   const s = state.session;
   const total = s.questions.length;
@@ -738,13 +770,13 @@ function updateProgress() {
   if (card) card.textContent = `已答 ${answered} / ${total} 题`;
 }
 
-function renderQuestion(q, idx, review) {
+function renderQuestion(q, idx, review, showPassage) {
   const sa = state.session.userAnswers[idx] || "";
   const isChoice = !!q.options;
   let inner = "";
 
-  // 阅读/完形/填空语篇
-  if (q.passageBody) {
+  // 阅读/完形/填空语篇（分组渲染时由外层统一输出，避免每题重复；showPassage 仅作兜底）
+  if (showPassage && q.passageBody) {
     inner += `<div class="passage">${esc(q.passageBody)}</div>`;
   }
   if (q.sectionType === "writing") {
@@ -752,7 +784,7 @@ function renderQuestion(q, idx, review) {
     if (q.requirements && q.requirements.length)
       inner += `<div class="meta">要求：${q.requirements.map(esc).join("；")}</div>`;
   } else {
-    inner += `<div class="q-stem">${esc(q.stem)}</div>`;
+    if (q.stem) inner += `<div class="q-stem">${esc(q.stem)}</div>`;
   }
 
   if (isChoice) {
@@ -802,7 +834,7 @@ function renderQuestion(q, idx, review) {
 
   return `<div class="q">
     <div class="q-head">
-      <span class="q-no">第 ${idx + 1} 题</span>${tagHtml(q)}
+      <span class="q-no">第 ${idx + 1} 题</span>${q.blankLabel ? `<span class="q-blank">${esc(q.blankLabel)}</span>` : ""}${tagHtml(q)}
     </div>
     ${inner}
   </div>`;
